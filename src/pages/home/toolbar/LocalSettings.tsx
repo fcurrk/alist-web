@@ -16,7 +16,7 @@ import {
 import { For, onCleanup } from "solid-js";
 import { SwitchLanguageWhite, SwitchColorMode } from "~/components";
 import { useT } from "~/hooks";
-import { initialLocalSettings, local, setLocal } from "~/store";
+import { initialLocalSettings, local, setLocal, getMainColor } from "~/store";
 import { bus } from "~/utils";
 
 const LocalSettingsInput = (props: { name: string }) => {
@@ -51,7 +51,7 @@ export const LocalSettings = () => {
       <DrawerOverlay />
       <DrawerContent>
         <DrawerCloseButton />
-        <DrawerHeader color="$info9">
+        <DrawerHeader>
           {t("home.toolbar.local_settings")}
         </DrawerHeader>
         <DrawerBody>

@@ -12,6 +12,7 @@
   "customize_head": "Customize head",
   "version": "Version",
   "logo": "Logo",
+  "logo_text": "Logo text",
   "main_color": "Main color",
   "image_types": "Image types",
   "proxy_types": "Proxy types",
@@ -38,5 +39,7 @@
   "audio_autoplay": "Audio autoplay",
   "customize_body": "Customize body",
   "site_title": "Site title",
-  "token": "Token"
+  "token": "Token",
+  "site_beian": "Beian",
+  "contact_us": "Contact us"
 }

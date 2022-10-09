@@ -9,7 +9,7 @@
   "description": "The front end of Alist V3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alist-org/alist-web.git"
+    "url": "git+https://github.com/fcurrk/alist-web.git"
   },
   "bugs": {
     "url": "https://github.com/Xhofe/alist/issues"
@@ -28,7 +28,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@crowdin/cli": "^3.7.10",
+    "@crowdin/cli": "^3.8.1",
     "@types/node": "^18.7.5",
     "@types/streamsaver": "^2.0.1",
     "@vitejs/plugin-legacy": "^2.0.1",

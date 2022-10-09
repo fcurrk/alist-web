@@ -1,17 +1,34 @@
-import { createResource } from "solid-js";
-import { Markdown, MaybeLoading } from "~/components";
+import {
+  HStack,
+  VStack,
+  Text,
+} from "@hope-ui/solid";
+import { useManageTitle } from "~/hooks";
+import { useT } from "~/hooks";
+import { LinkWithBase } from "~/components";
+import { getSetting, user } from "~/store";
 
-const fetchReadme = async () =>
-  await (
-    await fetch("https://jsd.nn.ci/gh/alist-org/alist@main/README.md")
-  ).text();
 
 const About = () => {
-  const [readme] = createResource(fetchReadme);
+  useManageTitle("manage.sidemenu.about");
+  const t = useT();
   return (
-    <MaybeLoading loading={readme.loading}>
-      <Markdown children={readme()} />
-    </MaybeLoading>
+      <VStack w="$full" spacing="$4" alignItems="start">
+         <HStack spacing="$2">
+             {getSetting("contact_us") && (
+	          <Text>{t("settings.contact_us")}: {getSetting("contact_us")}</Text>
+	     )}
+         </HStack>
+	 <HStack spacing="$2">
+              <Text
+                color="$info9"
+                as={LinkWithBase}
+                href="/"
+              >
+	        {t("©2022 ")} {getSetting("site_title")}
+              </Text>
+            </HStack>
+       </VStack>
   );
 };
 

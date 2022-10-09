@@ -1,0 +1,29 @@
+{
+  "sidemenu": {
+    "dashboard": "控制面板",
+    "settings": "設置",
+    "site": "站點",
+    "style": "樣式",
+    "preview": "預覽",
+    "global": "全域設定",
+    "other": "其他",
+    "users": "用戶",
+    "storages": "存储",
+    "metas": "元信息",
+    "profile": "配置文件",
+    "about": "關於",
+    "tasks": "任務",
+    "aria2": "Aria2",
+    "upload": "上傳",
+    "copy": "複製",
+    "home": "主頁"
+  },
+  "title": "管理",
+  "not_admin": "你不是管理員，請使用管理員賬戶登錄。",
+  "logout_success": "登錄成功",
+  "send": "發送",
+  "recieve": "接收",
+  "recieved_msgs": "收到的消息",
+  "add_storage-tips": "您可能需要在新打開的選項卡中填寫一些信息。",
+  "messenger-tips": "您可能需要在這個標簽頁中按提示填寫一些信息。"
+}

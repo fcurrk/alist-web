@@ -26,6 +26,7 @@ export default defineConfig({
   base: process.env.NODE_ENV === "production" ? "/__dynamic_base__/" : "/",
   // base: "/",
   build: {
+       chunkSizeWarningLimit: 1600,
     // target: "es2015", //next
     // polyfillDynamicImport: false,
   },

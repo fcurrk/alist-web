@@ -18,7 +18,7 @@
     "copy": "Copy",
     "home": "Home"
   },
-  "title": "AList Manage",
+  "title": "Manage",
   "not_admin": "You are not admin user, please login with admin account.",
   "logout_success": "Logout successfully",
   "send": "Send",

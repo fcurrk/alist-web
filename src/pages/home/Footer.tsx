@@ -1,8 +1,8 @@
-import { Anchor, HStack, VStack } from "@hope-ui/solid";
+import { Anchor, HStack, VStack, Text } from "@hope-ui/solid";
 import { Link } from "@solidjs/router";
 import { AnchorWithBase } from "~/components";
 import { useT } from "~/hooks";
-import { user } from "~/store";
+import { getSetting, user } from "~/store";
 import { UserMethods } from "~/types";
 
 export const Footer = () => {
@@ -10,10 +10,14 @@ export const Footer = () => {
   return (
     <VStack class="footer" w="$full" py="$4">
       <HStack spacing="$1">
-        <Anchor href="https://github.com/Xhofe/alist" external>
+      <Text className="line1">
+	    {t("©2022 ")} {getSetting("site_title")}
+      </Text>
+      </HStack>
+      <HStack spacing="$1">
+      <Text className="line1">
           {t("home.footer.powered_by")}
-        </Anchor>
-        <span>|</span>
+        </Text><span> |</span>
         <AnchorWithBase
           as={Link}
           href={UserMethods.is_guest(user()) ? "/@login" : "/@manage"}
@@ -21,8 +25,13 @@ export const Footer = () => {
           {t(
             UserMethods.is_guest(user()) ? "login.login" : "home.footer.manage"
           )}
-        </AnchorWithBase>
-      </HStack>
+        </AnchorWithBase>   
+      {getSetting("site_beian") && (
+         <Anchor href="https://beian.miit.gov.cn" external>
+            {getSetting("site_beian")}
+          </Anchor>
+        )}
+     </HStack>
     </VStack>
   );
 };

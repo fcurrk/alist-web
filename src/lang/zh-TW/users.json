@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "see_hides": "可以看到隱藏",
+    "access_without_password": "無密碼訪問",
+    "offline_download": "添加離線下載任務",
+    "write": "創建目錄或上傳",
+    "rename": "重命名",
+    "move": "移動",
+    "copy": "複製",
+    "delete": "刪除",
+    "webdav_read": "Webdav 读取",
+    "webdav_manage": "Webdav 管理文件"
+  },
+  "username": "用戶名",
+  "password": "密码",
+  "base_path": "基本路徑",
+  "role": "角色",
+  "permission": "權限",
+  "update_profile": "更新配置文件",
+  "update_profile_success": "更新個人資料成功，請重新登錄。",
+  "change_username": "修改用戶名稱",
+  "change_password": "變更密碼",
+  "change_password-tips": "如果您不想更改密碼，請保持為空",
+  "enable_2fa": "啟用雙重驗證",
+  "2fa_already_enabled": "雙重驗證已启用",
+  "scan_qr": "掃描二維碼保存秘鑰",
+  "input_code": "請輸入您的雙重驗證應用程式中的驗證碼",
+  "verify": "驗證",
+  "guest-tips": "您正在作為訪客訪問。",
+  "modify_nothing": "所以您不能在管理頁面中修改任何內容。"
+}
