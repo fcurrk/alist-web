@@ -18,7 +18,7 @@
     "copy": "複製",
     "home": "主頁"
   },
-  "title": "管理",
+  "title": "後臺管理",
   "not_admin": "你不是管理員，請使用管理員賬戶登錄。",
   "logout_success": "登錄成功",
   "send": "發送",

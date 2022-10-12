@@ -2,35 +2,35 @@
   "common": {
     "mount_path": "掛載路徑",
     "driver": "驅動",
-    "order": "Order",
-    "order-tips": "Use to sort",
+    "order": "排序",
+    "order-tips": "用於排序",
     "status": "狀態",
-    "remark": "Remark",
-    "cache_expiration": "Cache Expiration",
-    "cache_expiration-tips": "The cache expiration time for this storage(minutes)",
+    "remark": "備註",
+    "cache_expiration": "緩存過期時間",
+    "cache_expiration-tips": "此存儲的緩存過期時間(分鐘)",
     "down_proxy_url": "下載代理URL",
-    "web_proxy": "Web proxy",
-    "webdav_policy": "WebDAV policy",
+    "web_proxy": "Web代理",
+    "webdav_policy": "WebDAV 策略",
     "webdav_policys": {
-      "302_redirect": "302 redirect",
-      "use_proxy_url": "use proxy URL",
-      "native_proxy": "native proxy"
+      "302_redirect": "302重定向",
+      "use_proxy_url": "使用代理地址",
+      "native_proxy": "本地代理"
     },
-    "order_by": "Order by",
+    "order_by": "排序",
     "order_bys": {
       "name": "名稱",
       "size": "大小",
       "modified": "修改時間"
     },
-    "order_direction": "Order direction",
+    "order_direction": "排序方式",
     "order_directions": {
-      "asc": "Ascending",
-      "desc": "Descending"
+      "asc": "升序",
+      "desc": "降序"
     },
-    "extract_folder": "Extract folder",
+    "extract_folder": "選取資料夾",
     "extract_folders": {
-      "front": "Extract to front",
-      "back": "Extract to back"
+      "front": "選取到最前",
+      "back": "選取到最後"
     }
   }
 }
