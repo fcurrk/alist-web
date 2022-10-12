@@ -204,7 +204,7 @@
 },
 "Onedrive": {
     "refresh_token": "刷新令牌",
-    "chunk_size": "Chunk size",
+    "chunk_size": "分塊大小",
     "is_sharepoint": "是否Sharepoint",
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
