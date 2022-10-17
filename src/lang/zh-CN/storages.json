@@ -19,7 +19,7 @@
     "order_by": "排序",
     "order_bys": {
       "name": "名称",
-      "size": "文件大小",
+      "size": "大小",
       "modified": "修改时间"
     },
     "order_direction": "排序方式",
