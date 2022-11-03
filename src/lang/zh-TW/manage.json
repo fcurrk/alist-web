@@ -22,8 +22,8 @@
   "not_admin": "你不是管理員，請使用管理員賬戶登錄。",
   "logout_success": "登錄成功",
   "send": "發送",
-  "recieve": "接收",
-  "recieved_msgs": "收到的消息",
+  "receive": "接收",
+  "received_msgs": "收到的消息",
   "add_storage-tips": "您可能需要在新打開的選項卡中填寫一些信息。",
   "messenger-tips": "您可能需要在這個標簽頁中按提示填寫一些信息。"
 }

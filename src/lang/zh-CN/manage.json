@@ -22,8 +22,8 @@
   "not_admin": "您不是管理员用户，请使用管理员帐户登录。",
   "logout_success": "退出成功",
   "send": "发送",
-  "recieve": "接收",
-  "recieved_msgs": "收到的消息",
+  "receive": "接收",
+  "received_msgs": "收到的消息",
   "add_storage-tips": "您可能需要在新打开的选项卡中填写一些信息。",
   "messenger-tips": "您可能需要在这个标签页中按提示填写一些信息。"
 }
