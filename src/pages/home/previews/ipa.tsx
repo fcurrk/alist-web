@@ -14,7 +14,6 @@ const Ipa = () => {
   const { copyCurrentRawLink } = useCopyLink();
   return (
     <FileInfo>
-    //添加一行
       <HStack spacing="$2">
         <Button
           as="a"

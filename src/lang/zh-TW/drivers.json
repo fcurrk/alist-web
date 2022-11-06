@@ -70,7 +70,7 @@
   },
   "115 Cloud": {
     "cookie": "Cookie",
-    "qrcode_token": "Qrcode token",
+    "qrcode_token": "二維碼令牌",
     "root_folder_id": "根資料夾ID"
   },
   "189CloudPC": {
