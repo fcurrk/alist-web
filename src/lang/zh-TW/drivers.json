@@ -344,7 +344,7 @@
     "client_secret": "客户端密钥",
     "refresh_token": "刷新令牌",
     "site_id": "網站ID",
-    "chunk_size": "分塊大小",
+    "chunk_size": "分片大小",
     "regions": {
       "de": "德國版",
       "global": "全局",
