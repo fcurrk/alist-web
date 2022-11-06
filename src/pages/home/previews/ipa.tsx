@@ -1,7 +1,5 @@
-// import { Button } from "@hope-ui/solid";
 import { Button, HStack } from "@hope-ui/solid";
 import { createSignal } from "solid-js";
-// import { useT } from "~/hooks";
 import { objStore } from "~/store";
 import { api, baseName, safeBtoa } from "~/utils";
 import { FileInfo } from "./info";
@@ -10,7 +8,6 @@ import { useCopyLink, useT } from "~/hooks";
 const Ipa = () => {
   const t = useT();
   const [installing, setInstalling] = createSignal(false);
-//添加复制链接定义
   const { copyCurrentRawLink } = useCopyLink();
   return (
     <FileInfo>
