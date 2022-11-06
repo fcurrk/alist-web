@@ -1,37 +1,174 @@
 {
-  "SFTP": {
-    "address": "地址",
-    "username": "用户名",
-    "private_key": "私钥",
-    "password": "密码",
-    "root_folder_path": "根文件夹路径"
+  "AliyundriveShare": {
+    "share_id": "分享ID",
+    "share_pwd": "分享密码",
+    "root_folder_id": "根文件夹ID",
+    "order_by": "排序",
+    "order_bys": {
+      "updated_at": "修改时间",
+      "created_at": "创建时间",
+      "name": "名称",
+      "size": "大小"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "ASC": "升序",
+      "DESC": "降序"
+    },
+    "refresh_token": "刷新令牌"
   },
-  "Lanzou": {
-    "baseUrl": "基本URL",
-    "shareUrl": "分享链接",
+  "ThunderExpert": {
+    "password": "密码",
+    "refresh_token": "刷新令牌",
+    "refresh_token-tips": "登录类型是刷新令牌,此为必填项",
+    "timestamp": "时间戳",
+    "package_name": "包名",
+    "use_video_url": "使用视频url",
+    "sign_type": "签名类型",
+    "username": "用户名",
+    "algorithms": "算法",
+    "algorithms-tips": "签名类型是用户名,此为必填项",
+    "captcha_sign-tips": "签名类型是验证码签名,此为必填项",
+    "device_id": "设备id",
+    "client_secret": "客户端密钥",
+    "login_types": {
+      "user": "用户名",
+      "refresh_token": "刷新令牌"
+    },
+    "sign_types": {
+      "algorithms": "算法",
+      "captcha_sign": "验证码签名"
+    },
+    "username-tips": "登录类型是用户名,此为必填项",
+    "captcha_sign": "验证码签名",
+    "client_id": "客户端ID",
+    "download_user_agent": "下载用户代理",
+    "root_folder_id": "根文件夹ID",
+    "login_type": "登录类型",
+    "password-tips": "登录类型是用户名,此为必填项",
+    "timestamp-tips": "签名类型是验证码签名,此为必填项",
+    "captcha_token": "验证码",
+    "client_version": "客户端版本",
+    "user_agent": "用户代理"
+  },
+  "S3": {
+    "sign_url_expire": "签名链接有效期",
+    "endpoint": "Endpoint",
+    "secret_access_key": "安全访问密钥",
+    "custom_host": "自定义HOST",
+    "access_key_id": "访问密钥 Id",
+    "placeholder": "占位文件名",
+    "force_path_style": "强制路径样式",
+    "list_object_version": "列出对象版本",
+    "list_object_versions": {
+      "v2": "V2",
+      "v1": "V1"
+    },
+    "root_folder_path": "根文件夹路径",
+    "bucket": "存储桶",
+    "region": "地区"
+  },
+  "115 Cloud": {
+    "cookie": "Cookie",
+    "qrcode_token": "Qrcode token",
+    "root_folder_id": "根文件夹ID"
+  },
+  "189CloudPC": {
+    "order_bys": {
+      "filename": "文件名",
+      "filesize": "文件大小",
+      "lastOpTime": "修改时间"
+    },
+    "family_id": "Family id",
+    "rapid_upload": "秒传",
+    "username": "用户名",
+    "password": "密码",
+    "root_folder_id": "根文件夹ID",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
     "type": "类型",
     "types": {
-      "url": "链接",
-      "cookie": "Cookie"
+      "personal": "个人云",
+      "family": "家庭云"
     },
+    "no_use_ocr": "不使用OCR",
+    "validate_code": "验证码",
+    "order_by": "排序",
+    "order_direction": "排序方式"
+  },
+  "BaiduNetdisk": {
+    "root_folder_path": "根文件夹路径",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "download_api": "下载接口",
+    "download_apis": {
+      "crack": "非官方",
+      "official": "官方"
+    },
+    "client_secret": "客户端密钥",
+    "refresh_token": "刷新令牌",
+    "order_by": "排序",
+    "order_bys": {
+      "name": "名称",
+      "time": "时间",
+      "size": "大小"
+    },
+    "order_direction": "排序方式",
+    "client_id": "客户端ID"
+  },
+  "139Yun": {
+    "account": "帐号",
     "cookie": "Cookie",
-    "cookie-tips": "大概15天有效",
     "root_folder_id": "根文件夹ID",
-    "share_password": "分享密码"
+    "type": "类型",
+    "types": {
+      "family": "家庭云",
+      "personal": "个人云"
+    },
+    "cloud_id": "Cloud id"
   },
-  "SMB": {
-    "address": "地址",
+  "YandexDisk": {
+    "order_bys": {
+      "name": "名称",
+      "path": "路径",
+      "created": "创建时间",
+      "modified": "修改时间",
+      "size": "大小"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "desc": "降序",
+      "asc": "升序"
+    },
+    "root_folder_path": "根文件夹路径",
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥",
+    "refresh_token": "刷新令牌",
+    "order_by": "排序"
+  },
+  "GoogleDrive": {
+    "root_folder_id": "根文件夹ID",
+    "refresh_token": "刷新令牌",
+    "order_by": "排序",
+    "order_by-tips": "例如: folder,name,modifiedTime",
+    "order_direction": "排序方式",
+    "order_directions": {
+      "desc": "降序",
+      "asc": "升序"
+    },
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥"
+  },
+  "PikPak": {
+    "root_folder_id": "根文件夹ID",
     "username": "用户名",
-    "password": "密码",
-    "share_name": "分享名称",
-    "root_folder_path": "根文件夹路径"
-  },
-  "Mega_nz": {
-    "email": "邮箱",
     "password": "密码"
   },
   "WebDav": {
-    "root_folder_path": "根文件夹路径",
     "vendor": "供应商",
     "vendors": {
       "sharepoint": "Sharepoint",
@@ -39,32 +176,141 @@
     },
     "address": "地址",
     "username": "用户名",
-    "password": "密码"
+    "password": "密码",
+    "root_folder_path": "根文件夹路径"
   },
-  "BaiduNetdisk": {
-    "refresh_token": "刷新令牌",
-    "order_direction": "排序方式",
-    "download_api": "下载接口",
-    "download_apis": {
-      "official": "官方",
-      "crack": "非官方"
+  "drivers": {
+    "Aliyundrive": "阿里云盘",
+    "MediaTrack": "分秒帧",
+    "SFTP": "SFTP",
+    "WebDav": "WebDav",
+    "Quark": "夸克",
+    "139Yun": "中国移动云盘",
+    "GoogleDrive": "谷歌云盘",
+    "AList V3": "AList V3",
+    "USS": "又拍云存储",
+    "PikPak": "PikPak",
+    "SMB": "SMB",
+    "BaiduPhoto": "一刻相册",
+    "GooglePhoto": "谷歌相册",
+    "Teambition": "Teambition网盘",
+    "YandexDisk": "Yandex网盘",
+    "S3": "对象存储",
+    "115 Cloud": "115 网盘",
+    "189CloudPC": "天翼云盘客户端",
+    "BaiduNetdisk": "百度网盘",
+    "Thunder": "迅雷",
+    "189Cloud": "天翼云盘",
+    "Local": "本机存储",
+    "AliyundriveShare": "阿里云盘分享",
+    "ThunderExpert": "迅雷专家版",
+    "Virtual": "虚拟存储",
+    "FTP": "FTP",
+    "Lanzou": "蓝奏云",
+    "Mega_nz": "Mega 网盘",
+    "Onedrive": "Onedrive",
+    "123Pan": "123云盘"
+  },
+  "Lanzou": {
+    "type": "类型",
+    "types": {
+      "cookie": "Cookie",
+      "url": "链接"
     },
-    "client_secret": "客户端密钥",
-    "root_folder_path": "根文件夹路径",
+    "cookie": "Cookie",
+    "cookie-tips": "大概15天有效",
+    "root_folder_id": "根文件夹ID",
+    "share_password": "分享密码",
+    "baseUrl": "基本URL",
+    "shareUrl": "分享链接"
+  },
+  "BaiduPhoto": {
+    "refresh_token": "刷新令牌",
+    "show_type": "展示类型",
+    "show_types": {
+      "root": "根",
+      "root_only_album": "仅根目录下相簿",
+      "root_only_file": "仅根目录下文件"
+    },
+    "album_id": "相簿ID",
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥"
+  },
+  "Aliyundrive": {
+    "order_direction": "排序方式",
+    "order_directions": {
+      "ASC": "升序",
+      "DESC": "降序"
+    },
+    "rapid_upload": "秒传",
+    "root_folder_id": "根文件夹ID",
+    "refresh_token": "刷新令牌",
     "order_by": "排序",
     "order_bys": {
+      "created_at": "创建时间",
       "name": "名称",
-      "time": "时间",
+      "size": "大小",
+      "updated_at": "修改时间"
+    }
+  },
+  "Virtual": {
+    "root_folder_path": "根文件夹路径",
+    "num_file": "文件数量",
+    "num_folder": "文件夹数量",
+    "max_file_size": "最大文件大小",
+    "min_file_size": "最小文件大小"
+  },
+  "MediaTrack": {
+    "access_token": "访问令牌",
+    "project_id": "项目 ID",
+    "root_folder_id": "根文件夹ID",
+    "order_by": "排序",
+    "order_bys": {
+      "updated_at": "修改时间",
+      "title": "名称",
       "size": "大小"
     },
+    "order_desc": "降序排列"
+  },
+  "SFTP": {
+    "root_folder_path": "根文件夹路径",
+    "address": "地址",
+    "username": "用户名",
+    "private_key": "私钥",
+    "password": "密码"
+  },
+  "FTP": {
+    "address": "地址",
+    "username": "用户名",
+    "password": "密码",
+    "root_folder_path": "根文件夹路径"
+  },
+  "123Pan": {
+    "order_direction": "排序方式",
     "order_directions": {
       "asc": "升序",
       "desc": "降序"
     },
-    "client_id": "客户端ID"
+    "root_folder_id": "根文件夹ID",
+    "stream_upload": "流式上传",
+    "username": "用户名",
+    "password": "密码",
+    "order_by": "排序",
+    "order_bys": {
+      "name": "名称",
+      "fileId": "文件ID",
+      "updateAt": "修改时间",
+      "createAt": "创建时间"
+    }
+  },
+  "GooglePhoto": {
+    "show_archive": "显示归档",
+    "root_folder_id": "根文件夹ID",
+    "refresh_token": "刷新令牌",
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥"
   },
   "Quark": {
-    "order_by": "排序",
     "order_bys": {
       "none": "无",
       "file_type": "文件类型",
@@ -77,201 +323,8 @@
       "desc": "降序"
     },
     "cookie": "Cookie",
-    "root_folder_id": "根文件夹ID"
-  },
-  "FTP": {
-    "password": "密码",
-    "root_folder_path": "根文件夹路径",
-    "address": "地址",
-    "username": "用户名"
-  },
-  "Virtual": {
-    "root_folder_path": "根文件夹路径",
-    "num_file": "文件数量",
-    "num_folder": "文件夹数量",
-    "max_file_size": "最大文件大小",
-    "min_file_size": "最小文件大小"
-  },
-  "Aliyundrive": {
-    "root_folder_id": "根文件夹ID",
-    "refresh_token": "刷新令牌",
-    "order_by": "排序",
-    "order_bys": {
-      "updated_at": "修改时间",
-      "created_at": "创建时间",
-      "name": "名称",
-      "size": "大小"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "ASC": "升序",
-      "DESC": "降序"
-    },
-    "rapid_upload": "秒传"
-  },
-  "AliyundriveShare": {
-    "order_direction": "排序方式",
-    "order_directions": {
-      "ASC": "升序",
-      "DESC": "降序"
-    },
-    "refresh_token": "刷新令牌",
-    "share_id": "分享ID",
-    "share_pwd": "分享密码",
-    "root_folder_id": "根文件夹ID",
-    "order_by": "排序",
-    "order_bys": {
-      "created_at": "创建时间",
-      "name": "名称",
-      "size": "大小",
-      "updated_at": "修改时间"
-    }
-  },
-  "Local": {
-    "show_hidden-tips": "显示隐藏目录以及文件",
-    "root_folder_path": "根文件夹路径",
-    "thumbnail": "缩略图",
-    "thumbnail-tips": "启用缩略图",
-    "show_hidden": "显示隐藏"
-  },
-  "ThunderExpert": {
-    "sign_type": "签名类型",
-    "sign_types": {
-      "algorithms": "算法",
-      "captcha_sign": "验证码签名"
-    },
-    "username-tips": "登录类型是用户名,此为必填项",
-    "captcha_sign": "验证码签名",
-    "captcha_sign-tips": "签名类型是验证码签名,此为必填项",
-    "user_agent": "用户代理",
-    "login_type": "登录类型",
-    "login_types": {
-      "user": "用户名",
-      "refresh_token": "刷新令牌"
-    },
-    "client_version": "客户端版本",
-    "use_video_url": "使用视频url",
-    "password": "密码",
-    "timestamp-tips": "签名类型是验证码签名,此为必填项",
-    "refresh_token": "刷新令牌",
-    "algorithms": "算法",
-    "algorithms-tips": "签名类型是用户名,此为必填项",
-    "timestamp": "时间戳",
-    "captcha_token": "验证码",
-    "download_user_agent": "下载用户代理",
-    "root_folder_id": "根文件夹ID",
-    "password-tips": "登录类型是用户名,此为必填项",
-    "device_id": "设备id",
-    "client_id": "客户端ID",
-    "client_secret": "客户端密钥",
-    "package_name": "包名",
-    "username": "用户名",
-    "refresh_token-tips": "登录类型是刷新令牌,此为必填项"
-  },
-  "Thunder": {
-    "captcha_token": "验证码",
-    "root_folder_id": "根文件夹ID",
-    "username": "用户名",
-    "password": "密码"
-  },
-  "Teambition": {
-    "order_bys": {
-      "created": "创建时间",
-      "fileName": "文件名",
-      "fileSize": "文件大小",
-      "updated": "修改时间"
-    },
-    "order_directions": {
-      "Asc": "升序",
-      "Desc": "降序"
-    },
-    "region": "地区",
-    "regions": {
-      "china": "中国",
-      "international": "国际版"
-    },
-    "cookie": "Cookie",
-    "order_direction": "排序方式",
-    "project_id": "项目 ID",
     "root_folder_id": "根文件夹ID",
     "order_by": "排序"
-  },
-  "USS": {
-    "operator_name": "操作员名称",
-    "operator_password": "操作员密码",
-    "custom_host": "自定义HOST",
-    "sign_url_expire": "签名链接有效期",
-    "root_folder_path": "根文件夹路径",
-    "bucket": "存储桶",
-    "endpoint": "Endpoint"
-  },
-  "139Yun": {
-    "root_folder_id": "根文件夹ID",
-    "type": "类型",
-    "types": {
-      "personal": "个人云",
-      "family": "家庭云"
-    },
-    "cloud_id": "Cloud id",
-    "account": "帐号",
-    "cookie": "Cookie"
-  },
-  "GooglePhoto": {
-    "show_archive": "显示归档",
-    "root_folder_id": "根文件夹ID",
-    "refresh_token": "刷新令牌",
-    "client_id": "客户端ID",
-    "client_secret": "客户端密钥"
-  },
-  "GoogleDrive": {
-    "root_folder_id": "根文件夹ID",
-    "refresh_token": "刷新令牌",
-    "order_by": "排序",
-    "order_by-tips": "例如: folder,name,modifiedTime",
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
-    "client_id": "客户端ID",
-    "client_secret": "客户端密钥"
-  },
-  "drivers": {
-    "Mega_nz": "Mega 网盘",
-    "SFTP": "SFTP",
-    "139Yun": "中国移动云盘",
-    "GooglePhoto": "Google相册",
-    "Quark": "夸克",
-    "Teambition": "Teambition网盘",
-    "MediaTrack": "分秒帧",
-    "BaiduNetdisk": "百度网盘",
-    "Lanzou": "蓝奏云",
-    "Aliyundrive": "阿里云盘",
-    "YandexDisk": "Yandex网盘",
-    "PikPak": "PikPak",
-    "115 Cloud": "115 网盘",
-    "AList V3": "AList V3",
-    "189Cloud": "天翼云盘",
-    "SMB": "SMB",
-    "WebDav": "WebDav",
-    "Onedrive": "Onedrive",
-    "Virtual": "虚拟存储",
-    "BaiduPhoto": "一刻相册",
-    "GoogleDrive": "Google云盘",
-    "S3": "对象存储",
-    "USS": "又拍云存储",
-    "Thunder": "迅雷",
-    "AliyundriveShare": "阿里云盘分享",
-    "FTP": "FTP",
-    "189CloudPC": "天翼云盘客户端",
-    "123Pan": "123云盘",
-    "ThunderExpert": "迅雷专家版",
-    "Local": "本机存储"
-  },
-  "PikPak": {
-    "root_folder_id": "根文件夹ID",
-    "username": "用户名",
-    "password": "密码"
   },
   "AList V3": {
     "root_folder_path": "根文件夹路径",
@@ -279,133 +332,81 @@
     "password": "密码",
     "access_token": "访问令牌"
   },
-  "S3": {
-    "list_object_version": "列出对象版本",
-    "list_object_versions": {
-      "v2": "V2",
-      "v1": "V1"
-    },
-    "endpoint": "Endpoint",
-    "secret_access_key": "安全访问密钥",
-    "force_path_style": "强制路径样式",
-    "access_key_id": "访问密钥 Id",
-    "custom_host": "自定义HOST",
-    "sign_url_expire": "签名链接有效期",
-    "placeholder": "占位文件名",
-    "root_folder_path": "根文件夹路径",
-    "bucket": "存储桶",
-    "region": "地区"
-  },
-  "MediaTrack": {
-    "order_bys": {
-      "updated_at": "修改时间",
-      "title": "名称",
-      "size": "大小"
-    },
-    "order_desc": "降序排列",
-    "access_token": "访问令牌",
-    "project_id": "项目 ID",
-    "root_folder_id": "根文件夹ID",
-    "order_by": "排序"
-  },
   "189Cloud": {
     "username": "用户名",
     "password": "密码",
     "root_folder_id": "根文件夹ID"
   },
-  "YandexDisk": {
-    "refresh_token": "刷新令牌",
-    "order_by": "排序",
-    "order_bys": {
-      "name": "名称",
-      "path": "路径",
-      "created": "创建时间",
-      "modified": "修改时间",
-      "size": "大小"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
-    "root_folder_path": "根文件夹路径",
-    "client_id": "客户端ID",
-    "client_secret": "客户端密钥"
-  },
-  "115 Cloud": {
-    "cookie": "Cookie",
-    "root_folder_id": "根文件夹ID"
-  },
-  "189CloudPC": {
-    "order_bys": {
-      "filename": "文件名",
-      "filesize": "文件大小",
-      "lastOpTime": "修改时间"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
-    "type": "类型",
-    "family_id": "Family id",
-    "password": "密码",
-    "validate_code": "验证码",
-    "order_by": "排序",
-    "rapid_upload": "秒传",
-    "no_use_ocr": "不使用OCR",
-    "username": "用户名",
-    "root_folder_id": "根文件夹ID",
-    "types": {
-      "family": "家庭云",
-      "personal": "个人云"
-    }
-  },
-  "123Pan": {
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
-    "root_folder_id": "根文件夹ID",
-    "stream_upload": "流式上传",
-    "username": "用户名",
-    "password": "密码",
-    "order_by": "排序",
-    "order_bys": {
-      "updateAt": "修改时间",
-      "createAt": "创建时间",
-      "name": "名称",
-      "fileId": "文件ID"
-    },
-    "order_direction": "排序方式"
-  },
-  "BaiduPhoto": {
-    "refresh_token": "刷新令牌",
-    "show_type": "展示类型",
-    "show_types": {
-      "root_only_file": "仅根目录下文件",
-      "root": "根",
-      "root_only_album": "仅根目录下相簿"
-    },
-    "album_id": "相簿ID",
-    "client_id": "客户端ID",
-    "client_secret": "客户端密钥"
-  },
   "Onedrive": {
     "root_folder_path": "根文件夹路径",
-    "regions": {
-      "global": "全局",
-      "cn": "世纪互联",
-      "us": "美国版",
-      "de": "德国版"
-    },
-    "redirect_uri": "重定向 Uri",
-    "refresh_token": "刷新令牌",
-    "chunk_size": "分片大小",
     "region": "地区",
     "is_sharepoint": "是否Sharepoint",
-    "client_id": "客户端ID",
     "client_secret": "客户端密钥",
-    "site_id": "站点ID"
+    "refresh_token": "刷新令牌",
+    "site_id": "站点ID",
+    "chunk_size": "分片大小",
+    "regions": {
+      "de": "德国版",
+      "global": "全局",
+      "cn": "世纪互联",
+      "us": "美国版"
+    },
+    "client_id": "客户端ID",
+    "redirect_uri": "重定向 Uri"
+  },
+  "Thunder": {
+    "root_folder_id": "根文件夹ID",
+    "username": "用户名",
+    "password": "密码",
+    "captcha_token": "验证码"
+  },
+  "USS": {
+    "bucket": "存储桶",
+    "endpoint": "Endpoint",
+    "operator_name": "操作员名称",
+    "operator_password": "操作员密码",
+    "custom_host": "自定义HOST",
+    "sign_url_expire": "签名链接有效期",
+    "root_folder_path": "根文件夹路径"
+  },
+  "Mega_nz": {
+    "email": "邮箱",
+    "password": "密码"
+  },
+  "SMB": {
+    "root_folder_path": "根文件夹路径",
+    "address": "地址",
+    "username": "用户名",
+    "password": "密码",
+    "share_name": "分享名称"
+  },
+  "Teambition": {
+    "region": "地区",
+    "regions": {
+      "china": "中国",
+      "international": "国际版"
+    },
+    "cookie": "Cookie",
+    "project_id": "项目 ID",
+    "root_folder_id": "根文件夹ID",
+    "order_by": "排序",
+    "order_bys": {
+      "fileName": "文件名",
+      "fileSize": "文件大小",
+      "updated": "修改时间",
+      "created": "创建时间"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "Asc": "升序",
+      "Desc": "降序"
+    }
+  },
+  "Local": {
+    "root_folder_path": "根文件夹路径",
+    "thumbnail": "缩略图",
+    "thumbnail-tips": "启用缩略图",
+    "show_hidden": "显示隐藏",
+    "show_hidden-tips": "显示隐藏目录以及文件"
   }
 }
