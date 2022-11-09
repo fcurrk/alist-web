@@ -280,7 +280,8 @@
     "client_secret": "Client secret",
     "client_id": "Client id",
     "refresh_token": "Refresh token",
-    "chunk_size": "Chunk size"
+    "chunk_size": "Chunk size",
+    "chunk_size-tips": "chunk size while uploading (unit: MB)"
   },
   "drivers": {
     "189Cloud": "189Cloud",

@@ -280,7 +280,8 @@
     "client_secret": "客户端密钥",
     "client_id": "客户端ID",
     "refresh_token": "刷新令牌",
-    "chunk_size": "分片大小"
+    "chunk_size": "分片大小",
+    "chunk_size-tips": "上載分片大小 (單位: MB)"
   },
   "drivers": {
     "189Cloud": "天翼雲盤",
