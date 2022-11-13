@@ -415,6 +415,7 @@
     "redirect_uri": "Redirect uri",
     "site_id": "Site id",
     "chunk_size": "Chunk size",
+    "chunk_size-tips": "chunk size while uploading (unit: MB)",
     "root_folder_path": "Root folder path"
   }
 }
