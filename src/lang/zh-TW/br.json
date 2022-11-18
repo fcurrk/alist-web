@@ -1,13 +1,13 @@
 {
-  "backup": "備份",
-  "restore": "還原",
-  "start_backup": "開始備份",
-  "finish_backup": "完成備份",
-  "success_backup_item": "[ {{item}} ] 備份成功",
-  "failed_backup_item": "[ {{item}} ] 備份失敗",
-  "no_file": "沒有選擇檔案",
-  "start_restore": "開始還原",
-  "finish_restore": "完成還原",
-  "success_restore_item": "[ {{item}} ] 還原成功",
-  "failed_restore_item": "[ {{item}} ] 還原失敗"
+  "backup": "鍌欎唤",
+  "restore": "閭勫師",
+  "start_backup": "闁嬪鍌欎唤",
+  "finish_backup": "瀹屾垚鍌欎唤",
+  "success_backup_item": "[ {{item}} ] 鍌欎唤鎴愬姛",
+  "failed_backup_item": "[ {{item}} ] 鍌欎唤澶辨晽",
+  "no_file": "娌掓湁閬告搰妾旀",
+  "start_restore": "闁嬪閭勫師",
+  "finish_restore": "瀹屾垚閭勫師",
+  "success_restore_item": "[ {{item}} ] 閭勫師鎴愬姛",
+  "failed_restore_item": "[ {{item}} ] 閭勫師澶辨晽"
 }

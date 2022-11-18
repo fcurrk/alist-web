@@ -1,13 +1,13 @@
 {
-  "backup": "±¸·İ",
-  "restore": "»¹Ô­",
-  "start_backup": "¿ªÊ¼±¸·İ",
-  "finish_backup": "Íê³É±¸·İ",
-  "success_backup_item": "[ {{item}} ] ±¸·İ³É¹¦",
-  "failed_backup_item": "[ {{item}} ] ±¸·İÊ§°Ü",
-  "no_file": "Ã»ÓĞÑ¡ÔñÎÄ¼ş",
-  "start_restore": "¿ªÊ¼»¹Ô­",
-  "finish_restore": "Íê³É»¹Ô­",
-  "success_restore_item": "[ {{item}} ] »¹Ô­³É¹¦",
-  "failed_restore_item": "[ {{item}} ] »¹Ô­Ê§°Ü"
+  "backup": "å¤‡ä»½",
+  "restore": "è¿˜åŸ",
+  "start_backup": "å¼€å§‹å¤‡ä»½",
+  "finish_backup": "å®Œæˆå¤‡ä»½",
+  "success_backup_item": "[ {{item}} ] å¤‡ä»½æˆåŠŸ",
+  "failed_backup_item": "[ {{item}} ] å¤‡ä»½å¤±è´¥",
+  "no_file": "æ²¡æœ‰é€‰æ‹©æ–‡ä»¶",
+  "start_restore": "å¼€å§‹è¿˜åŸ",
+  "finish_restore": "å®Œæˆè¿˜åŸ",
+  "success_restore_item": "[ {{item}} ] è¿˜åŸæˆåŠŸ",
+  "failed_restore_item": "[ {{item}} ] è¿˜åŸå¤±è´¥"
 }
