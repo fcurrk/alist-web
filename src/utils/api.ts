@@ -1,8 +1,6 @@
 import axios, { CancelToken } from "axios"
-import { EmptyResp, FsGetResp, FsListResp, Obj, PageResp, Resp } from "~/types"
+import { PEmptyResp, FsGetResp, FsListResp, Obj, PResp } from "~/types"
 import { r } from "."
-
-type EmptyRespPromise = Promise<EmptyResp>
 
 export const fsGet = (
   path: string = "/",
@@ -40,15 +38,15 @@ export const fsDirs = (
   path = "/",
   password = "",
   forceRoot = false
-): Promise<Resp<Obj[]>> => {
+): PResp<Obj[]> => {
   return r.post("/fs/dirs", { path, password, force_root: forceRoot })
 }
 
-export const fsMkdir = (path: string): EmptyRespPromise => {
+export const fsMkdir = (path: string): PEmptyResp => {
   return r.post("/fs/mkdir", { path })
 }
 
-export const fsRename = (path: string, name: string): EmptyRespPromise => {
+export const fsRename = (path: string, name: string): PEmptyResp => {
   return r.post("/fs/rename", { path, name })
 }
 
@@ -56,7 +54,7 @@ export const fsMove = (
   src_dir: string,
   dst_dir: string,
   names: string[]
-): EmptyRespPromise => {
+): PEmptyResp => {
   return r.post("/fs/move", { src_dir, dst_dir, names })
 }
 
@@ -64,15 +62,15 @@ export const fsCopy = (
   src_dir: string,
   dst_dir: string,
   names: string[]
-): EmptyRespPromise => {
+): PEmptyResp => {
   return r.post("/fs/copy", { src_dir, dst_dir, names })
 }
 
-export const fsRemove = (dir: string, names: string[]): EmptyRespPromise => {
+export const fsRemove = (dir: string, names: string[]): PEmptyResp => {
   return r.post("/fs/remove", { dir, names })
 }
 
-export const fsNewFile = (path: string): EmptyRespPromise => {
+export const fsNewFile = (path: string): PEmptyResp => {
   return r.put("/fs/put", undefined, {
     headers: {
       "File-Path": encodeURIComponent(path),
@@ -80,22 +78,35 @@ export const fsNewFile = (path: string): EmptyRespPromise => {
   })
 }
 
-export const addAria2 = (path: string, urls: string[]): EmptyRespPromise => {
+export const addAria2 = (path: string, urls: string[]): PEmptyResp => {
   return r.post("/fs/add_aria2", { path, urls })
 }
 
-export const fetchText = async (url: string) => {
+export const fetchText = async (
+  url: string,
+  ts = true
+): Promise<{
+  content: string
+  contentType?: string
+}> => {
   try {
     const resp = await axios.get(url, {
       responseType: "blob",
+      params: ts
+        ? {
+            ts: new Date().getTime(),
+          }
+        : undefined,
     })
     const content = await resp.data.text()
     const contentType = resp.headers["content-type"]
     return { content, contentType }
   } catch (e) {
-    return {
-      content: `Failed to fetch ${url}: ${e}`,
-      contentType: "",
-    }
+    return ts
+      ? await fetchText(url, false)
+      : {
+          content: `Failed to fetch ${url}: ${e}`,
+          contentType: "",
+        }
   }
 }
