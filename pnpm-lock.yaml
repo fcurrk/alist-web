@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@crowdin/cli': ^3.7.10
+  '@crowdin/cli': ^3.8.1
   '@hope-ui/solid': 0.6.7
   '@monaco-editor/loader': ^1.3.2
   '@motionone/solid': ^10.14.1
@@ -60,7 +60,7 @@ dependencies:
   streamsaver: 2.0.6
 
 devDependencies:
-  '@crowdin/cli': 3.7.10
+  '@crowdin/cli': 3.8.1
   '@types/node': 18.7.5
   '@types/streamsaver': 2.0.1
   '@vitejs/plugin-legacy': 2.0.1_terser@5.14.2+vite@3.0.8
@@ -390,8 +390,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@crowdin/cli/3.7.10:
-    resolution: {integrity: sha512-L0sjeEv4bn7LHNYsKxl2aTrah16u1ThufN0xvMMH7o53lD29llvVfAD9jVOttSl/kyQ+mMDY8GLzjPRNFdLJqQ==}
+  /@crowdin/cli/3.8.1:
+    resolution: {integrity: sha512-kSohd26AKqXVNo+G48C1cv+/TPBks44YbD2+nQLm8d/mUGGazhYHY6k6wU7yP+vkaT/F5WeL3br5Sffn0QoxRg==}
     hasBin: true
     dependencies:
       njre: 0.2.0

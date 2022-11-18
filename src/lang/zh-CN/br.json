@@ -1,0 +1,13 @@
+{
+  "backup": "备份",
+  "restore": "还原",
+  "start_backup": "开始备份",
+  "finish_backup": "完成备份",
+  "success_backup_item": "[ {{item}} ] 备份成功",
+  "failed_backup_item": "[ {{item}} ] 备份失败",
+  "no_file": "没有选择文件",
+  "start_restore": "开始还原",
+  "finish_restore": "完成还原",
+  "success_restore_item": "[ {{item}} ] 还原成功",
+  "failed_restore_item": "[ {{item}} ] 还原失败"
+}

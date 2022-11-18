@@ -16,6 +16,7 @@
     "aria2": "Aria2",
     "upload": "上傳",
     "copy": "複製",
+    "backup-restore": "備份還原",
     "home": "主頁"
   },
   "title": "後臺管理",
