@@ -39,5 +39,8 @@
   "privacy_regs": "Privacy regs",
   "ocr_api": "Ocr api",
   "token": "Token",
-  "pagination_type": "Pagination type"
+  "pagination_type": "Pagination type",
+  "logo_text": "Logo text",
+  "site_beian": "Beian",
+  "contact_us": "Contact us"
 }
