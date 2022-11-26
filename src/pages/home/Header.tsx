@@ -2,13 +2,16 @@ import {
   HStack,
   useColorModeValue,
   Image,
+  Heading,
   IconButton,
   Center,
   Icon,
   Kbd,
+  Text,
 } from "@hope-ui/solid"
 import { Show } from "solid-js"
-import { getSetting, layout, objStore, setLayout, State } from "~/store"
+import { useT } from "~/hooks";
+import { getSetting, layout, objStore, setLayout, State, getMainColor } from "~/store"
 import { BsGridFill, BsSearch } from "solid-icons/bs"
 import { FaSolidListUl } from "solid-icons/fa"
 import { CenterLoading } from "~/components"
@@ -16,8 +19,11 @@ import { Container } from "./Container"
 import { bus } from "~/utils"
 
 export const Header = () => {
+  const t = useT()
   const logos = getSetting("logo").split("\n")
   const logo = useColorModeValue(logos[0], logos.pop())
+  const logotexts = getSetting("logo_text").split("\n")
+  const logotext = useColorModeValue(logotexts[0], logotexts.pop())
   return (
     <Center
       class="header"
@@ -32,12 +38,11 @@ export const Header = () => {
           justifyContent="space-between"
         >
           <HStack class="header-left" h="44px">
-            <Image
-              src={logo()!}
-              h="$full"
-              w="auto"
-              fallback={<CenterLoading />}
-            />
+          {getSetting("logo") ? (
+             <Image src={logo()!} h="$full" w="auto" fallback={<CenterLoading />}/>
+          ) : (
+             <Heading size="lg" >{logotext}</Heading>
+          )}
           </HStack>
           <HStack class="header-right" spacing="$2">
             <Show when={objStore.state === State.Folder}>
@@ -66,6 +71,7 @@ export const Header = () => {
                 aria-label="switch layout"
                 compact
                 size="lg"
+                color={getMainColor()}
                 icon={
                   <Show when={layout() === "list"} fallback={<FaSolidListUl />}>
                     <BsGridFill />

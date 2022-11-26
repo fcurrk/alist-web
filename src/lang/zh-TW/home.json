@@ -85,4 +85,9 @@
     "powered_by": "Powered by AList",
     "manage": "管理"
   }
+},
+  "search": {
+    "search": "搜索",
+    "no_result": "暫無結果"
+  }
 }
