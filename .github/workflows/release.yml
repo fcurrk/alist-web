@@ -1,7 +1,9 @@
 name: release
 
-on: workflow_dispatch
-    
+on:
+  push:
+    tags:
+      - "*"
 
 jobs:
   changelog:
@@ -12,7 +14,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      
+
       - name: Generate changelog
         run: npx changelogithub # or changelogithub@0.12 if ensure the stable result
         env:

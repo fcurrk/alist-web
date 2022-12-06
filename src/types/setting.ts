@@ -1,12 +1,13 @@
-import { Type } from ".";
+import { Type } from "."
 
 export enum Group {
+  SINGLE,
   SITE,
   STYLE,
   PREVIEW,
   GLOBAL,
-  SINGLE,
   ARIA2,
+  INDEX,
 }
 export enum Flag {
   PUBLIC,
@@ -16,11 +17,11 @@ export enum Flag {
 }
 
 export interface SettingItem {
-  key: string;
-  value: string;
-  type: Type;
-  help: string;
-  options?: string;
-  group: Group;
-  flag: Flag;
+  key: string
+  value: string
+  type: Type
+  help: string
+  options?: string
+  group: Group
+  flag: Flag
 }

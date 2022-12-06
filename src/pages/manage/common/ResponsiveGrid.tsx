@@ -1,5 +1,5 @@
-import { Grid } from "@hope-ui/solid";
-import { JSXElement } from "solid-js";
+import { Grid } from "@hope-ui/solid"
+import { JSXElement } from "solid-js"
 
 export const ResponsiveGrid = (props: { children: JSXElement }) => {
   return (
@@ -8,10 +8,10 @@ export const ResponsiveGrid = (props: { children: JSXElement }) => {
       gap="$2"
       templateColumns={{
         "@initial": "1fr",
-        "@lg": "repeat(auto-fit, minmax(424px, 1fr))",
+        "@lg": "repeat(auto-fill, minmax(424px, 1fr))",
       }}
     >
       {props.children}
     </Grid>
-  );
-};
+  )
+}

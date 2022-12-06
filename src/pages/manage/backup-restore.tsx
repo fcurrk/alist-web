@@ -23,15 +23,15 @@ type LogType = "success" | "error" | "info"
 const LogMap = {
   success: {
     icon: "✅",
-    color: "green",
+    color: "$success9",
   },
   error: {
     icon: "❌",
-    color: "red",
+    color: "$danger9",
   },
   info: {
     icon: "ℹ️",
-    color: "blue",
+    color: "$info9",
   },
 }
 const Log = (props: { msg: string; type: LogType }) => {
@@ -231,6 +231,7 @@ const BackupRestore = () => {
           onClick={() => {
             backup()
           }}
+          colorScheme="accent"
         >
           {t("br.backup")}
         </Button>
@@ -239,7 +240,6 @@ const BackupRestore = () => {
           onClick={() => {
             restore()
           }}
-          colorScheme="accent"
         >
           {t("br.restore")}
         </Button>
