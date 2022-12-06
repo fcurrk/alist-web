@@ -15,14 +15,14 @@
   "home_container": "主容器",
   "home_containers": {
     "hope_container": "Hope 容器",
-    "max_980px": "Max 980px"
+    "max_980px": "最大 980px"
   },
   "home_icon": "首頁圖標",
   "iframe_previews": "Iframe 預覽",
-  "ignore_paths": "忽略路徑,
+  "ignore_paths": "忽略路徑",
   "ignore_paths-tips": "每行一條路徑",
   "image_types": "圖片類型",
-  "index_progress": "索引進度,
+  "index_progress": "索引進度",
   "link_expiration": "直鏈有效期",
   "logo": "Logo",
   "main_color": "主顏色",
