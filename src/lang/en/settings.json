@@ -49,5 +49,8 @@
   "token": "Token",
   "version": "Version",
   "video_autoplay": "Video autoplay",
-  "video_types": "Video types"
+  "video_types": "Video types",
+  "logo_text": "Logo text",
+  "site_beian": "Beian",
+  "contact_us": "Contact us"
 }

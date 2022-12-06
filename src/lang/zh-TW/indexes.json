@@ -1,0 +1,11 @@
+{
+  "search_index": "搜索索引",
+  "current": "當前索引",
+  "build": "構建索引",
+  "rebuild": "重建索引",
+  "obj_count": "對象計數",
+  "last_done_time": "上次完成時間",
+  "unknown": "未知",
+  "stop": "停止",
+  "error": "錯誤"
+}

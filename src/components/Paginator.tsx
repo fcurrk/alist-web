@@ -2,6 +2,7 @@ import { Button, HStack, IconButton } from "@hope-ui/solid"
 import { createMemo, For, mergeProps, Show } from "solid-js"
 import { createStore } from "solid-js/store"
 import { FaSolidAngleLeft, FaSolidAngleRight } from "solid-icons/fa"
+import { getMainColor } from "~/store"
 
 export interface PaginatorProps {
   colorScheme?:
@@ -64,7 +65,7 @@ export const Paginator = (props: PaginatorProps) => {
         <Show when={store.current !== 1}>
           <Button
             size={size}
-            colorScheme={merged.colorScheme}
+            colorScheme={getMainColor()}
             onClick={() => {
               onPageChange(1)
             }}
@@ -76,7 +77,7 @@ export const Paginator = (props: PaginatorProps) => {
             size={size}
             icon={<FaSolidAngleLeft />}
             aria-label="Previous"
-            colorScheme={merged.colorScheme}
+            colorScheme={getMainColor()}
             onClick={() => {
               onPageChange(store.current - 1)
             }}
@@ -87,7 +88,7 @@ export const Paginator = (props: PaginatorProps) => {
           {(page) => (
             <Button
               size={size}
-              colorScheme={merged.colorScheme}
+              colorScheme={getMainColor()}
               onClick={() => {
                 onPageChange(page)
               }}
@@ -109,7 +110,7 @@ export const Paginator = (props: PaginatorProps) => {
           {(page) => (
             <Button
               size={size}
-              colorScheme={merged.colorScheme}
+              colorScheme={getMainColor()}
               onClick={() => {
                 onPageChange(page)
               }}
@@ -124,7 +125,7 @@ export const Paginator = (props: PaginatorProps) => {
             size={size}
             icon={<FaSolidAngleRight />}
             aria-label="Next"
-            colorScheme={merged.colorScheme}
+            colorScheme={getMainColor()}
             onClick={() => {
               onPageChange(store.current + 1)
             }}
@@ -132,7 +133,7 @@ export const Paginator = (props: PaginatorProps) => {
           />
           <Button
             size={size}
-            colorScheme={merged.colorScheme}
+            colorScheme={getMainColor()}
             onClick={() => {
               onPageChange(pages())
             }}

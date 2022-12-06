@@ -12,7 +12,7 @@
     "webdav_manage": "Webdav 管理文件"
   },
   "username": "用戶名",
-  "password": "密码",
+  "password": "密碼",
   "base_path": "基本路徑",
   "role": "角色",
   "permission": "權限",
