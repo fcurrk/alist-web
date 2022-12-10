@@ -22,6 +22,8 @@
   "ignore_paths": "忽略路径",
   "ignore_paths-tips": "每行一条路径",
   "image_types": "图片类型",
+  "index_paths": "索引路径",
+  "index_paths-tips": "每行一条路径",
   "index_progress": "索引进度",
   "link_expiration": "直链有效期",
   "logo": "Logo",
