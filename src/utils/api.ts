@@ -122,6 +122,7 @@ export const fetchText = async (
 export const fsSearch = async (
   parent: string,
   keywords: string,
+  password = "",
   page = 1,
   per_page = 100
 ): Promise<FsSearchResp> => {
@@ -142,5 +143,19 @@ export const buildIndex = async (
     paths,
     max_depth,
     ignore_paths,
+    clear: true,
+  })
+}
+
+export const updateIndex = async (
+  paths = ["/"],
+  max_depth = -1,
+  ignore_paths = []
+): PEmptyResp => {
+  return r.post("/admin/index/build", {
+    paths,
+    max_depth,
+    ignore_paths,
+    clear: false,
   })
 }
