@@ -1,5 +1,7 @@
 {
   "common": {
+    "start_load_success": "开始加载",
+    "load_all": "重新加载全部",
     "mount_path": "挂载路径",
     "driver": "驱动",
     "order": "序号",

@@ -1,4 +1,5 @@
 {
+  "allow_indexed": "允许索引",
   "announcement": "站点公告",
   "aria2_secret": "Aria2 密钥",
   "aria2_uri": "Aria2地址",
@@ -11,6 +12,9 @@
   "external_previews": "外部预览",
   "favicon": "网站图标",
   "filename_char_mapping": "文件名字符映射",
+  "github_client_id": "Github Oauth 应用客户端ID",
+  "github_client_secrets": "Github Oauth 应用客户端机密",
+  "github_login_enabled": "启用Github登陆",
   "hide_files": "隐藏文件",
   "home_container": "主容器",
   "home_containers": {
@@ -22,8 +26,6 @@
   "ignore_paths": "忽略路径",
   "ignore_paths-tips": "每行一条路径",
   "image_types": "图片类型",
-  "index_paths": "索引路径",
-  "index_paths-tips": "每行一条路径",
   "index_progress": "索引进度",
   "link_expiration": "直链有效期",
   "logo": "Logo",
@@ -38,6 +40,7 @@
     "pagination": "分页"
   },
   "privacy_regs": "隐私内容正则表达式",
+  "proxy_ignore_headers": "代理忽略头部",
   "proxy_types": "代理类型",
   "search_index": "搜索索引",
   "search_indexs": {
@@ -45,7 +48,12 @@
     "database": "数据库",
     "none": "无"
   },
-  "sign_all": "全部签名",
+  "settings_layout": "设置布局",
+  "settings_layouts": {
+    "list": "列表",
+    "responsive": "响应式"
+  },
+  "sign_all": "签名所有",
   "site_title": "网站标题",
   "text_types": "文本类型",
   "token": "令牌",

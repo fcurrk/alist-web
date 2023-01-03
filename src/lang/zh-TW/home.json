@@ -11,6 +11,12 @@
     "install": "安裝",
     "installing": "正在安裝"
   },
+  "layouts": {
+    "list": "清單視圖",
+    "grid": "網格視圖",
+    "image": "圖片視圖"
+  },
+  "no_images": "當前資料夾中無圖像",
   "load_more": "加載更多",
   "no_more": "沒有更多了",
   "input_password": "請輸入密碼",
@@ -37,12 +43,12 @@
     "new_file": "新建文件",
     "input_filename": "輸入文件名",
     "cancel_select": "取消選擇",
-    "offline_download": "添加到離線下载",
-    "offline_download-tips": "每行一个链接",
+    "offline_download": "離線下載",
+    "offline_download-tips": "每行一條連結",
     "download": "下載",
     "batch_download": "批量下载",
     "package_download": "打包下载",
-    "package_download_disabled": "Package download is disabled",
+    "package_download_disabled": "打包下載已禁用",
     "send_aria2": "發送到aria2",
     "aria2_not_set": "请设置 aria2 rpc url",
     "send_aria2_success": "成功發送到aria2",
@@ -55,8 +61,8 @@
     "add_as_task": "添加為任務",
     "upload-tips": "拖動文件到此處以上傳，或點擊：",
     "release": "松開以上傳",
-    "no_files_drag": "No files were dragged in.",
-    "only_files_or_one_folder": "Only files or one folder can be dragged at a time.",
+    "no_files_drag": "沒有檔案被拖入。",
+    "only_files_or_one_folder": "每次只能拖動檔或一個資料夾。",
     "upload_files": "選擇文件",
     "upload_folder": "選擇文件夾",
     "pending": "等待中",
@@ -88,5 +94,8 @@
   "search": {
     "search": "搜索",
     "no_result": "暫無結果"
-  }
+  },
+  "fetching_settings_failed": "獲取設定失敗: ",
+  "get_current_user_failed": "獲取當前用戶失敗: ",
+  "Loading storage, please wait": "請稍後，正在加載儲存"
 }

@@ -27,5 +27,8 @@
   "input_code": "输入您的双重验证应用中显示的验证码",
   "verify": "验证",
   "guest-tips": "您正在作为访客访问。",
-  "modify_nothing": "所以您不能在管理页面中修改任何内容。"
+  "modify_nothing": "所以您不能在管理页面中修改任何内容。",
+  "github_login": "Github 登录",
+  "connect_github": "绑定 Github",
+  "disconnect_github": "解绑 Github"
 }

@@ -1,4 +1,5 @@
 {
+  "allow_indexed": "允許索引",
   "announcement": "站點公告",
   "aria2_secret": "Aria2 密鑰",
   "aria2_uri": "Aria2地址",
@@ -11,6 +12,9 @@
   "external_previews": "外部預覽",
   "favicon": "網站圖標",
   "filename_char_mapping": "文件名字符映射",
+  "github_client_id": "Github Oauth應用用戶端ID",
+  "github_client_secrets": "Github Oauth應用用戶端機密",
+  "github_login_enabled": "啟用Github登入",
   "hide_files": "隱藏文件",
   "home_container": "主容器",
   "home_containers": {
@@ -22,8 +26,6 @@
   "ignore_paths": "忽略路徑",
   "ignore_paths-tips": "每行一條路徑",
   "image_types": "圖片類型",
-  "index_paths": "索引路徑",
-  "index_paths-tips": "每行一條路徑",
   "index_progress": "索引進度",
   "link_expiration": "直鏈有效期",
   "logo": "Logo",
@@ -38,6 +40,7 @@
     "pagination": "分頁"
   },
   "privacy_regs": "隱私內容正則表達式",
+  "proxy_ignore_headers": "代理忽略頭部",
   "proxy_types": "代理類型",
   "search_index": "搜索索引",
   "search_indexs": {
@@ -45,7 +48,12 @@
     "database": "數據庫",
     "none": "無"
   },
-  "sign_all": "全部簽名",
+  "settings_layout": "設定佈局",
+  "settings_layouts": {
+    "list": "清單",
+    "responsive": "響應式"
+  },
+  "sign_all": "簽名所有",
   "site_title": "網站標題",
   "text_types": "文本類型",
   "token": "令牌",

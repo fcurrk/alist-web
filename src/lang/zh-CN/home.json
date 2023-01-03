@@ -11,6 +11,12 @@
     "install": "安装",
     "installing": "正在安装"
   },
+  "layouts": {
+    "list": "列表视图",
+    "grid": "网格视图",
+    "image": "图片视图"
+  },
+  "no_images": "当前文件夹中无图像",
   "load_more": "加载更多",
   "no_more": "没有更多了",
   "input_password": "请输入密码",
@@ -55,7 +61,7 @@
     "add_as_task": "添加为任务",
     "upload-tips": "拖动文件到此处以上传，或点击：",
     "release": "松开以上传",
-    "no_files_drag": "没有文件被拖入.",
+    "no_files_drag": "没有文件被拖入。",
     "only_files_or_one_folder": "每次只能拖动文件或一个文件夹。",
     "upload_files": "选择文件",
     "upload_folder": "选择文件夹",
@@ -88,5 +94,8 @@
   "search": {
     "search": "搜索",
     "no_result": "暂无结果"
-  }
+  },
+  "fetching_settings_failed": "获取设置失败： ",
+  "get_current_user_failed": "获取当前用户失败： ",
+  "Loading storage, please wait": "请稍后，正在加载储存"
 }
