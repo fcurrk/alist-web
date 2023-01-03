@@ -11,6 +11,12 @@
     "install": "Install",
     "installing": "Installing"
   },
+  "layouts": {
+    "list": "List View",
+    "grid": "Grid View",
+    "image": "Image View"
+  },
+  "no_images": "No images in the current folder",
   "load_more": "Load more",
   "no_more": "No more",
   "input_password": "Please input password",
@@ -88,5 +94,8 @@
   "search": {
     "search": "Search",
     "no_result": "No result yet"
-  }
+  },
+  "fetching_settings_failed": "Failed fetching settings: ",
+  "get_current_user_failed": "Failed get current user: ",
+  "Loading storage, please wait": "Loading storage, please wait"
 }
