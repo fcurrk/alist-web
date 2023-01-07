@@ -6,6 +6,7 @@
   "audio_autoplay": "自动播放音频",
   "audio_cover": "音频封面",
   "audio_types": "音频类型",
+  "auto_update_index": "自动更新索引",
   "customize_body": "自定义内容",
   "customize_head": "自定义头部",
   "default_page_size": "默认每页数量",
@@ -46,6 +47,7 @@
   "search_indexs": {
     "bleve": "Bleve",
     "database": "数据库",
+    "database_non_full_text": "数据库非全文",
     "none": "无"
   },
   "settings_layout": "设置布局",

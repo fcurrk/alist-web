@@ -6,6 +6,7 @@
   "audio_autoplay": "自動播放音頻",
   "audio_cover": "音頻封面",
   "audio_types": "音頻類型",
+  "auto_update_index": "自動更新索引",
   "customize_body": "自定義內容",
   "customize_head": "自定義頭部",
   "default_page_size": "默認每頁數量",
@@ -46,6 +47,7 @@
   "search_indexs": {
     "bleve": "Bleve",
     "database": "數據庫",
+    "database_non_full_text": "數據庫非全文",
     "none": "無"
   },
   "settings_layout": "設定佈局",
