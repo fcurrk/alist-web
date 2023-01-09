@@ -173,10 +173,14 @@
   },
   "Lanzou": {
     "baseUrl": "基本URL",
+    "baseUrl-tips": "文件操作的基本URL",
     "cookie": "Cookie",
-    "cookie-tips": "大概15天有效",
+    "cookie-tips": "大约15天有效，如使用shareUrl则忽略",
+    "repair_file_info": "修复文件信息",
+    "repair_file_info-tips": "启用webdav才可使用此功能",
     "root_folder_id": "根文件夹ID",
     "shareUrl": "分享链接",
+    "shareUrl-tips": "用于获取共享页面",
     "share_password": "分享密码",
     "type": "类型",
     "types": {
