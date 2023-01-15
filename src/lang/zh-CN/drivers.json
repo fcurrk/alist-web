@@ -183,7 +183,7 @@
     "cookie": "Cookie",
     "cookie-tips": "有效期约为15天，若使用分享链接则忽略",
     "repair_file_info": "修复文件信息",
-    "repair_file_info-tips": "要使用 WebDAV，您需要启用它",
+    "repair_file_info-tips": "启用WebDAV才可使用此功能",
     "root_folder_id": "根文件夹ID",
     "shareUrl": "分享链接",
     "shareUrl-tips": "用于获取分享页面",
