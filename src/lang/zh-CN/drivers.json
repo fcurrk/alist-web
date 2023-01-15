@@ -143,6 +143,12 @@
       "root_only_file": "仅根目录下文件"
     }
   },
+  "Cloudreve": {
+    "address": "地址",
+    "password": "密码",
+    "root_folder_path": "根文件夹路径",
+    "username": "用户名"
+  },
   "FTP": {
     "address": "地址",
     "password": "密码",
@@ -173,14 +179,14 @@
   },
   "Lanzou": {
     "baseUrl": "基本URL",
-    "baseUrl-tips": "文件操作的基本URL",
+    "baseUrl-tips": "进行文件操作的基础 URL",
     "cookie": "Cookie",
-    "cookie-tips": "大约15天有效，如使用shareUrl则忽略",
+    "cookie-tips": "有效期约为15天，若使用分享链接则忽略",
     "repair_file_info": "修复文件信息",
-    "repair_file_info-tips": "启用webdav才可使用此功能",
+    "repair_file_info-tips": "要使用 WebDAV，您需要启用它",
     "root_folder_id": "根文件夹ID",
     "shareUrl": "分享链接",
-    "shareUrl-tips": "用于获取共享页面",
+    "shareUrl-tips": "用于获取分享页面",
     "share_password": "分享密码",
     "type": "类型",
     "types": {
@@ -288,6 +294,13 @@
     "share_name": "分享名称",
     "username": "用户名"
   },
+  "Seafile": {
+    "address": "地址",
+    "password": "密码",
+    "repoId": "RepoId",
+    "root_folder_path": "根文件夹路径",
+    "username": "用户名"
+  },
   "Teambition": {
     "cookie": "Cookie",
     "order_by": "排序",
@@ -372,7 +385,6 @@
   },
   "USS": {
     "bucket": "存储桶",
-    "custom_host": "自定义HOST",
     "endpoint": "Endpoint",
     "operator_name": "操作员名称",
     "operator_password": "操作员密码",
@@ -428,6 +440,7 @@
     "AliyundriveShare": "阿里云盘分享",
     "BaiduNetdisk": "百度网盘",
     "BaiduPhoto": "一刻相册",
+    "Cloudreve": "Cloudreve",
     "FTP": "FTP",
     "GoogleDrive": "谷歌云盘",
     "GooglePhoto": "谷歌相册",
@@ -442,6 +455,7 @@
     "S3": "对象存储",
     "SFTP": "SFTP",
     "SMB": "SMB",
+    "Seafile": "Seafile",
     "Teambition": "Teambition网盘",
     "Terabox": "Terabox",
     "Thunder": "迅雷",

@@ -143,6 +143,12 @@
       "root_only_file": "僅根目錄下檔案"
     }
   },
+  "Cloudreve": {
+    "address": "地址",
+    "password": "密碼",
+    "root_folder_path": "根資料夾路徑",
+    "username": "用戶名"
+  },
   "FTP": {
     "address": "地址",
     "password": "密碼",
@@ -288,6 +294,13 @@
     "share_name": "分享名稱",
     "username": "用戶名"
   },
+  "Seafile": {
+    "address": "地址",
+    "password": "密碼",
+    "repoId": "RepoId",
+    "root_folder_path": "根資料夾路徑",
+    "username": "用戶名"
+  },
   "Teambition": {
     "cookie": "Cookie",
     "order_by": "排序",
@@ -372,7 +385,6 @@
   },
   "USS": {
     "bucket": "存儲桶",
-    "custom_host": "自定義HOST",
     "endpoint": "Endpoint",
     "operator_name": "操作員名稱",
     "operator_password": "操作員密碼",
@@ -428,6 +440,7 @@
     "AliyundriveShare": "阿裡雲盤分享",
     "BaiduNetdisk": "百度網盤",
     "BaiduPhoto": "一刻相册",
+    "Cloudreve": "Cloudreve",
     "FTP": "FTP",
     "GoogleDrive": "Google雲盤",
     "GooglePhoto": "Google相册",
@@ -442,6 +455,7 @@
     "S3": "對象存儲",
     "SFTP": "SFTP",
     "SMB": "SMB",
+    "Seafile": "Seafile",
     "Teambition": "Teambition網盤",
     "Terabox": "Terabox",
     "Thunder": "迅雷",
