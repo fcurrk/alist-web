@@ -297,7 +297,7 @@
   "Seafile": {
     "address": "地址",
     "password": "密碼",
-    "repoId": "RepoId",
+    "repoId": "資料庫ID",
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
   },
