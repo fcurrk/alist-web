@@ -31,6 +31,8 @@
   "link_expiration": "直鏈有效期",
   "logo": "Logo",
   "main_color": "主顏色",
+  "max_index_depth": "最大索引深度",
+  "max_index_depth-tips": "索引的最大深度",
   "ocr_api": "Ocr接口",
   "package_download": "打包下載",
   "pagination_type": "分頁類型",
@@ -47,7 +49,7 @@
   "search_indexs": {
     "bleve": "Bleve",
     "database": "數據庫",
-    "database_non_full_text": "數據庫非全文",
+    "database_non_full_text": "數據庫(非全文搜索)",
     "none": "無"
   },
   "settings_layout": "設定佈局",
