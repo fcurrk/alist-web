@@ -17,6 +17,7 @@ const players: { icon: string; name: string; scheme: string }[] = [
   { icon: "potplayer", name: "PotPlayer", scheme: "potplayer://$durl" },
   { icon: "vlc", name: "VLC", scheme: "vlc://$durl" },
   { icon: "nplayer", name: "nPlayer", scheme: "nplayer-$durl" },
+  { icon: "infuse", name: "Infuse", scheme: "infuse://x-callback-url/play?url=$durl" },
   {
     icon: "mxplayer",
     name: "MX Player",
@@ -174,7 +175,7 @@ const Preview = () => {
         value={objStore.obj.name}
         options={videos.map((obj) => ({ value: obj.name }))}
       />
-      <Flex wrap="wrap" gap="$2" justifyContent="center">
+      <Flex wrap="wrap" gap="$1" justifyContent="center">
         <For each={players}>
           {(item) => {
             return (
