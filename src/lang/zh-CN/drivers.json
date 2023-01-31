@@ -75,6 +75,7 @@
     "url": "链接"
   },
   "Aliyundrive": {
+    "internal_upload": "内部上传",
     "order_by": "排序",
     "order_bys": {
       "created_at": "创建时间",
