@@ -13,7 +13,7 @@ import { useFetch, useRouter, useT } from "~/hooks"
 import { handleResp, notify, r } from "~/utils"
 import { PEmptyResp, PResp, User, UserMethods, UserPermissions } from "~/types"
 import { createStore } from "solid-js/store"
-import { For } from "solid-js"
+import { For, Show } from "solid-js"
 
 const Permission = (props: {
   can: boolean
@@ -52,6 +52,8 @@ const AddOrEdit = () => {
     base_path: "",
     role: 0,
     permission: 0,
+    disabled: false,
+    github_id: 0,
   })
   const [userLoading, loadUser] = useFetch(
     (): PResp<User> => r.get(`/admin/user/get?id=${id}`)
@@ -71,28 +73,31 @@ const AddOrEdit = () => {
     <MaybeLoading loading={userLoading()}>
       <VStack w="$full" alignItems="start" spacing="$2">
         <Heading>{t(`global.${id ? "edit" : "add"}`)}</Heading>
-        <FormControl w="$full" display="flex" flexDirection="column" required>
-          <FormLabel for="username" display="flex" alignItems="center">
-            {t(`users.username`)}
-          </FormLabel>
-          <Input
-            id="username"
-            value={user.username}
-            onInput={(e) => setUser("username", e.currentTarget.value)}
-          />
-        </FormControl>
-        <FormControl w="$full" display="flex" flexDirection="column" required>
-          <FormLabel for="password" display="flex" alignItems="center">
-            {t(`users.password`)}
-          </FormLabel>
-          <Input
-            id="password"
-            type="password"
-            placeholder="********"
-            value={user.password}
-            onInput={(e) => setUser("password", e.currentTarget.value)}
-          />
-        </FormControl>
+        <Show when={!UserMethods.is_guest(user)}>
+          <FormControl w="$full" display="flex" flexDirection="column" required>
+            <FormLabel for="username" display="flex" alignItems="center">
+              {t(`users.username`)}
+            </FormLabel>
+            <Input
+              id="username"
+              value={user.username}
+              onInput={(e) => setUser("username", e.currentTarget.value)}
+            />
+          </FormControl>
+          <FormControl w="$full" display="flex" flexDirection="column" required>
+            <FormLabel for="password" display="flex" alignItems="center">
+              {t(`users.password`)}
+            </FormLabel>
+            <Input
+              id="password"
+              type="password"
+              placeholder="********"
+              value={user.password}
+              onInput={(e) => setUser("password", e.currentTarget.value)}
+            />
+          </FormControl>
+        </Show>
+
         <FormControl w="$full" display="flex" flexDirection="column" required>
           <FormLabel for="base_path" display="flex" alignItems="center">
             {t(`users.base_path`)}
@@ -125,6 +130,18 @@ const AddOrEdit = () => {
               )}
             </For>
           </Flex>
+        </FormControl>
+        <FormControl w="fit-content" display="flex">
+          <Checkbox
+            css={{ whiteSpace: "nowrap" }}
+            id="disabled"
+            onChange={(e: any) => setUser("disabled", e.currentTarget.checked)}
+            color="$neutral10"
+            fontSize="$sm"
+            checked={user.disabled}
+          >
+            {t(`users.disabled`)}
+          </Checkbox>
         </FormControl>
         <Button
           loading={okLoading()}
