@@ -13,6 +13,7 @@
   "external_previews": "外部預覽",
   "favicon": "網站圖標",
   "filename_char_mapping": "文件名字符映射",
+  "forward_direct_link_params": "轉發直鏈參數",
   "github_client_id": "Github Oauth應用用戶端ID",
   "github_client_secrets": "Github Oauth應用用戶端機密",
   "github_login_enabled": "啟用Github登入",
