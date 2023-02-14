@@ -75,6 +75,7 @@
     "url": "链接"
   },
   "Aliyundrive": {
+    "device_id": "设备ID",
     "internal_upload": "内部上传",
     "order_by": "排序",
     "order_bys": {
