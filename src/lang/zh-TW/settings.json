@@ -46,6 +46,7 @@
   "privacy_regs": "隱私內容正則表達式",
   "proxy_ignore_headers": "代理忽略頭部",
   "proxy_types": "代理類型",
+  "qbittorrent_url": "Qbittorrent链接",
   "search_index": "搜索索引",
   "search_indexs": {
     "bleve": "Bleve",

@@ -19,7 +19,8 @@
     "backup-restore": "備份 & 還原",
     "home": "主頁",
     "indexes": "索引",
-    "github": "Github"
+    "github": "Github",
+    "qbit": "qBittorrent"
   },
   "title": "後臺管理",
   "not_admin": "你不是管理員，請使用管理員賬戶登錄。",
