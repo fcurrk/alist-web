@@ -92,6 +92,27 @@
     "refresh_token": "刷新令牌",
     "root_folder_id": "根資料夾ID"
   },
+  "AliyundriveOpen": {
+    "client_id": "客户端ID",
+    "client_id-tips": "如果你沒有，請留空",
+    "client_secret": "客户端密钥",
+    "client_secret-tips": "如果你沒有，請留空",
+    "oauth_token_url": "Oauth令牌連結",
+    "order_by": "排序",
+    "order_bys": {
+      "created_at": "創建時間",
+      "name": "名稱",
+      "size": "大小",
+      "updated_at": "修改時間"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "ASC": "升序",
+      "DESC": "降序"
+    },
+    "refresh_token": "刷新令牌",
+    "root_folder_id": "根資料夾ID"
+  },
   "AliyundriveShare": {
     "order_by": "排序",
     "order_bys": {
@@ -196,6 +217,7 @@
     }
   },
   "Local": {
+    "mkdir_perm": "創建資料夾許可",
     "root_folder_path": "根資料夾路徑",
     "show_hidden": "顯示隱藏",
     "show_hidden-tips": "顯示隱藏目錄以及檔",
@@ -203,7 +225,7 @@
     "thumbnail-tips": "啟用縮略圖"
   },
   "MediaTrack": {
-    "access_token": "訪問權杖",
+    "access_token": "訪問令牌",
     "order_by": "排序",
     "order_bys": {
       "size": "大小",
@@ -429,6 +451,46 @@
     "refresh_token": "刷新令牌",
     "root_folder_path": "根資料夾路徑"
   },
+  "config": {
+    "115 Cloud": {},
+    "123Pan": {},
+    "139Yun": {},
+    "189Cloud": {},
+    "189CloudPC": {},
+    "AList V2": {},
+    "AList V3": {},
+    "Aliyundrive": {
+      "alert": "已廢棄，不再維護，並將在未來的版本中删除"
+    },
+    "AliyundriveOpen": {},
+    "AliyundriveShare": {},
+    "BaiduNetdisk": {},
+    "BaiduPhoto": {},
+    "Cloudreve": {},
+    "FTP": {},
+    "GoogleDrive": {},
+    "GooglePhoto": {},
+    "Lanzou": {},
+    "Local": {},
+    "MediaTrack": {},
+    "Mega_nz": {},
+    "Onedrive": {},
+    "PikPak": {},
+    "PikPakShare": {},
+    "Quark": {},
+    "S3": {},
+    "SFTP": {},
+    "SMB": {},
+    "Seafile": {},
+    "Teambition": {},
+    "Terabox": {},
+    "Thunder": {},
+    "ThunderExpert": {},
+    "USS": {},
+    "Virtual": {},
+    "WebDav": {},
+    "YandexDisk": {}
+  },
   "drivers": {
     "115 Cloud": "115 網盤",
     "123Pan": "123雲盤",
@@ -438,6 +500,7 @@
     "AList V2": "AList V2",
     "AList V3": "AList V3",
     "Aliyundrive": "阿裡雲盤",
+    "AliyundriveOpen": "阿裡雲盤開放平臺",
     "AliyundriveShare": "阿裡雲盤分享",
     "BaiduNetdisk": "百度網盤",
     "BaiduPhoto": "一刻相册",

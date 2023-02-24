@@ -20,7 +20,8 @@
     "home": "主頁",
     "indexes": "索引",
     "github": "Github",
-    "qbit": "qBittorrent"
+    "qbit": "qBittorrent",
+    "docs": "檔案"
   },
   "title": "後臺管理",
   "not_admin": "你不是管理員，請使用管理員賬戶登錄。",
