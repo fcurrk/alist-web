@@ -18,13 +18,18 @@ const previews: Preview[] = [
   {
     name: "Aliyun Video Previewer",
     type: ObjType.VIDEO,
-    provider: /Aliyundrive/,
+    provider: /^Aliyundrive(Open)?$/,
     component: lazy(() => import("./aliyun_video")),
   },
   {
     name: "Markdown",
     type: ObjType.TEXT,
     component: lazy(() => import("./markdown")),
+  },
+  {
+    name: "Markdown with word wrap",
+    type: ObjType.TEXT,
+    component: lazy(() => import("./markdown_with_word_wrap")),
   },
   {
     name: "Text Editor",
@@ -64,7 +69,7 @@ const previews: Preview[] = [
   {
     name: "Aliyun Office Previewer",
     exts: ["doc", "docx", "ppt", "pptx", "xls", "xlsx", "pdf"],
-    provider: /Aliyundrive/,
+    provider: /^Aliyundrive(Share)?$/,
     component: lazy(() => import("./aliyun_office")),
   },
 ]
