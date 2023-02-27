@@ -62,7 +62,6 @@
     "upload-tips": "拖动文件到此处以上传，或点击：",
     "release": "松开以上传",
     "no_files_drag": "没有文件被拖入。",
-    "only_files_or_one_folder": "每次只能拖动文件或一个文件夹。",
     "upload_files": "选择文件",
     "upload_folder": "选择文件夹",
     "pending": "等待中...",
