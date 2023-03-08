@@ -460,7 +460,7 @@
     "AList V2": {},
     "AList V3": {},
     "Aliyundrive": {
-      "alert": "此加载方式可能有一个死循环错误。 \n已废弃，不再维护，并将在未来的版本中删除。 \n建议使用官方的阿里云盘Open。"
+      "alert": "此加载方式可能有一个死循环错误。 \n已废弃，不再维护，并将在未来的版本中删除。 \n建议使用官方的阿里云盘开放平台。"
     },
     "AliyundriveOpen": {},
     "AliyundriveShare": {},

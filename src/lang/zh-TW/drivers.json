@@ -460,7 +460,7 @@
     "AList V2": {},
     "AList V3": {},
     "Aliyundrive": {
-      "alert": "此加載方式可能有一個死迴圈錯誤。 \n已廢棄，不再維護，並將在未來的版本中删除。 \n建議使用官方的阿裡雲盤Open。"
+      "alert": "此加載方式可能有一個死迴圈錯誤。 \n已廢棄，不再維護，並將在未來的版本中删除。 \n建議使用官方的阿裡雲盤開放平臺。"
     },
     "AliyundriveOpen": {},
     "AliyundriveShare": {},
