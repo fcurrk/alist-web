@@ -9,7 +9,9 @@
     "failed_load_img": "载入图像失败",
     "open_with": "使用... 打开",
     "install": "安装",
-    "installing": "正在安装"
+    "installing": "正在安装",
+    "tr-install": "Troll商店",
+    "tr-installing": "Troll商店安装"
   },
   "layouts": {
     "list": "列表视图",

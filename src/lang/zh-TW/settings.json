@@ -14,9 +14,6 @@
   "favicon": "網站圖標",
   "filename_char_mapping": "文件名字符映射",
   "forward_direct_link_params": "轉發直鏈參數",
-  "github_client_id": "Github Oauth應用用戶端ID",
-  "github_client_secrets": "Github Oauth應用用戶端機密",
-  "github_login_enabled": "啟用Github登入",
   "hide_files": "隱藏文件",
   "home_container": "主容器",
   "home_containers": {
@@ -61,6 +58,16 @@
   },
   "sign_all": "簽名所有",
   "site_title": "網站標題",
+  "sso_client_id": "單點登錄用戶端ID",
+  "sso_client_secret": "單點登錄用戶端機密",
+  "sso_login_enabled": "啟用單點登錄",
+  "sso_login_platform": "單點登錄平臺",
+  "sso_login_platforms": {
+    "Dingtalk": "釘釘",
+    "Github": "Github",
+    "Google": "Google",
+    "Microsoft": "微軟"
+  },
   "text_types": "文本類型",
   "token": "令牌",
   "version": "版本",

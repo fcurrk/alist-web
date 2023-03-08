@@ -30,7 +30,7 @@
   "verify": "验证",
   "guest-tips": "您正在作为访客访问。",
   "modify_nothing": "所以您不能在管理页面中修改任何内容。",
-  "github_login": "Github 登录",
-  "connect_github": "绑定 Github",
-  "disconnect_github": "解绑 Github"
+  "sso_login": "单点登录",
+  "connect_sso": "绑定单点登录平台",
+  "disconnect_sso": "解绑单点登录平台"
 }

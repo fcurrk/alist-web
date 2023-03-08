@@ -19,7 +19,7 @@
     "backup-restore": "备份 & 还原",
     "home": "主页",
     "indexes": "索引",
-    "github": "Github",
+    "sso": "单点登录",
     "qbit": "qBittorrent",
     "docs": "文档"
   },
