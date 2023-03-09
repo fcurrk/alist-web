@@ -94,9 +94,9 @@
   },
   "AliyundriveOpen": {
     "client_id": "客户端ID",
-    "client_id-tips": "如果你沒有，請留空",
+    "client_id-tips": "如果沒有，請留空",
     "client_secret": "客户端密钥",
-    "client_secret-tips": "如果你沒有，請留空",
+    "client_secret-tips": "如果沒有，請留空",
     "oauth_token_url": "Oauth令牌連結",
     "order_by": "排序",
     "order_bys": {
@@ -111,6 +111,11 @@
       "DESC": "降序"
     },
     "refresh_token": "刷新令牌",
+    "remove_way": "移除方式",
+    "remove_ways": {
+      "delete": "刪除",
+      "trash": "回收站"
+    },
     "root_folder_id": "根資料夾ID"
   },
   "AliyundriveShare": {
@@ -320,7 +325,7 @@
   "Seafile": {
     "address": "地址",
     "password": "密碼",
-    "repoId": "資料庫ID",
+    "repoId": "RepoId",
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
   },

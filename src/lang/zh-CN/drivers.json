@@ -111,6 +111,11 @@
       "DESC": "降序"
     },
     "refresh_token": "刷新令牌",
+    "remove_way": "移除方式",
+    "remove_ways": {
+      "delete": "删除",
+      "trash": "回收站"
+    },
     "root_folder_id": "根文件夹ID"
   },
   "AliyundriveShare": {
@@ -320,7 +325,7 @@
   "Seafile": {
     "address": "地址",
     "password": "密码",
-    "repoId": "资料库ID",
+    "repoId": "RepoId",
     "root_folder_path": "根文件夹路径",
     "username": "用户名"
   },
