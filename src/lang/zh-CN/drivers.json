@@ -97,6 +97,8 @@
     "client_id-tips": "如果你没有，请留空",
     "client_secret": "客户端密钥",
     "client_secret-tips": "如果你没有，请留空",
+    "internal_upload": "内部上传",
+    "internal_upload-tips": "如在使用北京区阿里云ECS，可以开启用来提高上传速度",
     "oauth_token_url": "Oauth令牌链接",
     "order_by": "排序",
     "order_bys": {
