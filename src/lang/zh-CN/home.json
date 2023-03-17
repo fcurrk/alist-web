@@ -11,7 +11,7 @@
     "install": "安装",
     "installing": "正在安装",
     "tr-install": "Troll商店",
-    "tr-installing": "Troll商店安装"
+    "tr-installing": "Troll商店 正在安装"
   },
   "layouts": {
     "list": "列表视图",

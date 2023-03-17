@@ -43,12 +43,13 @@
   "privacy_regs": "隱私內容正則表達式",
   "proxy_ignore_headers": "代理忽略頭部",
   "proxy_types": "代理類型",
-  "qbittorrent_url": "Qbittorrent链接",
+  "qbittorrent_seedtime": "Qbittorrent 做種時間",
+  "qbittorrent_url": "qBittorrent 鏈接",
   "search_index": "搜索索引",
   "search_indexs": {
     "bleve": "Bleve",
     "database": "數據庫",
-    "database_non_full_text": "數據庫(非全文搜索)",
+    "database_non_full_text": "數據庫（非全文搜索）",
     "none": "無"
   },
   "settings_layout": "設定佈局",

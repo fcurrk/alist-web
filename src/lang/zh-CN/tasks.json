@@ -12,5 +12,7 @@
   "canceling": "正在取消···",
   "succeeded": "成功",
   "canceled": "已取消",
-  "errored": "错误"
+  "errored": "错误",
+  "clear_succeeded": "删除已成功",
+  "retry": "重试"
 }

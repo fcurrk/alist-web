@@ -1,7 +1,11 @@
 {
   "115 Cloud": {
     "cookie": "Cookie",
+    "cookie-tips": "需要QR程式碼令牌和cookie中的一個",
+    "page_size": "分頁大小",
+    "page_size-tips": "115驅動程序的列表API的每頁大小",
     "qrcode_token": "二維碼令牌",
+    "qrcode_token-tips": "需要QR程式碼令牌和cookie中的一個",
     "root_folder_id": "根資料夾ID"
   },
   "123Pan": {
@@ -73,6 +77,9 @@
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
     "url": "链接"
+  },
+  "Alias": {
+    "paths": "路徑"
   },
   "Aliyundrive": {
     "internal_upload": "內部上傳",
@@ -171,6 +178,12 @@
       "root_only_album": "僅根目錄下相簿",
       "root_only_file": "僅根目錄下檔案"
     }
+  },
+  "BaiduShare": {
+    "BDUSS": "BDUSS",
+    "pwd": "Pwd",
+    "root_folder_path": "根資料夾路徑",
+    "surl": "Surl"
   },
   "Cloudreve": {
     "address": "地址",
@@ -413,6 +426,11 @@
     "username": "用戶名",
     "username-tips": "登入類型是用戶名,此為必填項"
   },
+  "Trainbit": {
+    "AUSHELLPORTAL": "AUSHELLPORTAL",
+    "apikey": "Apikey",
+    "root_folder_id": "根資料夾ID"
+  },
   "USS": {
     "bucket": "存儲桶",
     "endpoint": "Endpoint",
@@ -466,6 +484,7 @@
     "189CloudPC": {},
     "AList V2": {},
     "AList V3": {},
+    "Alias": {},
     "Aliyundrive": {
       "alert": "此加載方式可能有一個死迴圈錯誤。 \n已廢棄，不再維護，並將在未來的版本中删除。 \n建議使用官方的阿裡雲盤開放平臺。"
     },
@@ -473,6 +492,7 @@
     "AliyundriveShare": {},
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
+    "BaiduShare": {},
     "Cloudreve": {},
     "FTP": {},
     "GoogleDrive": {},
@@ -493,6 +513,7 @@
     "Terabox": {},
     "Thunder": {},
     "ThunderExpert": {},
+    "Trainbit": {},
     "USS": {},
     "Virtual": {},
     "WebDav": {},
@@ -506,11 +527,13 @@
     "189CloudPC": "天翼雲盤用戶端",
     "AList V2": "AList V2",
     "AList V3": "AList V3",
+    "Alias": "Alias",
     "Aliyundrive": "阿裡雲盤",
     "AliyundriveOpen": "阿裡雲盤開放平臺",
     "AliyundriveShare": "阿裡雲盤分享",
     "BaiduNetdisk": "百度網盤",
     "BaiduPhoto": "一刻相册",
+    "BaiduShare": "百度分享",
     "Cloudreve": "Cloudreve",
     "FTP": "FTP",
     "GoogleDrive": "Google雲盤",
@@ -531,6 +554,7 @@
     "Terabox": "Terabox",
     "Thunder": "迅雷",
     "ThunderExpert": "迅雷專家版",
+    "Trainbit": "Trainbit",
     "USS": "又拍雲存儲",
     "Virtual": "虛擬存儲",
     "WebDav": "WebDav",

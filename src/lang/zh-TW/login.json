@@ -2,7 +2,7 @@
   "login_to": "登錄到",
   "username-tips": "輸入您的用戶名",
   "password-tips": "輸入您的密碼",
-  "otp-tips": "輸入您的 OTP 代碼",
+  "otp-tips": "輸入您的一次性密碼",
   "remember": "記住我的登錄資料",
   "forget": "忘記密碼？",
   "forget_url": "https://alist.nn.ci/faq/howto.html#how-to-get-password-if-i-forget-it",
