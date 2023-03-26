@@ -181,9 +181,9 @@
   },
   "BaiduShare": {
     "BDUSS": "BDUSS",
-    "pwd": "Pwd",
+    "pwd": "百度网盘分享密码",
     "root_folder_path": "根文件夹路径",
-    "surl": "Surl"
+    "surl": "百度网盘分享链接"
   },
   "Cloudreve": {
     "address": "地址",
@@ -277,6 +277,21 @@
     },
     "root_folder_path": "根文件夹路径",
     "site_id": "站点ID"
+  },
+  "OnedriveAPP": {
+    "chunk_size": "分片大小",
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥",
+    "email": "邮箱",
+    "region": "地区",
+    "regions": {
+      "cn": "世纪互联",
+      "de": "德国版",
+      "global": "全局",
+      "us": "美国版"
+    },
+    "root_folder_path": "根文件夹路径",
+    "tenant_id": "租户 ID"
   },
   "PikPak": {
     "password": "密码",
@@ -439,6 +454,12 @@
     "root_folder_path": "根文件夹路径",
     "sign_url_expire": "签名链接有效期"
   },
+  "UrlTree": {
+    "head_size": "Head 大小",
+    "head_size-tips": "使用HEAD方法获取文件大小，但可能失败。",
+    "url_structure": "Url 结构",
+    "url_structure-tips": "结构:\nFolderName:\n  [FileName:][FileSize:][Modified:]Url"
+  },
   "Virtual": {
     "max_file_size": "最大文件大小",
     "min_file_size": "最小文件大小",
@@ -502,6 +523,7 @@
     "MediaTrack": {},
     "Mega_nz": {},
     "Onedrive": {},
+    "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
     "Quark": {},
@@ -515,6 +537,7 @@
     "ThunderExpert": {},
     "Trainbit": {},
     "USS": {},
+    "UrlTree": {},
     "Virtual": {},
     "WebDav": {},
     "YandexDisk": {}
@@ -543,6 +566,7 @@
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
     "Onedrive": "Onedrive",
+    "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "夸克",
@@ -556,6 +580,7 @@
     "ThunderExpert": "迅雷专家版",
     "Trainbit": "Trainbit",
     "USS": "又拍云存储",
+    "UrlTree": "地址树",
     "Virtual": "虚拟存储",
     "WebDav": "WebDav",
     "YandexDisk": "Yandex网盘"

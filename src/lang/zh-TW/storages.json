@@ -1,7 +1,5 @@
 {
   "common": {
-    "start_load_success": "開始加載",
-    "load_all": "重新加載全部",
     "mount_path": "掛載路徑",
     "driver": "驅動",
     "order": "排序",
@@ -29,10 +27,16 @@
       "asc": "升序",
       "desc": "降序"
     },
-    "extract_folder": "選取資料夾",
+    "extract_folder": "提取資料夾",
     "extract_folders": {
-      "front": "選取到最前",
-      "back": "選取到最後"
-    }
+      "front": "提取到最前",
+      "back": "提取到最後"
+    },
+    "enable_sign": "啟用簽名"
+  },
+  "other": {
+    "start_load_success": "開始加載",
+    "load_all": "全部重新加載",
+    "filter_by_driver": "按驅動篩選"
   }
 }

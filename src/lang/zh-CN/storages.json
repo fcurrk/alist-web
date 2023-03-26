@@ -1,7 +1,5 @@
 {
   "common": {
-    "start_load_success": "开始加载",
-    "load_all": "重新加载全部",
     "mount_path": "挂载路径",
     "driver": "驱动",
     "order": "序号",
@@ -33,6 +31,12 @@
     "extract_folders": {
       "front": "提取到最前",
       "back": "提取到最后"
-    }
+    },
+    "enable_sign": "启用签名"
+  },
+  "other": {
+    "start_load_success": "开始加载",
+    "load_all": "全部重新加载",
+    "filter_by_driver": "按驱动筛选"
   }
 }

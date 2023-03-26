@@ -1,11 +1,11 @@
 {
   "115 Cloud": {
     "cookie": "Cookie",
-    "cookie-tips": "需要QR程式碼令牌和cookie中的一個",
+    "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
     "page_size": "分頁大小",
     "page_size-tips": "115驅動程序的列表API的每頁大小",
     "qrcode_token": "二維碼令牌",
-    "qrcode_token-tips": "需要QR程式碼令牌和cookie中的一個",
+    "qrcode_token-tips": "需要 QR 代碼令牌和 cookie 中的一個",
     "root_folder_id": "根資料夾ID"
   },
   "123Pan": {
@@ -181,9 +181,9 @@
   },
   "BaiduShare": {
     "BDUSS": "BDUSS",
-    "pwd": "Pwd",
+    "pwd": "百度網盤分享密碼",
     "root_folder_path": "根資料夾路徑",
-    "surl": "Surl"
+    "surl": "百度網盤分享連結"
   },
   "Cloudreve": {
     "address": "地址",
@@ -223,8 +223,8 @@
     "baseUrl": "基本URL",
     "baseUrl-tips": "檔案操作的基本URL",
     "cookie": "Cookie",
-    "cookie-tips": "大約15天有效，如使用shareUrl則忽略",
-    "repair_file_info": "修復檔案信息",
+    "cookie-tips": "大約15天有效，如使用分享連結則忽略",
+    "repair_file_info": "修復文件信息",
     "repair_file_info-tips": "啟用WebDAV才可使用此功能",
     "root_folder_id": "根資料夾ID",
     "shareUrl": "分享链接",
@@ -277,6 +277,21 @@
     },
     "root_folder_path": "根資料夾路徑",
     "site_id": "網站ID"
+  },
+  "OnedriveAPP": {
+    "chunk_size": "分片大小",
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥",
+    "email": "郵箱",
+    "region": "地區",
+    "regions": {
+      "cn": "世紀互聯",
+      "de": "德國版",
+      "global": "全域設定",
+      "us": "美國版"
+    },
+    "root_folder_path": "根資料夾路徑",
+    "tenant_id": "Tenant id"
   },
   "PikPak": {
     "password": "密碼",
@@ -439,6 +454,12 @@
     "root_folder_path": "根資料夾路徑",
     "sign_url_expire": "簽名链接有效期"
   },
+  "UrlTree": {
+    "head_size": "Head 大小",
+    "head_size-tips": "使用HEAD方法獲取文件大小，但可能失敗。",
+    "url_structure": "Url結構",
+    "url_structure-tips": "結構:\nFolderName:\n  [FileName:][FileSize:][Modified:]Url"
+  },
   "Virtual": {
     "max_file_size": "最大文件大小",
     "min_file_size": "最小文件大小",
@@ -502,6 +523,7 @@
     "MediaTrack": {},
     "Mega_nz": {},
     "Onedrive": {},
+    "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
     "Quark": {},
@@ -515,6 +537,7 @@
     "ThunderExpert": {},
     "Trainbit": {},
     "USS": {},
+    "UrlTree": {},
     "Virtual": {},
     "WebDav": {},
     "YandexDisk": {}
@@ -543,6 +566,7 @@
     "MediaTrack": "分秒幀",
     "Mega_nz": "Mega 網盤",
     "Onedrive": "Onedrive",
+    "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "誇克",
@@ -556,6 +580,7 @@
     "ThunderExpert": "迅雷專家版",
     "Trainbit": "Trainbit",
     "USS": "又拍雲存儲",
+    "UrlTree": "UrlTree",
     "Virtual": "虛擬存儲",
     "WebDav": "WebDav",
     "YandexDisk": "Yandex網盤"
