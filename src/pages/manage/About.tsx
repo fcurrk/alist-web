@@ -8,7 +8,6 @@ import { useT } from "~/hooks"
 import { LinkWithBase } from "~/components"
 import { getSetting, user } from "~/store"
 
-
 const About = () => {
   useManageTitle("manage.sidemenu.about")
   const t = useT()
@@ -21,7 +20,7 @@ const About = () => {
          </HStack>
 	 <HStack spacing="$2">
               <Text color="$info9">
-	        {t("©")}time.Now().Year(){t(" ")} {getSetting("site_title")}
+	        {t("©2023 ")} {getTime().getSetting("site_title")}
               </Text>
             </HStack>
        </VStack>
