@@ -16,16 +16,12 @@ const About = () => {
       <VStack w="$full" spacing="$4" alignItems="start">
          <HStack spacing="$2">
              {getSetting("contact_us") && (
-	          <Text>{t("settings.contact_us")}: {getSetting("contact_us")}</Text>
+	          <Text>{getSetting("contact_us")}</Text>
 	     )}
          </HStack>
 	 <HStack spacing="$2">
-              <Text
-                color="$info9"
-                as={LinkWithBase}
-                href="/"
-              >
-	        {t("©2022 ")} {getSetting("site_title")}
+              <Text color="$info9">
+	        {t("©")}time.Now().Year(){t(" ")} {getSetting("site_title")}
               </Text>
             </HStack>
        </VStack>
