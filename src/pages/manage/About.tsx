@@ -20,7 +20,7 @@ const About = () => {
          </HStack>
 	 <HStack spacing="$2">
               <Text color="$info9">
-	        {t("©2023 ")} {getTime().getSetting("site_title")}
+	        {t("©2023 ")} {getSetting("site_title")}
               </Text>
             </HStack>
        </VStack>
