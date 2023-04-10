@@ -334,6 +334,8 @@
     },
     "placeholder": "占位檔名",
     "region": "地區",
+    "remove_bucket": "删除存儲桶",
+    "remove_bucket-tips": "使用自定義主機時從路徑中删除存儲桶名稱.",    
     "root_folder_path": "根資料夾路徑",
     "secret_access_key": "安全訪問密钥",
     "sign_url_expire": "簽名链接有效期"
