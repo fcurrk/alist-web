@@ -8,7 +8,7 @@ import { createMemo, Show } from "solid-js"
 import { RightIcon } from "./Icon"
 import { CgMoreO } from "solid-icons/cg"
 import { TbCheckbox } from "solid-icons/tb"
-import { objStore, State, toggleCheckbox, userCan } from "~/store"
+import { objStore, State, toggleCheckbox, userCan, getMainColor } from "~/store"
 import { bus } from "~/utils"
 import { operations } from "./operations"
 import { IoMagnetOutline } from "solid-icons/io"
@@ -37,6 +37,7 @@ export const Right = () => {
         when={isOpen()}
         fallback={
           <RightIcon
+	    color={getMainColor()}
             class="toolbar-toggle"
             as={CgMoreO}
             onClick={() => {
@@ -64,6 +65,7 @@ export const Right = () => {
             <Show when={isFolder() && (userCan("write") || objStore.write)}>
               {/* <Add /> */}
               <RightIcon
+                color={getMainColor()}
                 as={RiSystemRefreshLine}
                 tips="refresh"
                 onClick={() => {
@@ -71,6 +73,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
+	        color={getMainColor()}
                 as={operations.new_file.icon}
                 tips="new_file"
                 onClick={() => {
@@ -78,6 +81,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
+	        color={getMainColor()}
                 as={operations.mkdir.icon}
                 p="$1_5"
                 tips="mkdir"
@@ -86,6 +90,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
+	        color={getMainColor()}
                 as={operations.recursive_move.icon}
                 tips="recursive_move"
                 onClick={() => {
@@ -93,6 +98,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
+	      	color={getMainColor()}
                 as={operations.remove_empty_directory.icon}
                 tips="remove_empty_directory"
                 onClick={() => {
@@ -100,6 +106,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
+	      	color={getMainColor()}
                 as={operations.regex_rename.icon}
                 tips="regex_rename"
                 onClick={() => {
@@ -107,6 +114,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
+	      	color={getMainColor()}
                 as={AiOutlineCloudUpload}
                 tips="upload"
                 onClick={() => {
@@ -116,6 +124,7 @@ export const Right = () => {
             </Show>
             <Show when={isFolder() && userCan("offline_download")}>
               <RightIcon
+	        color={getMainColor()}
                 as={IoMagnetOutline}
                 pl="0"
                 tips="offline_download"
@@ -125,11 +134,13 @@ export const Right = () => {
               />
             </Show>
             <RightIcon
+	      color={getMainColor()}
               tips="toggle_checkbox"
               as={TbCheckbox}
               onClick={toggleCheckbox}
             />
             <RightIcon
+	      color={getMainColor()}
               as={AiOutlineSetting}
               tips="local_settings"
               onClick={() => {
@@ -137,7 +148,7 @@ export const Right = () => {
               }}
             />
           </VStack>
-          <RightIcon tips="more" as={CgMoreO} onClick={onToggle} />
+          <RightIcon color={getMainColor()} tips="more" as={CgMoreO} onClick={onToggle} />
         </VStack>
       </Show>
     </Box>

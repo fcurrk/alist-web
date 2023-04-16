@@ -57,7 +57,12 @@
     "pre_package_download-tips": "在浏览器中使用streamsaver而不是服务器来进行包下载需要相应的存储支持cors，而不支持的存储将失败。",
     "package_download-tips": "正在下载，请稍候不要关闭页面",
     "upload": "上传",
-    "local_settings": "本地设置"
+    "local_settings": "本地设置",
+    "recursive_move": "聚合移动",
+    "remove_empty_directory": "移除空的子目录",
+    "remove_empty_directory-tips": "您确定要删除所有空子文件夹吗？",
+    "regex_rename": "正则表达式重命名",
+    "regular_rename": "正则表达式文件重命名。 在第一行输入源文件名正则表达式，并在第二行输入新文件名正则表达式。"
   },
   "upload": {
     "add_as_task": "添加为任务",

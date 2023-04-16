@@ -57,7 +57,12 @@
     "pre_package_download-tips": "在瀏覽器中使用streamsaver而不是服務器來進行包下載需要相應的存儲支持cors，而不支持的存儲將失敗。",
     "package_download-tips": "正在下載，請稍候不要關閉頁面",
     "upload": "上傳",
-    "local_settings": "本地設置"
+    "local_settings": "本地設置",
+    "recursive_move": "聚合移動",
+    "remove_empty_directory": "移除空的子目錄",
+    "remove_empty_directory-tips": "您確定要删除所有空子資料夾嗎？",
+    "regex_rename": "正則表達式重命名",
+    "regular_rename": "正則表達式文件重命名。 在第一行輸入源文件名正則表達式，並在第二行輸入新文件名正則表達式。"
   },
   "upload": {
     "add_as_task": "添加為任務",
