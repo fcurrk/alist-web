@@ -59,9 +59,13 @@
     "upload": "上传",
     "local_settings": "本地设置",
     "recursive_move": "聚合移动",
+    "recursive_move_directory-tips": "您确定要将当前文件夹及其子文件夹中的所有文件移动到指定的文件夹吗？",
     "remove_empty_directory": "移除空的子目录",
     "remove_empty_directory-tips": "您确定要删除所有空子文件夹吗？",
     "regex_rename": "正则表达式重命名",
+    "regex_rename_preview": "更改的文件",
+    "regex_rename_preview_old_name": "旧名称",
+    "regex_rename_preview_new_name": "新名称",
     "regular_rename": "正则表达式文件重命名。 在第一行输入源文件名正则表达式，并在第二行输入新文件名正则表达式。"
   },
   "upload": {

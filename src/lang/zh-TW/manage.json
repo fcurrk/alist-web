@@ -19,9 +19,9 @@
     "backup-restore": "備份 & 還原",
     "home": "主頁",
     "indexes": "索引",
-    "sso": "單一登入",
+    "sso": "單點登錄",
     "qbit": "qBittorrent",
-    "docs": "檔案"
+    "docs": "文檔"
   },
   "title": "後臺管理",
   "not_admin": "你不是管理員，請使用管理員賬戶登錄。",

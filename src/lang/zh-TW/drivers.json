@@ -46,7 +46,7 @@
     "no_use_ocr": "不使用OCR",
     "order_by": "排序",
     "order_bys": {
-      "filename": "檔名",
+      "filename": "文件名",
       "filesize": "文件大小",
       "lastOpTime": "修改時間"
     },
@@ -73,10 +73,12 @@
     "url": "链接"
   },
   "AList V3": {
-    "access_token": "訪問權杖",
+    "meta_password": "元信息密碼",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
-    "url": "链接"
+    "token": "令牌",
+    "url": "链接",
+    "username": "用戶名"
   },
   "Alias": {
     "paths": "路徑"
@@ -148,7 +150,7 @@
   "BaiduNetdisk": {
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
-    "download_api": "下載介面",
+    "download_api": "下載 API",
     "download_apis": {
       "crack": "非官方",
       "official": "官方"
@@ -291,7 +293,7 @@
       "us": "美國版"
     },
     "root_folder_path": "根資料夾路徑",
-    "tenant_id": "Tenant id"
+    "tenant_id": "租戶ID"
   },
   "PikPak": {
     "password": "密碼",
@@ -385,7 +387,7 @@
   },
   "Terabox": {
     "cookie": "Cookie",
-    "download_api": "下載介面",
+    "download_api": "下載 API",
     "download_apis": {
       "crack": "非官方",
       "official": "官方"
@@ -509,7 +511,7 @@
     "AList V3": {},
     "Alias": {},
     "Aliyundrive": {
-      "alert": "此加載方式可能有一個死迴圈錯誤。 \n已廢棄，不再維護，並將在未來的版本中删除。 \n建議使用官方的阿裡雲盤開放平臺。"
+      "alert": "此加載方式可能有一個死循環錯誤。 \n已廢棄，不再維護，並將在未來的版本中删除。 \n建議使用官方的阿裡雲盤開放平臺。"
     },
     "AliyundriveOpen": {},
     "AliyundriveShare": {},
