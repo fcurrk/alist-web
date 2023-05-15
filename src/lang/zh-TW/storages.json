@@ -1,6 +1,7 @@
 {
   "common": {
     "mount_path": "掛載路徑",
+    "mount_path-tips": "要掛載到的路徑，不能重複",
     "driver": "驅動",
     "order": "排序",
     "order-tips": "用於排序",

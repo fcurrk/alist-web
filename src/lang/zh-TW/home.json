@@ -107,5 +107,5 @@
   },
   "fetching_settings_failed": "獲取設定失敗: ",
   "get_current_user_failed": "獲取當前用戶失敗: ",
-  "Loading storage, please wait": "請稍後，正在加載儲存"
+  "Loading storage, please wait": "請稍後，正在載入儲存"
 }

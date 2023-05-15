@@ -3,7 +3,7 @@
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
     "page_size": "分頁大小",
-    "page_size-tips": "115驅動程序的列表API的每頁大小",
+    "page_size-tips": "115驅動程序列表API的每頁大小",
     "qrcode_token": "二維碼令牌",
     "qrcode_token-tips": "需要 QR 代碼令牌和 cookie 中的一個",
     "root_folder_id": "根資料夾ID"
@@ -37,6 +37,8 @@
     }
   },
   "189Cloud": {
+    "cookie": "Cookie",
+    "cookie-tips": "如需輸入驗證碼，請填寫Cookie。",
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
     "username": "用戶名"
@@ -189,6 +191,7 @@
   },
   "Cloudreve": {
     "address": "地址",
+    "cookie": "Cookie",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
@@ -221,6 +224,11 @@
     "root_folder_id": "根資料夾ID",
     "show_archive": "顯示歸檔"
   },
+  "IPFS API": {
+    "endpoint": "Endpoint",
+    "gateway": "網關",
+    "root_folder_path": "根資料夾路徑"
+  },
   "Lanzou": {
     "baseUrl": "基本URL",
     "baseUrl-tips": "檔案操作的基本URL",
@@ -243,6 +251,7 @@
     "root_folder_path": "根資料夾路徑",
     "show_hidden": "顯示隱藏",
     "show_hidden-tips": "顯示隱藏目錄以及檔",
+    "thumb_cache_folder": "Thumb cache folder",
     "thumbnail": "縮略圖",
     "thumbnail-tips": "啟用縮略圖"
   },
@@ -383,7 +392,8 @@
       "china": "中國",
       "international": "國際版"
     },
-    "root_folder_id": "根資料夾ID"
+    "root_folder_id": "根資料夾ID",
+    "use_s3_upload_method": "使用s3上傳方法"
   },
   "Terabox": {
     "cookie": "Cookie",
@@ -505,7 +515,9 @@
     "115 Cloud": {},
     "123Pan": {},
     "139Yun": {},
-    "189Cloud": {},
+    "189Cloud": {
+      "alert": "如果此驅動無法工作，你可以嘗試使用“天翼網盤用戶端”驅動。"
+    },
     "189CloudPC": {},
     "AList V2": {},
     "AList V3": {},
@@ -522,6 +534,7 @@
     "FTP": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
+    "IPFS API": {},
     "Lanzou": {},
     "Local": {},
     "MediaTrack": {},
@@ -565,6 +578,7 @@
     "FTP": "FTP",
     "GoogleDrive": "Google雲盤",
     "GooglePhoto": "Google相册",
+    "IPFS API": "IPFS API",
     "Lanzou": "藍奏雲",
     "Local": "本機存儲",
     "MediaTrack": "分秒幀",

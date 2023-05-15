@@ -1,6 +1,7 @@
 {
   "common": {
     "mount_path": "挂载路径",
+    "mount_path-tips": "要挂载到的路径，不能重复",
     "driver": "驱动",
     "order": "序号",
     "order-tips": "用于排序",

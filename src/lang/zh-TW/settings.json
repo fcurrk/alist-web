@@ -46,6 +46,7 @@
   "proxy_types": "代理類型",
   "qbittorrent_seedtime": "Qbittorrent 做種時間",
   "qbittorrent_url": "qBittorrent 鏈接",
+  "robots_txt": "Robots txt",
   "search_index": "搜索索引",
   "search_indexs": {
     "bleve": "Bleve",
