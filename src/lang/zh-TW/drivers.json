@@ -58,12 +58,17 @@
       "desc": "降序"
     },
     "password": "密碼",
-    "rapid_upload": "秒傳",
     "root_folder_id": "根資料夾ID",
     "type": "類型",
     "types": {
       "family": "家庭雲",
       "personal": "個人雲"
+    },
+    "upload_method": "上傳方式",
+    "upload_methods": {
+      "old": "舊版",
+      "rapid": "秒傳",
+      "stream": "流式"
     },
     "username": "用戶名",
     "validate_code": "驗證碼"
@@ -460,6 +465,22 @@
     "apikey": "Apikey",
     "root_folder_id": "根資料夾ID"
   },
+  "UC": {
+    "cookie": "Cookie",
+    "order_by": "排序",
+    "order_bys": {
+      "file_name": "檔案名稱",
+      "file_type": "檔案類型",
+      "none": "無",
+      "updated_at": "修改時間"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "root_folder_id": "根資料夾ID"
+  },
   "USS": {
     "bucket": "存儲桶",
     "endpoint": "Endpoint",
@@ -553,6 +574,7 @@
     "Thunder": {},
     "ThunderExpert": {},
     "Trainbit": {},
+    "UC": {},
     "USS": {},
     "UrlTree": {},
     "Virtual": {},
@@ -597,6 +619,7 @@
     "Thunder": "迅雷",
     "ThunderExpert": "迅雷專家版",
     "Trainbit": "Trainbit",
+    "UC": "UC",
     "USS": "又拍雲存儲",
     "UrlTree": "UrlTree",
     "Virtual": "虛擬存儲",

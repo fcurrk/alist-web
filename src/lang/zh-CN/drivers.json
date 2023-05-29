@@ -58,12 +58,17 @@
       "desc": "降序"
     },
     "password": "密码",
-    "rapid_upload": "秒传",
     "root_folder_id": "根文件夹ID",
     "type": "类型",
     "types": {
       "family": "家庭云",
       "personal": "个人云"
+    },
+    "upload_method": "上传方式",
+    "upload_methods": {
+      "old": "旧版",
+      "rapid": "秒传",
+      "stream": "流式"
     },
     "username": "用户名",
     "validate_code": "验证码"
@@ -460,6 +465,22 @@
     "apikey": "Apikey",
     "root_folder_id": "根文件夹ID"
   },
+  "UC": {
+    "cookie": "Cookie",
+    "order_by": "排序",
+    "order_bys": {
+      "file_name": "文件名称",
+      "file_type": "文件类型",
+      "none": "无",
+      "updated_at": "修改时间"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "root_folder_id": "根文件夹ID"
+  },
   "USS": {
     "bucket": "存储桶",
     "endpoint": "Endpoint",
@@ -553,6 +574,7 @@
     "Thunder": {},
     "ThunderExpert": {},
     "Trainbit": {},
+    "UC": {},
     "USS": {},
     "UrlTree": {},
     "Virtual": {},
@@ -597,6 +619,7 @@
     "Thunder": "迅雷",
     "ThunderExpert": "迅雷专家版",
     "Trainbit": "Trainbit",
+    "UC": "UC",
     "USS": "又拍云存储",
     "UrlTree": "UrlTree",
     "Virtual": "虚拟存储",
