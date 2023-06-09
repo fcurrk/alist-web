@@ -73,7 +73,8 @@
     "Dingtalk": "钉钉",
     "Github": "GitHub",
     "Google": "谷歌",
-    "Microsoft": "微软"
+    "Microsoft": "微软",
+    "OIDC": "OIDC"
   },
   "sso_organization_name": "单点登录组织名称",
   "text_types": "文本类型",

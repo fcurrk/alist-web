@@ -157,6 +157,7 @@
   "BaiduNetdisk": {
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
+    "custom_crack_ua": "自定义破解UA",
     "download_api": "下载接口",
     "download_apis": {
       "crack": "非官方",
@@ -339,6 +340,8 @@
   },
   "S3": {
     "access_key_id": "访问密钥 Id",
+    "add_filename_to_disposition": "添加文件名至Disposition",
+    "add_filename_to_disposition-tips": "添加文件名至Content-Disposition header.",
     "bucket": "存储桶",
     "custom_host": "自定义HOST",
     "endpoint": "Endpoint",
