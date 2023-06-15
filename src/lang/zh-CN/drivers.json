@@ -26,9 +26,8 @@
     "username": "用户名"
   },
   "139Yun": {
-    "account": "帐号",
+    "authorization": "Authorization",
     "cloud_id": "Cloud id",
-    "cookie": "Cookie",
     "root_folder_id": "根文件夹ID",
     "type": "类型",
     "types": {
