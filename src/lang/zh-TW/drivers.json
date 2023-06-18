@@ -515,6 +515,22 @@
       "sharepoint": "Sharepoint"
     }
   },
+  "WoPan": {
+    "access_token": "訪問令牌",
+    "family_id": "Family id",
+    "family_id-tips": "如果需要使用您的個人空間，請保持為空",
+    "refresh_token": "刷新令牌",
+    "root_folder_id": "根資料夾ID",
+    "sort_rule": "排序規則",
+    "sort_rules": {
+      "name_asc": "名稱升序",
+      "name_desc": "名稱降序",
+      "size_asc": "大小升序",
+      "size_desc": "大小降序",
+      "time_asc": "時間升序",
+      "time_desc": "時間降序"
+    }
+  },
   "YandexDisk": {
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
@@ -581,6 +597,7 @@
     "UrlTree": {},
     "Virtual": {},
     "WebDav": {},
+    "WoPan": {},
     "YandexDisk": {}
   },
   "drivers": {
@@ -626,6 +643,7 @@
     "UrlTree": "UrlTree",
     "Virtual": "虛擬存儲",
     "WebDav": "WebDav",
+    "WoPan": "聯通雲盤",
     "YandexDisk": "Yandex網盤"
   }
 }
