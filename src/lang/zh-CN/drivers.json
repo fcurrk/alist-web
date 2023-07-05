@@ -201,6 +201,15 @@
     "root_folder_path": "根文件夹路径",
     "username": "用户名"
   },
+  "Dropbox": {
+    "client_id": "客户端ID",
+    "client_id-tips": "没有请留空",
+    "client_secret": "客户端密钥",
+    "client_secret-tips": "没有请留空",
+    "oauth_token_url": "Oauth令牌链接",
+    "refresh_token": "刷新令牌",
+    "root_folder_path": "根文件夹路径"
+  },
   "FTP": {
     "address": "地址",
     "password": "密码",
@@ -275,6 +284,25 @@
   "Mega_nz": {
     "email": "邮箱",
     "password": "密码"
+  },
+  "MoPan": {
+    "cloud_id": "Cloud id",
+    "device_info": "设备信息",
+    "order_by": "排序",
+    "order_bys": {
+      "filename": "文件名",
+      "filesize": "文件大小",
+      "lastOpTime": "修改时间"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "password": "密码",
+    "phone": "手机号码",
+    "root_folder_id": "根文件夹ID",
+    "root_folder_id-tips": "使用 -11 值时小心，一些操作可能导致系统错误"
   },
   "Onedrive": {
     "chunk_size": "分片大小",
@@ -570,6 +598,7 @@
     "BaiduPhoto": {},
     "BaiduShare": {},
     "Cloudreve": {},
+    "Dropbox": {},
     "FTP": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
@@ -578,6 +607,9 @@
     "Local": {},
     "MediaTrack": {},
     "Mega_nz": {},
+    "MoPan": {
+      "alert": "这个网盘可能将您的密码以明文存储，请小心设置您的密码"
+    },
     "Onedrive": {},
     "OnedriveAPP": {},
     "PikPak": {},
@@ -616,6 +648,7 @@
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
     "Cloudreve": "Cloudreve",
+    "Dropbox": "Dropbox",
     "FTP": "FTP",
     "GoogleDrive": "谷歌云盘",
     "GooglePhoto": "谷歌相册",
@@ -624,6 +657,7 @@
     "Local": "本机存储",
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
+    "MoPan": "魔盘",
     "Onedrive": "Onedrive",
     "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",

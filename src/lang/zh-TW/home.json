@@ -10,8 +10,10 @@
     "open_with": "使用... 打開",
     "install": "安裝",
     "installing": "正在安裝",
-    "tr-install": "Troll商店",
-    "tr-installing": "Troll商店 正在安裝"
+    "tr-install": "TrollStore",
+    "tr-installing": "TrollStore 正在安裝",
+    "open_in_new_window": "在新窗口中打開",
+    "auto_next": "自動下一個"
   },
   "layouts": {
     "list": "清單視圖",
@@ -62,11 +64,14 @@
     "recursive_move_directory-tips": "您確定要將當前文件夾及其子文件夾中的所有文件移動到指定的文件夾嗎？",
     "remove_empty_directory": "移除空的子目錄",
     "remove_empty_directory-tips": "您確定要删除所有空子文件夾嗎？",
+    "batch_rename": "批量重命名",
     "regex_rename": "正則表達式重命名",
+    "sequential_renaming": "順序重命名",
     "regex_rename_preview": "更改的文件",
     "regex_rename_preview_old_name": "舊名稱",
     "regex_rename_preview_new_name": "新名稱",
-    "regular_rename": "正則表達式文件重命名。 在第一行輸入源文件名正則表達式，並在第二行輸入新文件名正則表達式。"
+    "regular_rename": "正則表達式文件重命名。 在第一行輸入源文件名正則表達式，並在第二行輸入新文件名正則表達式。",
+    "sequential_renaming_desc": "新文件名將有一個數值起始值附加到它，並且它將通過向起始值添加1來按順序顯示。 在第一行輸入新的文件名，並在第二行輸入起始值。"
   },
   "upload": {
     "add_as_task": "添加為任務",

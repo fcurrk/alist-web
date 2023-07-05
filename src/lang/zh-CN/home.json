@@ -10,8 +10,10 @@
     "open_with": "使用... 打开",
     "install": "安装",
     "installing": "正在安装",
-    "tr-install": "Troll商店",
-    "tr-installing": "Troll商店 正在安装"
+    "tr-install": "TrollStore",
+    "tr-installing": "TrollStore 正在安装",
+    "open_in_new_window": "在新窗口中打开",
+    "auto_next": "自动下一个"
   },
   "layouts": {
     "list": "列表视图",
@@ -51,9 +53,9 @@
     "batch_download": "批量下载",
     "package_download": "打包下载",
     "package_download_disabled": "打包下载已禁用",
-    "send_aria2": "发送到Aria2",
+    "send_aria2": "发送到 Aria2",
     "aria2_not_set": "请设置 aria2 rpc url",
-    "send_aria2_success": "成功发送到aria2",
+    "send_aria2_success": "成功发送到 aria2",
     "pre_package_download-tips": "在浏览器中使用streamsaver而不是服务器来进行包下载需要相应的存储支持cors，而不支持的存储将失败。",
     "package_download-tips": "正在下载，请稍候不要关闭页面",
     "upload": "上传",
@@ -62,11 +64,14 @@
     "recursive_move_directory-tips": "您确定要将当前文件夹及其子文件夹中的所有文件移动到指定的文件夹吗？",
     "remove_empty_directory": "移除空的子目录",
     "remove_empty_directory-tips": "您确定要删除所有空子文件夹吗？",
+    "batch_rename": "批量重命名",
     "regex_rename": "正则表达式重命名",
+    "sequential_renaming": "顺序重命名",
     "regex_rename_preview": "更改的文件",
     "regex_rename_preview_old_name": "旧名称",
     "regex_rename_preview_new_name": "新名称",
-    "regular_rename": "正则表达式文件重命名。 在第一行输入源文件名正则表达式，并在第二行输入新文件名正则表达式。"
+    "regular_rename": "正则表达式文件重命名。 在第一行输入源文件名正则表达式，并在第二行输入新文件名正则表达式。",
+    "sequential_renaming_desc": "新文件名将有一个数值起始值附加到它， 并且它将通过向起始值添加 1 来按顺序显示。 在第一行输入新的文件名，并在第二行输入起始值。"
   },
   "upload": {
     "add_as_task": "添加为任务",
