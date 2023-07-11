@@ -338,6 +338,7 @@
     "tenant_id": "租户 ID"
   },
   "PikPak": {
+    "disable_media_link": "禁用媒体链接",
     "password": "密码",
     "root_folder_id": "根文件夹ID",
     "username": "用户名"

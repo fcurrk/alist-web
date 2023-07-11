@@ -338,6 +338,7 @@
     "tenant_id": "租戶ID"
   },
   "PikPak": {
+    "disable_media_link": "禁用媒體連結",
     "password": "密碼",
     "root_folder_id": "根資料夾ID",
     "username": "用戶名"
