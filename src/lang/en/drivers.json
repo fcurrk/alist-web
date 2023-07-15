@@ -22,7 +22,6 @@
     },
     "password": "Password",
     "root_folder_id": "Root folder id",
-    "stream_upload": "Stream upload",
     "username": "Username"
   },
   "139Yun": {
@@ -384,6 +383,7 @@
     "remove_bucket-tips": "Remove bucket name from path when using custom host.",
     "root_folder_path": "Root folder path",
     "secret_access_key": "Secret access key",
+    "session_token": "Session token",
     "sign_url_expire": "Sign url expire"
   },
   "SFTP": {
