@@ -22,7 +22,6 @@
     },
     "password": "密码",
     "root_folder_id": "根文件夹ID",
-    "stream_upload": "流式上传",
     "username": "用户名"
   },
   "139Yun": {
@@ -385,6 +384,7 @@
     "remove_bucket-tips": "使用自定义主机时从路径中删除存储桶名称.",
     "root_folder_path": "根文件夹路径",
     "secret_access_key": "安全访问密钥",
+    "session_token": "会话令牌",
     "sign_url_expire": "签名链接有效期"
   },
   "SFTP": {
