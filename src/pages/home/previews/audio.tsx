@@ -29,7 +29,7 @@ const Preview = () => {
       url: rawLink(obj, true),
       cover:
         getSetting("audio_cover") ||
-        "https://jsd.nn.ci/gh/alist-org/logo@main/logo.svg",
+        "https://cdn.jsdelivr.net/gh/fcurrk/alist-web@main/images/logo.svg",
       lrc: lrc,
     }
   }
