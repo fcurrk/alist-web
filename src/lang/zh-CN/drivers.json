@@ -126,6 +126,8 @@
       "ASC": "升序",
       "DESC": "降序"
     },
+    "rapid_upload": "秒传",
+    "rapid_upload-tips": "如启用此选项，文件将先上传到服务器，上传进度将无法正确",
     "refresh_token": "刷新令牌",
     "remove_way": "移除方式",
     "remove_ways": {

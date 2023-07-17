@@ -11,7 +11,7 @@
   "123Pan": {
     "order_by": "排序",
     "order_bys": {
-      "file_name": "檔案名稱",
+      "file_name": "文件名稱",
       "size": "大小",
       "update_at": "修改時間"
     },
@@ -126,6 +126,8 @@
       "ASC": "升序",
       "DESC": "降序"
     },
+    "rapid_upload": "秒傳",
+    "rapid_upload-tips": "如啟用此選項，文件將先上傳到服務器，上傳進度將無法正確",   
     "refresh_token": "刷新令牌",
     "remove_way": "移除方式",
     "remove_ways": {
@@ -353,8 +355,8 @@
     "cookie": "Cookie",
     "order_by": "排序",
     "order_bys": {
-      "file_name": "檔案名稱",
-      "file_type": "檔案類型",
+      "file_name": "文件名稱",
+      "file_type": "文件類型",
       "none": "無",
       "updated_at": "修改時間"
     },
@@ -378,7 +380,7 @@
       "v1": "V1",
       "v2": "V2"
     },
-    "placeholder": "占位檔名",
+    "placeholder": "占位文件名",
     "region": "地區",
     "remove_bucket": "删除存儲桶",
     "remove_bucket-tips": "使用自定義主機時從路徑中删除存儲桶名稱.",    
@@ -413,7 +415,7 @@
     "order_by": "排序",
     "order_bys": {
       "created": "創建時間",
-      "fileName": "檔名",
+      "fileName": "文件名",
       "fileSize": "文件大小",
       "updated": "修改時間"
     },
@@ -500,8 +502,8 @@
     "cookie": "Cookie",
     "order_by": "排序",
     "order_bys": {
-      "file_name": "檔案名稱",
-      "file_type": "檔案類型",
+      "file_name": "文件名稱",
+      "file_type": "文件類型",
       "none": "無",
       "updated_at": "修改時間"
     },
@@ -529,7 +531,7 @@
   "Virtual": {
     "max_file_size": "最大文件大小",
     "min_file_size": "最小文件大小",
-    "num_file": "檔案數量",
+    "num_file": "文件數量",
     "num_folder": "資料夾數量",
     "root_folder_path": "根資料夾路徑"
   },
