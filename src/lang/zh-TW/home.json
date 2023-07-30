@@ -91,7 +91,19 @@
   "local_settings": {
     "aria2_rpc_url": "Aria2 RPC 鏈接",
     "aria2_rpc_secret": "Aria2 RPC 密鑰",
-    "aria2_dir": "Aria2 下載目錄"
+    "aria2_dir": "Aria2 下載目錄",
+    "show_folder_in_image_view": "圖片視圖中顯示文件夾",
+    "show_folder_in_image_view_options": {
+      "top": "頂部",
+      "bottom": "底部",
+      "none": "無"
+    },
+    "global_default_layout": "全局默認佈局",
+    "global_default_layout_options": {
+      "list": "清單視圖",
+      "grid": "網格視圖",
+      "image": "圖片視圖"
+    }
   },
   "package_download": {
     "current_status": "當前狀態",
