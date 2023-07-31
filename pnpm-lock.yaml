@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@hope-ui/solid':
     specifier: 0.6.7
@@ -88,8 +92,8 @@ dependencies:
 
 devDependencies:
   '@crowdin/cli':
-    specifier: ^3.8.1
-    version: 3.8.1
+    specifier: ^3.7.10
+    version: 3.7.10
   '@types/node':
     specifier: ^18.7.5
     version: 18.7.5
@@ -444,8 +448,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@crowdin/cli@3.8.1:
-    resolution: {integrity: sha512-kSohd26AKqXVNo+G48C1cv+/TPBks44YbD2+nQLm8d/mUGGazhYHY6k6wU7yP+vkaT/F5WeL3br5Sffn0QoxRg==}
+  /@crowdin/cli@3.7.10:
+    resolution: {integrity: sha512-L0sjeEv4bn7LHNYsKxl2aTrah16u1ThufN0xvMMH7o53lD29llvVfAD9jVOttSl/kyQ+mMDY8GLzjPRNFdLJqQ==}
     hasBin: true
     dependencies:
       njre: 0.2.0
