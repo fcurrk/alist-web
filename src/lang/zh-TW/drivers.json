@@ -24,6 +24,22 @@
     "root_folder_id": "根資料夾ID",
     "username": "用戶名"
   },
+  "123PanShare": {
+    "order_by": "排序",
+    "order_bys": {
+      "file_name": "文件名稱",
+      "size": "大小",
+      "update_at": "修改時間"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "root_folder_id": "根資料夾ID",
+    "sharekey": "分享key",
+    "sharepassword": "分享密碼"
+  },
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
@@ -66,7 +82,7 @@
     "upload_methods": {
       "old": "舊版",
       "rapid": "秒傳",
-      "stream": "流式"
+      "stream": "流式上傳"
     },
     "username": "用戶名",
     "validate_code": "驗證碼"
@@ -111,8 +127,19 @@
     "client_id-tips": "如果沒有，請留空",
     "client_secret": "客户端密钥",
     "client_secret-tips": "如果沒有，請留空",
+    "drive_type": "雲盤類型",
+    "drive_types": {
+      "backup": "備份盤",
+      "default": "默認",
+      "resource": "資源庫"
+    },
     "internal_upload": "內部上傳",
     "internal_upload-tips": "如在使用北京區阿里雲ECS，可以開啟用來提高上傳速度",
+    "livp_download_format": "Livp下載格式",
+    "livp_download_formats": {
+      "jpeg": "Jpeg",
+      "mov": "Mov"
+    },
     "oauth_token_url": "Oauth令牌連結",
     "order_by": "排序",
     "order_bys": {
@@ -127,7 +154,7 @@
       "DESC": "降序"
     },
     "rapid_upload": "秒傳",
-    "rapid_upload-tips": "如啟用此選項，文件將先上傳到服務器，上傳進度將無法正確",   
+    "rapid_upload-tips": "如啟用此選項，文件將先上傳到服務器，上傳進度將不正確",   
     "refresh_token": "刷新令牌",
     "remove_way": "移除方式",
     "remove_ways": {
@@ -181,6 +208,7 @@
     "album_id": "相簿ID",
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
+    "delete_origin": "刪除源文件",
     "refresh_token": "刷新令牌",
     "show_type": "展示類型",
     "show_types": {
@@ -201,6 +229,27 @@
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
+  },
+  "Crypt": {
+    "directory_name_encryption": "文件夹名称加密",
+    "directory_name_encryptions": {
+      "false": "False",
+      "true": "True"
+    },
+    "encrypted_suffix": "加密後綴",
+    "encrypted_suffix-tips": "加密的文件將有此後綴",
+    "filename_encryption": "文件名加密",
+    "filename_encryptions": {
+      "obfuscate": "混淆",
+      "off": "關閉",
+      "standard": "標準"
+    },
+    "password": "密碼",
+    "password-tips": "主密碼",
+    "remote_path": "加密後文件存儲路徑",
+    "remote_path-tips": "這是加密數據存儲的位置",
+    "salt": "鹽值",
+    "salt-tips": "如果您不知道什么是鹽值，将其作为第二个密码处理。"
   },
   "Dropbox": {
     "client_id": "客户端ID",
@@ -245,10 +294,12 @@
     "root_folder_path": "根資料夾路徑"
   },
   "Lanzou": {
+    "account": "帳戶",
     "baseUrl": "基本URL",
     "baseUrl-tips": "檔案操作的基本URL",
     "cookie": "Cookie",
     "cookie-tips": "大約15天有效，如使用分享連結則忽略",
+    "password": "密碼",
     "repair_file_info": "修復文件信息",
     "repair_file_info-tips": "啟用WebDAV才可使用此功能",
     "root_folder_id": "根資料夾ID",
@@ -257,6 +308,7 @@
     "share_password": "分享密碼",
     "type": "類型",
     "types": {
+      "account": "帳戶",
       "cookie": "Cookie",
       "url": "链接"
     }
@@ -266,7 +318,7 @@
     "root_folder_path": "根資料夾路徑",
     "show_hidden": "顯示隱藏",
     "show_hidden-tips": "顯示隱藏目錄以及檔",
-    "thumb_cache_folder": "Thumb cache folder",
+    "thumb_cache_folder": "縮略圖缓存文件夾",
     "thumbnail": "縮略圖",
     "thumbnail-tips": "啟用縮略圖"
   },
@@ -456,7 +508,7 @@
   "Thunder": {
     "captcha_token": "驗證碼",
     "password": "密碼",
-    "root_folder_id": "根資料夾ID",
+    "root_folder_id": "根文件夾ID",
     "username": "用戶名"
   },
   "ThunderExpert": {
@@ -512,7 +564,7 @@
       "asc": "升序",
       "desc": "降序"
     },
-    "root_folder_id": "根資料夾ID"
+    "root_folder_id": "根文件夾ID"
   },
   "USS": {
     "bucket": "存儲桶",
@@ -546,12 +598,27 @@
       "sharepoint": "Sharepoint"
     }
   },
+  "WeiYun": {
+    "cookies": "Cookies",
+    "order_by": "排序",
+    "order_bys": {
+      "name": "名稱",
+      "size": "大小",
+      "updated_at": "修改時間"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "root_folder_id": "根文件夾ID"
+  },
   "WoPan": {
     "access_token": "訪問令牌",
     "family_id": "Family id",
     "family_id-tips": "如果需要使用您的個人空間，請保持為空",
     "refresh_token": "刷新令牌",
-    "root_folder_id": "根資料夾ID",
+    "root_folder_id": "根文件夾ID",
     "sort_rule": "排序規則",
     "sort_rules": {
       "name_asc": "名稱升序",
@@ -579,14 +646,15 @@
       "desc": "降序"
     },
     "refresh_token": "刷新令牌",
-    "root_folder_path": "根資料夾路徑"
+    "root_folder_path": "根文件夾路徑"
   },
   "config": {
     "115 Cloud": {},
     "123Pan": {},
+    "123PanShare": {},
     "139Yun": {},
     "189Cloud": {
-      "alert": "如果此驅動無法工作，你可以嘗試使用“天翼網盤用戶端”驅動。"
+      "alert": "如果此驅動無法工作，你可以嘗試使用「天翼網盤用戶端」驅動。"
     },
     "189CloudPC": {},
     "AList V2": {},
@@ -601,6 +669,7 @@
     "BaiduPhoto": {},
     "BaiduShare": {},
     "Cloudreve": {},
+    "Crypt": {},
     "Dropbox": {},
     "FTP": {},
     "GoogleDrive": {},
@@ -611,7 +680,7 @@
     "MediaTrack": {},
     "Mega_nz": {},
     "MoPan": {
-      "alert": "這個網盤可能將您的密碼以明文存儲，請小心設定您的密碼。"
+      "alert": "這個網盤可能將您的密碼以明文存儲，請小心設置您的密碼"
     },
     "Onedrive": {},
     "OnedriveAPP": {},
@@ -632,12 +701,14 @@
     "UrlTree": {},
     "Virtual": {},
     "WebDav": {},
+    "WeiYun": {},
     "WoPan": {},
     "YandexDisk": {}
   },
   "drivers": {
     "115 Cloud": "115 網盤",
     "123Pan": "123雲盤",
+    "123PanShare": "123雲盤分享",
     "139Yun": "中國移動雲盤",
     "189Cloud": "天翼雲盤",
     "189CloudPC": "天翼雲盤用戶端",
@@ -651,6 +722,7 @@
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
     "Cloudreve": "Cloudreve",
+    "Crypt": "Crypt",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
     "GoogleDrive": "Google雲盤",
@@ -680,6 +752,7 @@
     "UrlTree": "UrlTree",
     "Virtual": "虛擬存儲",
     "WebDav": "WebDav",
+    "WeiYun": "騰訊微雲",
     "WoPan": "聯通雲盤",
     "YandexDisk": "Yandex網盤"
   }

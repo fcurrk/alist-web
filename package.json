@@ -10,7 +10,7 @@
   "packageManager": "pnpm@8.6.10",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alist-org/alist-web.git"
+    "url": "git+https://github.com/fcurrk/alist-web.git"
   },
   "bugs": {
     "url": "https://github.com/Xhofe/alist/issues"

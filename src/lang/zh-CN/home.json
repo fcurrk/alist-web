@@ -92,10 +92,10 @@
     "aria2_rpc_url": "Aria2 RPC 链接",
     "aria2_rpc_secret": "Aria2 RPC 密钥",
     "aria2_dir": "Aria2 下载目录",
-    "show_folder_in_image_view": "图片视图中显示文件夹",
+    "show_folder_in_image_view": "在图片视图中显示文件夹",
     "show_folder_in_image_view_options": {
-      "top": "顶部",
-      "bottom": "底部",
+      "top": "上方",
+      "bottom": "下方",
       "none": "无"
     },
     "global_default_layout": "全局默认布局",
@@ -120,7 +120,12 @@
   },
   "search": {
     "search": "搜索",
-    "no_result": "暂无结果"
+    "no_result": "暂无结果",
+    "scopes": {
+      "all": "全部",
+      "folder": "文件夹",
+      "file": "文件"
+    }
   },
   "fetching_settings_failed": "获取设置失败： ",
   "get_current_user_failed": "获取当前用户失败： ",

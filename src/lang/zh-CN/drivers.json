@@ -24,6 +24,22 @@
     "root_folder_id": "根文件夹ID",
     "username": "用户名"
   },
+  "123PanShare": {
+    "order_by": "排序",
+    "order_bys": {
+      "file_name": "文件名称",
+      "size": "大小",
+      "update_at": "修改时间"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "root_folder_id": "根文件夹ID",
+    "sharekey": "分享key",
+    "sharepassword": "分享密码"
+  },
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
@@ -111,8 +127,19 @@
     "client_id-tips": "如果你没有，请留空",
     "client_secret": "客户端密钥",
     "client_secret-tips": "如果你没有，请留空",
+    "drive_type": "云盘类型",
+    "drive_types": {
+      "backup": "备份盘",
+      "default": "默认",
+      "resource": "资源库"
+    },
     "internal_upload": "内部上传",
     "internal_upload-tips": "如在使用北京区阿里云ECS，可以开启用来提高上传速度",
+    "livp_download_format": "Livp 下载格式",
+    "livp_download_formats": {
+      "jpeg": "Jpeg",
+      "mov": "Mov"
+    },
     "oauth_token_url": "Oauth令牌链接",
     "order_by": "排序",
     "order_bys": {
@@ -127,7 +154,7 @@
       "DESC": "降序"
     },
     "rapid_upload": "秒传",
-    "rapid_upload-tips": "如启用此选项，文件将先上传到服务器，上传进度将无法正确",
+    "rapid_upload-tips": "如启用此选项，文件将先上传到服务器，上传进度将不正确",
     "refresh_token": "刷新令牌",
     "remove_way": "移除方式",
     "remove_ways": {
@@ -181,6 +208,7 @@
     "album_id": "相簿ID",
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
+    "delete_origin": "删除源文件",
     "refresh_token": "刷新令牌",
     "show_type": "展示类型",
     "show_types": {
@@ -201,6 +229,27 @@
     "password": "密码",
     "root_folder_path": "根文件夹路径",
     "username": "用户名"
+  },
+  "Crypt": {
+    "directory_name_encryption": "文件夹名称加密",
+    "directory_name_encryptions": {
+      "false": "False",
+      "true": "True"
+    },
+    "encrypted_suffix": "加密后缀",
+    "encrypted_suffix-tips": "加密的文件将有此后缀",
+    "filename_encryption": "文件名加密",
+    "filename_encryptions": {
+      "obfuscate": "混淆",
+      "off": "关闭",
+      "standard": "标准"
+    },
+    "password": "密码",
+    "password-tips": "主密码",
+    "remote_path": "加密后文件存储路径",
+    "remote_path-tips": "这是加密数据存储的位置",
+    "salt": "加盐",
+    "salt-tips": "如果您不知道什么是加盐，可以视为第二个密码。可选，推荐。"
   },
   "Dropbox": {
     "client_id": "客户端ID",
@@ -245,10 +294,12 @@
     "root_folder_path": "根文件夹路径"
   },
   "Lanzou": {
+    "account": "账户",
     "baseUrl": "基本URL",
     "baseUrl-tips": "进行文件操作的基础 URL",
     "cookie": "Cookie",
     "cookie-tips": "有效期约为15天，若使用分享链接则忽略",
+    "password": "密码",
     "repair_file_info": "修复文件信息",
     "repair_file_info-tips": "启用WebDAV才可使用此功能",
     "root_folder_id": "根文件夹ID",
@@ -257,6 +308,7 @@
     "share_password": "分享密码",
     "type": "类型",
     "types": {
+      "account": "账户",
       "cookie": "Cookie",
       "url": "链接"
     }
@@ -546,10 +598,25 @@
       "sharepoint": "Sharepoint"
     }
   },
+  "WeiYun": {
+    "cookies": "Cookie",
+    "order_by": "排序",
+    "order_bys": {
+      "name": "名称",
+      "size": "大小",
+      "updated_at": "修改时间"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "root_folder_id": "根文件夹ID"
+  },
   "WoPan": {
     "access_token": "访问令牌",
     "family_id": "Family id",
-    "family_id-tips": "如果需要使用您的个人空间，请保持为空",
+    "family_id-tips": "如果您想要使用您的个人空间，请保持为空",
     "refresh_token": "刷新令牌",
     "root_folder_id": "根文件夹ID",
     "sort_rule": "排序规则",
@@ -584,6 +651,7 @@
   "config": {
     "115 Cloud": {},
     "123Pan": {},
+    "123PanShare": {},
     "139Yun": {},
     "189Cloud": {
       "alert": "如果此驱动无法工作，你可以尝试使用“天翼网盘客户端”驱动。"
@@ -601,6 +669,7 @@
     "BaiduPhoto": {},
     "BaiduShare": {},
     "Cloudreve": {},
+    "Crypt": {},
     "Dropbox": {},
     "FTP": {},
     "GoogleDrive": {},
@@ -632,12 +701,14 @@
     "UrlTree": {},
     "Virtual": {},
     "WebDav": {},
+    "WeiYun": {},
     "WoPan": {},
     "YandexDisk": {}
   },
   "drivers": {
     "115 Cloud": "115 网盘",
     "123Pan": "123云盘",
+    "123PanShare": "123云盘分享",
     "139Yun": "中国移动云盘",
     "189Cloud": "天翼云盘",
     "189CloudPC": "天翼云盘客户端",
@@ -651,6 +722,7 @@
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
     "Cloudreve": "Cloudreve",
+    "Crypt": "Crypt",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
     "GoogleDrive": "谷歌云盘",
@@ -680,6 +752,7 @@
     "UrlTree": "UrlTree",
     "Virtual": "虚拟存储",
     "WebDav": "WebDav",
+    "WeiYun": "腾讯微云",
     "WoPan": "联通云盘",
     "YandexDisk": "Yandex网盘"
   }
