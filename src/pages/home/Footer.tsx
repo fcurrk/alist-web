@@ -10,28 +10,25 @@ export const Footer = () => {
   return (
     <VStack class="footer" w="$full" py="$4">
       <HStack spacing="$1">
-      <Text className="line1">
-	    {t("©2023 ")} {getSetting("site_title")}
-      </Text>
+        <Text className="line1">
+          {t("©2023 ")} {getSetting("site_title")}
+        </Text>
       </HStack>
       <HStack spacing="$1">
-      <Text className="line1">
-          {t("home.footer.powered_by")}
-        </Text><span> |</span>
+        <Text className="line1">{t("home.footer.powered_by")}</Text>
+        <span> |</span>
         <AnchorWithBase
           as={Link}
           href={UserMethods.is_guest(me()) ? "/@login" : "/@manage"}
         >
-          {t(
-            UserMethods.is_guest(me()) ? "login.login" : "home.footer.manage"
-          )}
-        </AnchorWithBase>   
-      {getSetting("site_beian") && (
-         <Anchor href="https://beian.miit.gov.cn" external>
+          {t(UserMethods.is_guest(me()) ? "login.login" : "home.footer.manage")}
+        </AnchorWithBase>
+        {getSetting("site_beian") && (
+          <Anchor href="https://beian.miit.gov.cn" external>
             {getSetting("site_beian")}
           </Anchor>
         )}
-     </HStack>
+      </HStack>
     </VStack>
   )
 }

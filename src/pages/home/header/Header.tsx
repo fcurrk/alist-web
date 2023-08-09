@@ -10,8 +10,15 @@ import {
   Text,
 } from "@hope-ui/solid"
 import { Show } from "solid-js"
-import { useT } from "~/hooks";
-import { getSetting, layout, objStore, setLayout, State, getMainColor } from "~/store"
+import { useT } from "~/hooks"
+import {
+  getSetting,
+  layout,
+  objStore,
+  setLayout,
+  State,
+  getMainColor,
+} from "~/store"
 import { BsGridFill, BsSearch } from "solid-icons/bs"
 import { FaSolidListUl } from "solid-icons/fa"
 import { CenterLoading } from "~/components"
@@ -40,11 +47,16 @@ export const Header = () => {
           justifyContent="space-between"
         >
           <HStack class="header-left" h="44px">
-          {getSetting("logo") ? (
-             <Image src={logo()!} h="$full" w="auto" fallback={<CenterLoading />}/>
-          ) : (
-             <Heading size="lg" >{logotext}</Heading>
-          )}
+            {getSetting("logo") ? (
+              <Image
+                src={logo()!}
+                h="$full"
+                w="auto"
+                fallback={<CenterLoading />}
+              />
+            ) : (
+              <Heading size="lg">{logotext}</Heading>
+            )}
           </HStack>
           <HStack class="header-right" spacing="$2">
             <Show when={objStore.state === State.Folder}>

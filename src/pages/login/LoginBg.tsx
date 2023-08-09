@@ -15,7 +15,7 @@ const LoginBg = () => {
       w="100vw"
       h="100vh"
     >
-  {/*    <Box
+      {/*    <Box
         pos="absolute"
         right={{
           "@initial": "-100px",

@@ -94,7 +94,6 @@ const Login = () => {
         spacing="$4"
       >
         <Flex alignItems="center" justifyContent="space-around">
-
           <Heading color="$info9" fontSize="$2xl">
             {title()}
           </Heading>

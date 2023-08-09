@@ -27,7 +27,9 @@ const LoadMore = () => {
       when={!allLoaded()}
       fallback={<Text fontStyle="italic">{t("home.no_more")}</Text>}
     >
-      <Button color={getMainColor()} onClick={loadMore}>{t("home.load_more")}</Button>
+      <Button color={getMainColor()} onClick={loadMore}>
+        {t("home.load_more")}
+      </Button>
     </Show>
   )
 }
@@ -57,7 +59,11 @@ const AutoLoadMore = () => {
   return (
     <Show
       when={!allLoaded()}
-      fallback={<Text fontStyle="italic" color={getMainColor()} >{t("home.no_more")}</Text>}
+      fallback={
+        <Text fontStyle="italic" color={getMainColor()}>
+          {t("home.no_more")}
+        </Text>
+      }
     >
       <FullLoading py="$2" size="md" thickness={3} ref={el!} />
     </Show>
