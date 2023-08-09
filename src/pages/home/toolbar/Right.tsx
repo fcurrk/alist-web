@@ -37,7 +37,7 @@ export const Right = () => {
         when={isOpen()}
         fallback={
           <RightIcon
-	    color={getMainColor()}
+            color={getMainColor()}
             class="toolbar-toggle"
             as={CgMoreO}
             onClick={() => {
@@ -73,7 +73,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
-	        color={getMainColor()}
+                color={getMainColor()}
                 as={operations.new_file.icon}
                 tips="new_file"
                 onClick={() => {
@@ -81,7 +81,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
-	        color={getMainColor()}
+                color={getMainColor()}
                 as={operations.mkdir.icon}
                 p="$1_5"
                 tips="mkdir"
@@ -90,7 +90,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
-	        color={getMainColor()}
+                color={getMainColor()}
                 as={operations.recursive_move.icon}
                 tips="recursive_move"
                 onClick={() => {
@@ -98,7 +98,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
-	      	color={getMainColor()}
+                color={getMainColor()}
                 as={operations.remove_empty_directory.icon}
                 tips="remove_empty_directory"
                 onClick={() => {
@@ -106,7 +106,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
-	      	color={getMainColor()}
+                color={getMainColor()}
                 as={operations.batch_rename.icon}
                 tips="batch_rename"
                 onClick={() => {
@@ -114,7 +114,7 @@ export const Right = () => {
                 }}
               />
               <RightIcon
-	      	color={getMainColor()}
+                color={getMainColor()}
                 as={AiOutlineCloudUpload}
                 tips="upload"
                 onClick={() => {
@@ -124,7 +124,7 @@ export const Right = () => {
             </Show>
             <Show when={isFolder() && userCan("offline_download")}>
               <RightIcon
-	        color={getMainColor()}
+                color={getMainColor()}
                 as={IoMagnetOutline}
                 pl="0"
                 tips="offline_download"
@@ -134,13 +134,13 @@ export const Right = () => {
               />
             </Show>
             <RightIcon
-	      color={getMainColor()}
+              color={getMainColor()}
               tips="toggle_checkbox"
               as={TbCheckbox}
               onClick={toggleCheckbox}
             />
             <RightIcon
-	      color={getMainColor()}
+              color={getMainColor()}
               as={AiOutlineSetting}
               tips="local_settings"
               onClick={() => {
@@ -148,7 +148,12 @@ export const Right = () => {
               }}
             />
           </VStack>
-          <RightIcon color={getMainColor()} tips="more" as={CgMoreO} onClick={onToggle} />
+          <RightIcon
+            color={getMainColor()}
+            tips="more"
+            as={CgMoreO}
+            onClick={onToggle}
+          />
         </VStack>
       </Show>
     </Box>

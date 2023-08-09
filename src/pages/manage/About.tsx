@@ -1,8 +1,4 @@
-import {
-  HStack,
-  VStack,
-  Text,
-} from "@hope-ui/solid"
+import { HStack, VStack, Text } from "@hope-ui/solid"
 import { useManageTitle } from "~/hooks"
 import { useT } from "~/hooks"
 import { LinkWithBase } from "~/components"
@@ -12,18 +8,16 @@ const About = () => {
   useManageTitle("manage.sidemenu.about")
   const t = useT()
   return (
-      <VStack w="$full" spacing="$4" alignItems="start">
-         <HStack spacing="$2">
-             {getSetting("contact_us") && (
-	          <Text>{getSetting("contact_us")}</Text>
-	     )}
-         </HStack>
-	 <HStack spacing="$2">
-              <Text color="$info9">
-	        {t("©2023 ")} {getSetting("site_title")}
-              </Text>
-            </HStack>
-       </VStack>
+    <VStack w="$full" spacing="$4" alignItems="start">
+      <HStack spacing="$2">
+        {getSetting("contact_us") && <Text>{getSetting("contact_us")}</Text>}
+      </HStack>
+      <HStack spacing="$2">
+        <Text color="$info9">
+          {t("©2023 ")} {getSetting("site_title")}
+        </Text>
+      </HStack>
+    </VStack>
   )
 }
 
