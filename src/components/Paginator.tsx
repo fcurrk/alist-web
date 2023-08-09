@@ -29,7 +29,7 @@ export const Paginator = (props: PaginatorProps) => {
       defaultCurrent: 1,
       hideOnSinglePage: true,
     },
-    props
+    props,
   )
   const [store, setStore] = createStore({
     pageSize: merged.defaultPageSize,
@@ -47,7 +47,7 @@ export const Paginator = (props: PaginatorProps) => {
     const current = store.current
     const max = Math.min(
       pages() - 1,
-      current + Math.floor(merged.maxShowPage / 2)
+      current + Math.floor(merged.maxShowPage / 2),
     )
     return Array.from({ length: max - current }, (_, i) => current + 1 + i)
   })
