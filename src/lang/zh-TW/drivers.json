@@ -84,6 +84,8 @@
       "rapid": "秒傳",
       "stream": "流式上傳"
     },
+    "upload_thread": "上傳線程數",
+    "upload_thread-tips": "1<=線程數<=32",
     "username": "用戶名",
     "validate_code": "驗證碼"
   },
@@ -202,7 +204,9 @@
       "desc": "降序"
     },
     "refresh_token": "刷新令牌",
-    "root_folder_path": "根資料夾路徑"
+    "root_folder_path": "根資料夾路徑",
+    "upload_thread": "上傳線程數",
+    "upload_thread-tips": "1<=線程數<=32"
   },
   "BaiduPhoto": {
     "album_id": "相簿ID",
@@ -215,7 +219,9 @@
       "root": "根",
       "root_only_album": "僅根目錄下相簿",
       "root_only_file": "僅根目錄下檔案"
-    }
+    },
+    "upload_thread": "上傳線程數",
+    "upload_thread-tips": "1<=線程數<=32"
   },
   "BaiduShare": {
     "BDUSS": "BDUSS",
@@ -355,7 +361,9 @@
     "password": "密碼",
     "phone": "手機號碼",
     "root_folder_id": "根資料夾ID",
-    "root_folder_id-tips": "使用-11值時小心，一些操作可能導致系統錯誤"
+    "root_folder_id-tips": "使用-11值時小心，一些操作可能導致系統錯誤",
+    "upload_thread": "上傳線程數",
+    "upload_thread-tips": "1<=線程數<=32"
   },
   "Onedrive": {
     "chunk_size": "分片大小",
@@ -611,7 +619,9 @@
       "asc": "升序",
       "desc": "降序"
     },
-    "root_folder_id": "根文件夾ID"
+    "root_folder_id": "根文件夾ID",
+    "upload_thread": "上傳線程數",
+    "upload_thread-tips": "4<=線程數<=32"
   },
   "WoPan": {
     "access_token": "訪問令牌",
