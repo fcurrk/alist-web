@@ -84,8 +84,8 @@
       "rapid": "秒傳",
       "stream": "流式上傳"
     },
-    "upload_thread": "上傳線程數",
-    "upload_thread-tips": "1<=線程數<=32",
+    "upload_thread": "上傳線程",
+    "upload_thread-tips": "1<=線程<=32",
     "username": "用戶名",
     "validate_code": "驗證碼"
   },
@@ -186,7 +186,7 @@
   "BaiduNetdisk": {
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
-    "custom_crack_ua": "自定義破解UA",
+    "custom_crack_ua": "自定義破解ua",
     "download_api": "下載 API",
     "download_apis": {
       "crack": "非官方",
@@ -205,8 +205,9 @@
     },
     "refresh_token": "刷新令牌",
     "root_folder_path": "根資料夾路徑",
-    "upload_thread": "上傳線程數",
-    "upload_thread-tips": "1<=線程數<=32"
+    "upload_api": "上傳api",
+    "upload_thread": "上傳線程",
+    "upload_thread-tips": "1<=線程<=32"
   },
   "BaiduPhoto": {
     "album_id": "相簿ID",
@@ -220,8 +221,8 @@
       "root_only_album": "僅根目錄下相簿",
       "root_only_file": "僅根目錄下檔案"
     },
-    "upload_thread": "上傳線程數",
-    "upload_thread-tips": "1<=線程數<=32"
+    "upload_thread": "上傳線程",
+    "upload_thread-tips": "1<=線程<=32"
   },
   "BaiduShare": {
     "BDUSS": "BDUSS",
@@ -232,6 +233,7 @@
   "Cloudreve": {
     "address": "地址",
     "cookie": "Cookie",
+    "custom_ua": "自定義ua",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
@@ -361,9 +363,9 @@
     "password": "密碼",
     "phone": "手機號碼",
     "root_folder_id": "根資料夾ID",
-    "root_folder_id-tips": "使用-11值時小心，一些操作可能導致系統錯誤",
-    "upload_thread": "上傳線程數",
-    "upload_thread-tips": "1<=線程數<=32"
+    "root_folder_id-tips": "使用 -11 值時小心，一些操作可能導致系統錯誤",
+    "upload_thread": "上傳線程",
+    "upload_thread-tips": "1<=線程<=32"
   },
   "Onedrive": {
     "chunk_size": "分片大小",
@@ -491,7 +493,7 @@
       "international": "國際版"
     },
     "root_folder_id": "根資料夾ID",
-    "use_s3_upload_method": "使用s3上傳方法"
+    "use_s3_upload_method": "使用 s3 上傳方法"
   },
   "Terabox": {
     "cookie": "Cookie",
@@ -620,8 +622,8 @@
       "desc": "降序"
     },
     "root_folder_id": "根文件夾ID",
-    "upload_thread": "上傳線程數",
-    "upload_thread-tips": "4<=線程數<=32"
+    "upload_thread": "上傳線程",
+    "upload_thread-tips": "4<=線程<=32"
   },
   "WoPan": {
     "access_token": "訪問令牌",

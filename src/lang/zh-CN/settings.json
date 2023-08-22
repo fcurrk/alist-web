@@ -3,7 +3,7 @@
   "allow_mounted": "允许挂载",
   "announcement": "站点公告",
   "aria2_secret": "Aria2 密钥",
-  "aria2_uri": "Aria2地址",
+  "aria2_uri": "Aria2 地址",
   "audio_autoplay": "自动播放音频",
   "audio_cover": "音频封面",
   "audio_types": "音频类型",
@@ -85,6 +85,7 @@
   "version": "版本",
   "video_autoplay": "自动播放视频",
   "video_types": "视频类型",
+  "webauthn_login_enabled": "启用Webauthn登录",
   "logo_text": "文字Logo",
   "site_beian": "备案号",
   "contact_us": "自定义关于页面内容"

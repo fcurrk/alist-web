@@ -84,8 +84,8 @@
       "rapid": "秒传",
       "stream": "流式"
     },
-    "upload_thread": "上传线程数",
-    "upload_thread-tips": "1<=线程数<=32",
+    "upload_thread": "上传线程",
+    "upload_thread-tips": "1<=线程<=32",
     "username": "用户名",
     "validate_code": "验证码"
   },
@@ -186,7 +186,7 @@
   "BaiduNetdisk": {
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
-    "custom_crack_ua": "自定义破解UA",
+    "custom_crack_ua": "自定义破解ua",
     "download_api": "下载接口",
     "download_apis": {
       "crack": "非官方",
@@ -205,8 +205,9 @@
     },
     "refresh_token": "刷新令牌",
     "root_folder_path": "根文件夹路径",
-    "upload_thread": "上传线程数",
-    "upload_thread-tips": "1<=线程数<=32"
+    "upload_api": "上传 api",
+    "upload_thread": "上传线程",
+    "upload_thread-tips": "1<=线程<=32"
   },
   "BaiduPhoto": {
     "album_id": "相簿ID",
@@ -220,8 +221,8 @@
       "root_only_album": "仅根目录下相簿",
       "root_only_file": "仅根目录下文件"
     },
-    "upload_thread": "上传线程数",
-    "upload_thread-tips": "1<=线程数<=32"
+    "upload_thread": "上传线程",
+    "upload_thread-tips": "1<=线程<=32"
   },
   "BaiduShare": {
     "BDUSS": "BDUSS",
@@ -232,6 +233,7 @@
   "Cloudreve": {
     "address": "地址",
     "cookie": "Cookie",
+    "custom_ua": "自定义UA",
     "password": "密码",
     "root_folder_path": "根文件夹路径",
     "username": "用户名"
@@ -362,8 +364,8 @@
     "phone": "手机号码",
     "root_folder_id": "根文件夹ID",
     "root_folder_id-tips": "使用 -11 值时小心，一些操作可能导致系统错误",
-    "upload_thread": "上传线程数",
-    "upload_thread-tips": "1<=线程数<=32"
+    "upload_thread": "上传线程",
+    "upload_thread-tips": "1<=线程<=32"
   },
   "Onedrive": {
     "chunk_size": "分片大小",
@@ -620,8 +622,8 @@
       "desc": "降序"
     },
     "root_folder_id": "根文件夹ID",
-    "upload_thread": "上传线程数",
-    "upload_thread-tips": "4<=线程数<=32"
+    "upload_thread": "上传线程",
+    "upload_thread-tips": "4<=线程<=32"
   },
   "WoPan": {
     "access_token": "访问令牌",

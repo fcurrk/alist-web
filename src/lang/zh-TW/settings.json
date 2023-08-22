@@ -85,6 +85,7 @@
   "version": "版本",
   "video_autoplay": "自動播放視頻",
   "video_types": "視頻類型",
+  "webauthn_login_enabled": "啟用Webauthn登錄",
   "logo_text": "文字Logo",
   "site_beian": "備案號",
   "contact_us": "自定義關於頁面內容"

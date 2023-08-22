@@ -38,5 +38,9 @@
   "modify_nothing": "所以您不能在管理頁面中修改任何內容。",
   "sso_login": "單點登錄",
   "connect_sso": "綁定單點登錄平臺",
-  "disconnect_sso": "解綁單點登錄平臺"
+  "disconnect_sso": "解綁單點登錄平臺",
+  "webauthn": "WebAuthn",
+  "add_webauthn": "添加Webauthn 憑據",
+  "add_webauthn_success": "Webauthn 憑據添加成功！",
+  "webauthn_not_supported": "您的瀏覽器不支持Webauth，或者您的來源不安全"
 }
