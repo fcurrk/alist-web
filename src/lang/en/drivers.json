@@ -205,6 +205,7 @@
     },
     "refresh_token": "Refresh token",
     "root_folder_path": "Root folder path",
+    "upload_api": "Upload api",
     "upload_thread": "Upload thread",
     "upload_thread-tips": "1\u003c=thread\u003c=32"
   },
@@ -232,6 +233,7 @@
   "Cloudreve": {
     "address": "Address",
     "cookie": "Cookie",
+    "custom_ua": "Custom ua",
     "password": "Password",
     "root_folder_path": "Root folder path",
     "username": "Username"
