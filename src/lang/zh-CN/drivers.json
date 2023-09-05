@@ -245,7 +245,14 @@
       "true": "True"
     },
     "encrypted_suffix": "加密后缀",
-    "encrypted_suffix-tips": "加密的文件将有此后缀",
+    "encrypted_suffix-tips": "高级选项！加密的文件将使用此后缀",
+    "filename_encoding": "文件名编码",
+    "filename_encoding-tips": "高级选项",
+    "filename_encodings": {
+      "base32": "Base32",
+      "base32768": "Base32768",
+      "base64": "Base64"
+    },
     "filename_encryption": "文件名加密",
     "filename_encryptions": {
       "obfuscate": "混淆",
@@ -363,7 +370,6 @@
     "password": "密码",
     "phone": "手机号码",
     "root_folder_id": "根文件夹ID",
-    "root_folder_id-tips": "使用 -11 值时小心，一些操作可能导致系统错误",
     "upload_thread": "上传线程",
     "upload_thread-tips": "1<=线程<=32"
   },
@@ -577,6 +583,7 @@
     "root_folder_id": "根文件夹ID"
   },
   "USS": {
+    "anti_theft_chain_token": "反盗链令牌",
     "bucket": "存储桶",
     "endpoint": "Endpoint",
     "operator_name": "操作员名称",

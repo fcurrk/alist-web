@@ -245,7 +245,14 @@
       "true": "True"
     },
     "encrypted_suffix": "加密後綴",
-    "encrypted_suffix-tips": "加密的文件將有此後綴",
+    "encrypted_suffix-tips": "高級選項！加密的文件將有此後綴",
+    "filename_encoding": "文件名編碼",
+    "filename_encoding-tips": "高級選項！",
+    "filename_encodings": {
+      "base32": "Base32",
+      "base32768": "Base32768",
+      "base64": "Base64"
+    },
     "filename_encryption": "文件名加密",
     "filename_encryptions": {
       "obfuscate": "混淆",
@@ -363,7 +370,6 @@
     "password": "密碼",
     "phone": "手機號碼",
     "root_folder_id": "根資料夾ID",
-    "root_folder_id-tips": "使用 -11 值時小心，一些操作可能導致系統錯誤",
     "upload_thread": "上傳線程",
     "upload_thread-tips": "1<=線程<=32"
   },
@@ -577,6 +583,7 @@
     "root_folder_id": "根文件夾ID"
   },
   "USS": {
+    "anti_theft_chain_token": "Token 防盜鏈",
     "bucket": "存儲桶",
     "endpoint": "Endpoint",
     "operator_name": "操作員名稱",
