@@ -72,6 +72,7 @@
       "desc": "降序"
     },
     "password": "密码",
+    "rapid_upload": "快速上传",
     "root_folder_id": "根文件夹ID",
     "type": "类型",
     "types": {

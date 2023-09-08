@@ -72,6 +72,7 @@
       "desc": "降序"
     },
     "password": "密碼",
+    "rapid_upload": "快速上傳",
     "root_folder_id": "根資料夾ID",
     "type": "類型",
     "types": {
