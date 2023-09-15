@@ -38,6 +38,7 @@
   "other": {
     "start_load_success": "開始加載",
     "load_all": "全部重新加載",
-    "filter_by_driver": "按驅動篩選"
+    "filter_by_driver": "按驅動篩選",
+    "table_layout": "表格佈局"
   }
 }

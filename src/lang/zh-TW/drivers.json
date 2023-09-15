@@ -24,6 +24,14 @@
     "root_folder_id": "根資料夾ID",
     "username": "用戶名"
   },
+  "123PanLink": {
+    "origin_urls": "初始urls",
+    "origin_urls-tips": "樣式:文件夾名稱:\n  [文件大小:][修改日期:]Url",
+    "private_key": "私密金鑰",
+    "uid": "帳號 Uid",
+    "valid_duration": "有效時長",
+    "valid_duration-tips": "分鐘"
+  },
   "123PanShare": {
     "order_by": "排序",
     "order_bys": {
@@ -72,7 +80,7 @@
       "desc": "降序"
     },
     "password": "密碼",
-    "rapid_upload": "快速上傳",
+    "rapid_upload": "秒傳",
     "root_folder_id": "根資料夾ID",
     "type": "類型",
     "types": {
@@ -672,6 +680,7 @@
   "config": {
     "115 Cloud": {},
     "123Pan": {},
+    "123PanLink": {},
     "123PanShare": {},
     "139Yun": {},
     "189Cloud": {
@@ -729,6 +738,7 @@
   "drivers": {
     "115 Cloud": "115 網盤",
     "123Pan": "123雲盤",
+    "123PanLink": "123PanLink",
     "123PanShare": "123雲盤分享",
     "139Yun": "中國移動雲盤",
     "189Cloud": "天翼雲盤",
