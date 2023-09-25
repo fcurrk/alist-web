@@ -25,8 +25,8 @@
     "username": "用户名"
   },
   "123PanLink": {
-    "origin_urls": "初始urls",
-    "origin_urls-tips": "样式:文件夹名称:\n  [文件大小:][修改日期:]Url",
+    "origin_urls": "原始链接",
+    "origin_urls-tips": "结构:\nFolderName:\n  [FileSize:][Modified:]Url",
     "private_key": "私钥",
     "uid": "账号 Uid",
     "valid_duration": "有效时长",

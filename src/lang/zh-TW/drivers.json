@@ -26,7 +26,7 @@
   },
   "123PanLink": {
     "origin_urls": "初始urls",
-    "origin_urls-tips": "樣式:文件夾名稱:\n  [文件大小:][修改日期:]Url",
+    "origin_urls-tips": "結構:\nFolderName:\n  [FileName:][FileSize:][Modified:]Url",
     "private_key": "私密金鑰",
     "uid": "帳號 Uid",
     "valid_duration": "有效時長",

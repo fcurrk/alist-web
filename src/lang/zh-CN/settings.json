@@ -65,6 +65,7 @@
   "sso_auto_register": "单点登录自动注册",
   "sso_client_id": "单点登录客户端ID",
   "sso_client_secret": "单点登录客户端机密",
+  "sso_compatibility_mode": "单点登录兼容模式",
   "sso_default_dir": "单点登录默认路径",
   "sso_default_permission": "单点登录默认权限",
   "sso_endpoint_name": "单点登录端点名称",
