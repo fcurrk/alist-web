@@ -80,6 +80,7 @@
     "Microsoft": "微软",
     "OIDC": "OIDC"
   },
+  "sso_oidc_username_key": "单点登OIDC用户名密钥",
   "sso_organization_name": "单点登录组织名称",
   "text_types": "文本类型",
   "token": "令牌",

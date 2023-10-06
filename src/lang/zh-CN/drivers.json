@@ -273,7 +273,9 @@
     "remote_path": "加密后文件存储路径",
     "remote_path-tips": "这是加密数据存储的位置",
     "salt": "加盐",
-    "salt-tips": "如果您不知道什么是加盐，可以视为第二个密码。可选，推荐。"
+    "salt-tips": "如果您不知道什么是加盐，可以视为第二个密码。可选，推荐。",
+    "thumbnail": "缩略图",
+    "thumbnail-tips": "在缩略图文件夹下预先生成缩略图"
   },
   "Dropbox": {
     "client_id": "客户端ID",
@@ -387,6 +389,8 @@
     "chunk_size-tips": "上传分片大小 (单位: MB)",
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
+    "custom_host": "自定义HOST",
+    "custom_host-tips": "为Onedrive下载链接自定义HOST",
     "is_sharepoint": "是否Sharepoint",
     "redirect_uri": "重定向 Uri",
     "refresh_token": "刷新令牌",
@@ -404,6 +408,8 @@
     "chunk_size": "分片大小",
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
+    "custom_host": "自定义HOST",
+    "custom_host-tips": "为Onedrive下载链接自定义HOST",
     "email": "邮箱",
     "region": "地区",
     "regions": {

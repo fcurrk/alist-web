@@ -273,7 +273,9 @@
     "remote_path": "加密後文件存儲路徑",
     "remote_path-tips": "這是加密數據存儲的位置",
     "salt": "鹽值",
-    "salt-tips": "如果您不知道什么是鹽值，将其作为第二个密码处理。"
+    "salt-tips": "如果您不知道什么是鹽值，将其作为第二个密码处理。",
+    "thumbnail": "縮略圖",
+    "thumbnail-tips": "在縮略圖資料夾下預先生成縮略圖"
   },
   "Dropbox": {
     "client_id": "客户端ID",
@@ -387,6 +389,8 @@
     "chunk_size-tips": "上傳分塊大小 (單位： MB)",
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
+    "custom_host": "自定義HOST",
+    "custom_host-tips": "為Onedrive下載链接自定義HOST",
     "is_sharepoint": "是否Sharepoint",
     "redirect_uri": "重定向Uri",
     "refresh_token": "刷新令牌",
@@ -404,6 +408,8 @@
     "chunk_size": "分片大小",
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
+    "custom_host": "自定義HOST",
+    "custom_host-tips": "為Onedrive下載链接自定義HOST",
     "email": "郵箱",
     "region": "地區",
     "regions": {
@@ -469,7 +475,7 @@
   "SFTP": {
     "address": "地址",
     "password": "密碼",
-    "private_key": "私密金鑰",
+    "private_key": "私密密鑰",
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
   },
@@ -737,7 +743,7 @@
   "drivers": {
     "115 Cloud": "115 網盤",
     "123Pan": "123雲盤",
-    "123PanLink": "123PanLink",
+    "123PanLink": "123雲盤直鏈",
     "123PanShare": "123雲盤分享",
     "139Yun": "中國移動雲盤",
     "189Cloud": "天翼雲盤",

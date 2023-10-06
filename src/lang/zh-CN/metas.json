@@ -4,7 +4,9 @@
   "write": "写入",
   "hide": "隐藏",
   "readme": "说明",
+  "readme_help": "支持底部Markdown, 包括内容或链接",
+  "header": "Header",
+  "header_help": "支持底部Markdown, 包括内容或链接",
   "apply_sub": "应用到子文件夹",
-  "hide_help": "每行一个正则表达式",
-  "readme_help": "支持Markdown内容或Markdown链接"
+  "hide_help": "每行一个正则表达式"
 }
