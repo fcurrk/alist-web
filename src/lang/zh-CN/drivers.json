@@ -2,6 +2,8 @@
   "115 Cloud": {
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代码令牌和 cookie 中的一个",
+    "limit_rate": "限速",
+    "limit_rate-tips": "限制所有api请求速率（1r/[limit_rate]s）",
     "page_size": "分页大小",
     "page_size-tips": "115 驱动程序的列表 API 的每页大小",
     "qrcode_token": "二维码令牌",

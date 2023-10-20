@@ -2,6 +2,8 @@
   "115 Cloud": {
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
+    "limit_rate": "限速",
+    "limit_rate-tips": "限制所有api請求速率（1r/[limit_rate]s）",
     "page_size": "分頁大小",
     "page_size-tips": "115驅動程序列表API的每頁大小",
     "qrcode_token": "二維碼令牌",
