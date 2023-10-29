@@ -23,6 +23,7 @@
   },
   "home_icon": "首頁圖標",
   "iframe_previews": "Iframe 預覽",
+  "ignore_direct_link_params": "忽略直鏈參數", 
   "ignore_paths": "忽略路徑",
   "ignore_paths-tips": "每行一條路徑",
   "image_types": "圖片類型",
