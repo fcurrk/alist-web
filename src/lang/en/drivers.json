@@ -10,6 +10,21 @@
     "qrcode_token-tips": "one of QR code token and cookie required",
     "root_folder_id": "Root folder id"
   },
+  "115 Share": {
+    "cookie": "Cookie",
+    "cookie-tips": "one of QR code token and cookie required",
+    "limit_rate": "Limit rate",
+    "limit_rate-tips": "limit all api request rate (1r/[limit_rate]s)",
+    "page_size": "Page size",
+    "page_size-tips": "list api per page size of 115 driver",
+    "qrcode_token": "Qrcode token",
+    "qrcode_token-tips": "one of QR code token and cookie required",
+    "receive_code": "Receive code",
+    "receive_code-tips": "receive code of 115 share link",
+    "root_folder_id": "Root folder id",
+    "share_code": "Share code",
+    "share_code-tips": "share code of 115 share link"
+  },
   "123Pan": {
     "order_by": "Order by",
     "order_bys": {
@@ -241,10 +256,18 @@
     "root_folder_path": "Root folder path",
     "surl": "Surl"
   },
+  "ChaoXingGroupDrive": {
+    "bbsid": "Bbsid",
+    "cookie": "Cookie",
+    "password": "Password",
+    "root_folder_id": "Root folder id",
+    "user_name": "User name"
+  },
   "Cloudreve": {
     "address": "Address",
     "cookie": "Cookie",
     "custom_ua": "Custom ua",
+    "enable_thumb_and_folder_size": "Enable thumb and folder size",
     "password": "Password",
     "root_folder_path": "Root folder path",
     "username": "Username"
@@ -276,6 +299,8 @@
     "remote_path-tips": "This is where the encrypted data stores",
     "salt": "Salt",
     "salt-tips": "If you don't know what is salt, treat it as a second password. Optional but recommended",
+    "show_hidden": "Show hidden",
+    "show_hidden-tips": "show hidden directories and files",
     "thumbnail": "Thumbnail",
     "thumbnail-tips": "enable thumbnail which pre-generated under .thumbnails folder"
   },
@@ -613,6 +638,23 @@
     "url_structure": "Url structure",
     "url_structure-tips": "structure:FolderName:\n  [FileName:][FileSize:][Modified:]Url"
   },
+  "VTencent": {
+    "cookie": "Cookie",
+    "order_by": "Order by",
+    "order_bys": {
+      "CreatTime": "CreatTime",
+      "Name": "Name",
+      "Size": "Size",
+      "UpdateTime": "UpdateTime"
+    },
+    "order_direction": "Order direction",
+    "order_directions": {
+      "Asc": "Asc",
+      "Desc": "Desc"
+    },
+    "root_folder_id": "Root folder id",
+    "tf_uid": "Tf uid"
+  },
   "Virtual": {
     "max_file_size": "Max file size",
     "min_file_size": "Min file size",
@@ -624,6 +666,7 @@
     "address": "Address",
     "password": "Password",
     "root_folder_path": "Root folder path",
+    "tls_insecure_skip_verify": "Tls insecure skip verify",
     "username": "Username",
     "vendor": "Vendor",
     "vendors": {
@@ -685,6 +728,7 @@
   },
   "config": {
     "115 Cloud": {},
+    "115 Share": {},
     "123Pan": {},
     "123PanLink": {},
     "123PanShare": {},
@@ -704,6 +748,7 @@
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
+    "ChaoXingGroupDrive": {},
     "Cloudreve": {},
     "Crypt": {},
     "Dropbox": {},
@@ -735,6 +780,7 @@
     "UC": {},
     "USS": {},
     "UrlTree": {},
+    "VTencent": {},
     "Virtual": {},
     "WebDav": {},
     "WeiYun": {},
@@ -743,6 +789,7 @@
   },
   "drivers": {
     "115 Cloud": "115 Cloud",
+    "115 Share": "115 Share",
     "123Pan": "123Pan",
     "123PanLink": "123PanLink",
     "123PanShare": "123PanShare",
@@ -758,6 +805,7 @@
     "BaiduNetdisk": "BaiduNetdisk",
     "BaiduPhoto": "BaiduPhoto",
     "BaiduShare": "BaiduShare",
+    "ChaoXingGroupDrive": "ChaoXingGroupDrive",
     "Cloudreve": "Cloudreve",
     "Crypt": "Crypt",
     "Dropbox": "Dropbox",
@@ -787,6 +835,7 @@
     "UC": "UC",
     "USS": "USS",
     "UrlTree": "UrlTree",
+    "VTencent": "VTencent",
     "Virtual": "Virtual",
     "WebDav": "WebDav",
     "WeiYun": "WeiYun",
