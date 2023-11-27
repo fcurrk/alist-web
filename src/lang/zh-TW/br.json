@@ -5,7 +5,7 @@
   "finish_backup": "備份完成",
   "success_backup_item": "[ {{item}} ] 備份成功",
   "failed_backup_item": "[ {{item}} ] 備份失敗",
-  "no_file": "沒有選擇檔案",
+  "no_file": "未選擇檔案",
   "start_restore": "開始還原",
   "finish_restore": "還原完成",
   "success_restore_item": "[ {{item}} ] 還原成功",

@@ -50,6 +50,12 @@
     "cancel_select": "取消选择",
     "offline_download": "离线下载",
     "offline_download-tips": "每行一条链接",
+    "delete_policy": {
+      "delete_on_upload_succeed": "上传成功后删除",
+      "delete_on_upload_failed": "上传失败时删除",
+      "delete_never": "从不删除",
+      "delete_always": "总是删除"
+    },
     "download": "下载",
     "batch_download": "批量下载",
     "package_download": "打包下载",

@@ -2,13 +2,28 @@
   "115 Cloud": {
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代码令牌和 cookie 中的一个",
-    "limit_rate": "限速",
-    "limit_rate-tips": "限制所有api请求速率（1r/[limit_rate]s）",
+    "limit_rate": "限制速率",
+    "limit_rate-tips": "限制所有 api 请求速率(1r/[limit_rate]s)",
     "page_size": "分页大小",
     "page_size-tips": "115 驱动程序的列表 API 的每页大小",
     "qrcode_token": "二维码令牌",
     "qrcode_token-tips": "需要 QR 代码令牌和 cookie 中的一个",
     "root_folder_id": "根文件夹ID"
+  },
+  "115 Share": {
+    "cookie": "Cookie",
+    "cookie-tips": "需要 QR 代码令牌和 cookie 中的一个",
+    "limit_rate": "限制速率",
+    "limit_rate-tips": "限制所有 api 请求速率(1r/[limit_rate]s)",
+    "page_size": "分页大小",
+    "page_size-tips": "115 驱动程序的列表 API 的每页大小",
+    "qrcode_token": "二维码令牌",
+    "qrcode_token-tips": "需要 QR 代码令牌和 cookie 中的一个",
+    "receive_code": "提取码",
+    "receive_code-tips": "115 分享链接提取码",
+    "root_folder_id": "根文件夹ID",
+    "share_code": "分享码",
+    "share_code-tips": "分享链接的分享码"
   },
   "123Pan": {
     "order_by": "排序",
@@ -241,10 +256,18 @@
     "root_folder_path": "根文件夹路径",
     "surl": "百度网盘分享链接"
   },
+  "ChaoXingGroupDrive": {
+    "bbsid": "Bbsid",
+    "cookie": "Cookie",
+    "password": "密码",
+    "root_folder_id": "根文件夹ID",
+    "user_name": "用户名"
+  },
   "Cloudreve": {
     "address": "地址",
     "cookie": "Cookie",
     "custom_ua": "自定义UA",
+    "enable_thumb_and_folder_size": "启用缩略图和文件夹大小",
     "password": "密码",
     "root_folder_path": "根文件夹路径",
     "username": "用户名"
@@ -276,6 +299,8 @@
     "remote_path-tips": "这是加密数据存储的位置",
     "salt": "加盐",
     "salt-tips": "如果您不知道什么是加盐，可以视为第二个密码。可选，推荐。",
+    "show_hidden": "显示隐藏",
+    "show_hidden-tips": "显示隐藏目录以及文件",
     "thumbnail": "缩略图",
     "thumbnail-tips": "在缩略图文件夹下预先生成缩略图"
   },
@@ -392,7 +417,7 @@
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
     "custom_host": "自定义HOST",
-    "custom_host-tips": "为Onedrive下载链接自定义HOST",
+    "custom_host-tips": "自定义加速下载链接",
     "is_sharepoint": "是否Sharepoint",
     "redirect_uri": "重定向 Uri",
     "refresh_token": "刷新令牌",
@@ -411,7 +436,7 @@
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
     "custom_host": "自定义HOST",
-    "custom_host-tips": "为Onedrive下载链接自定义HOST",
+    "custom_host-tips": "自定义加速下载链接",
     "email": "邮箱",
     "region": "地区",
     "regions": {
@@ -614,6 +639,23 @@
     "url_structure": "Url 结构",
     "url_structure-tips": "结构:\nFolderName:\n  [FileName:][FileSize:][Modified:]Url"
   },
+  "VTencent": {
+    "cookie": "Cookie",
+    "order_by": "排序",
+    "order_bys": {
+      "CreatTime": "创建时间",
+      "Name": "名称",
+      "Size": "大小",
+      "UpdateTime": "修改时间"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "Asc": "升序",
+      "Desc": "降序"
+    },
+    "root_folder_id": "根文件夹ID",
+    "tf_uid": "Tf uid"
+  },
   "Virtual": {
     "max_file_size": "最大文件大小",
     "min_file_size": "最小文件大小",
@@ -625,6 +667,7 @@
     "address": "地址",
     "password": "密码",
     "root_folder_path": "根文件夹路径",
+    "tls_insecure_skip_verify": "跳过SSL证书验证",
     "username": "用户名",
     "vendor": "供应商",
     "vendors": {
@@ -686,6 +729,7 @@
   },
   "config": {
     "115 Cloud": {},
+    "115 Share": {},
     "123Pan": {},
     "123PanLink": {},
     "123PanShare": {},
@@ -705,6 +749,7 @@
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
+    "ChaoXingGroupDrive": {},
     "Cloudreve": {},
     "Crypt": {},
     "Dropbox": {},
@@ -736,6 +781,7 @@
     "UC": {},
     "USS": {},
     "UrlTree": {},
+    "VTencent": {},
     "Virtual": {},
     "WebDav": {},
     "WeiYun": {},
@@ -744,6 +790,7 @@
   },
   "drivers": {
     "115 Cloud": "115 网盘",
+    "115 Share": "115 云盘分享",
     "123Pan": "123云盘",
     "123PanLink": "123云盘直链",
     "123PanShare": "123云盘分享",
@@ -759,6 +806,7 @@
     "BaiduNetdisk": "百度网盘",
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
+    "ChaoXingGroupDrive": "超星小组盘",
     "Cloudreve": "Cloudreve",
     "Crypt": "Crypt",
     "Dropbox": "Dropbox",
@@ -788,6 +836,7 @@
     "UC": "UC",
     "USS": "又拍云存储",
     "UrlTree": "UrlTree",
+    "VTencent": "腾讯智能创作平台",
     "Virtual": "虚拟存储",
     "WebDav": "WebDav",
     "WeiYun": "腾讯微云",

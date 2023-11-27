@@ -13,15 +13,14 @@
     "profile": "个人资料",
     "about": "关于",
     "tasks": "任务",
-    "aria2": "Aria2",
     "upload": "上传",
     "copy": "复制",
-    "backup-restore": "备份 & 还原",
+    "backup-restore": "备份 & 恢复",
     "home": "主页",
     "indexes": "索引",
     "sso": "单点登录",
-    "qbit": "qBittorrent",
-    "docs": "文档"
+    "docs": "文档",
+    "offline_download": "离线下载"
   },
   "title": "后台管理",
   "not_admin": "您不是管理员用户，请使用管理员帐户登录。",

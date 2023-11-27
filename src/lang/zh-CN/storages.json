@@ -13,7 +13,7 @@
     "web_proxy": "Web 代理",
     "webdav_policy": "WebDAV 策略",
     "webdav_policys": {
-      "302_redirect": "302重定向",
+      "302_redirect": "302 重定向",
       "use_proxy_url": "使用代理地址",
       "native_proxy": "本地代理"
     },

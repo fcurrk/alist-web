@@ -2,13 +2,28 @@
   "115 Cloud": {
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
-    "limit_rate": "限速",
-    "limit_rate-tips": "限制所有api請求速率（1r/[limit_rate]s）",
+    "limit_rate": "次數限制",
+    "limit_rate-tips": "限制所有 API 次數上限 (1r/[limit_rate])",
     "page_size": "分頁大小",
     "page_size-tips": "115驅動程序列表API的每頁大小",
     "qrcode_token": "二維碼令牌",
-    "qrcode_token-tips": "需要 QR 代碼令牌和 cookie 中的一個",
+    "qrcode_token-tips": "需要 QR code Token 和 cookie 其中一個",
     "root_folder_id": "根資料夾ID"
+  },
+  "115 Share": {
+    "cookie": "Cookie",
+    "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
+    "limit_rate": "次數限制",
+    "limit_rate-tips": "限制所有 API 次數上限 (1r/[limit_rate])",
+    "page_size": "分頁大小",
+    "page_size-tips": "115 驅動程式的清單 API 的每頁大小",
+    "qrcode_token": "二維碼令牌",
+    "qrcode_token-tips": "需要 QR 代碼令牌和 cookie 中的一個",
+    "receive_code": "分享鏈接 ID",
+    "receive_code-tips": "115 分享鏈接 ID",
+    "root_folder_id": "根資料夾ID",
+    "share_code": "分享鏈接提取碼",
+    "share_code-tips": "115 分享鏈接提取碼"
   },
   "123Pan": {
     "order_by": "排序",
@@ -216,7 +231,7 @@
     },
     "refresh_token": "刷新令牌",
     "root_folder_path": "根資料夾路徑",
-    "upload_api": "上傳api",
+    "upload_api": "上傳 api",
     "upload_thread": "上傳線程",
     "upload_thread-tips": "1<=線程<=32"
   },
@@ -226,9 +241,9 @@
     "client_secret": "客户端密钥",
     "delete_origin": "刪除源文件",
     "refresh_token": "刷新令牌",
-    "show_type": "展示類型",
+    "show_type": "顯示類型",
     "show_types": {
-      "root": "根",
+      "root": "根目錄",
       "root_only_album": "僅根目錄下相簿",
       "root_only_file": "僅根目錄下檔案"
     },
@@ -241,10 +256,18 @@
     "root_folder_path": "根資料夾路徑",
     "surl": "百度網盤分享連結"
   },
+  "ChaoXingGroupDrive": {
+    "bbsid": "Bbsid",
+    "cookie": "Cookie",
+    "password": "密碼",
+    "root_folder_id": "根資料夾ID",
+    "user_name": "用戶名"
+  },
   "Cloudreve": {
     "address": "地址",
     "cookie": "Cookie",
-    "custom_ua": "自定義ua",
+    "custom_ua": "自定義UA",
+    "enable_thumb_and_folder_size": "啟用縮略圖和資料夾大小",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
@@ -516,7 +539,7 @@
       "international": "國際版"
     },
     "root_folder_id": "根資料夾ID",
-    "use_s3_upload_method": "使用 s3 上傳方法"
+    "use_s3_upload_method": "使用 s3 上傳方式"
   },
   "Terabox": {
     "cookie": "Cookie",
@@ -580,7 +603,7 @@
   },
   "Trainbit": {
     "AUSHELLPORTAL": "AUSHELLPORTAL",
-    "apikey": "Apikey",
+    "apikey": "API Key",
     "root_folder_id": "根資料夾ID"
   },
   "UC": {
@@ -614,6 +637,23 @@
     "url_structure": "Url結構",
     "url_structure-tips": "結構:\nFolderName:\n  [FileName:][FileSize:][Modified:]Url"
   },
+  "VTencent": {
+    "cookie": "Cookie",
+    "order_by": "排序",
+    "order_bys": {
+      "CreatTime": "創建時間",
+      "Name": "名稱",
+      "Size": "大小",
+      "UpdateTime": "修改時間"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "Asc": "遞增排序",
+      "Desc": "遞減排序"
+    },
+    "root_folder_id": "根資料夾ID",
+    "tf_uid": "Tf uid"
+  },
   "Virtual": {
     "max_file_size": "最大文件大小",
     "min_file_size": "最小文件大小",
@@ -625,6 +665,7 @@
     "address": "地址",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
+    "tls_insecure_skip_verify": "Tls不安全 跳過驗證",
     "username": "用戶名",
     "vendor": "供應商",
     "vendors": {
@@ -686,6 +727,7 @@
   },
   "config": {
     "115 Cloud": {},
+    "115 Share": {},
     "123Pan": {},
     "123PanLink": {},
     "123PanShare": {},
@@ -705,6 +747,7 @@
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
+    "ChaoXingGroupDrive": {},
     "Cloudreve": {},
     "Crypt": {},
     "Dropbox": {},
@@ -736,6 +779,7 @@
     "UC": {},
     "USS": {},
     "UrlTree": {},
+    "VTencent": {},
     "Virtual": {},
     "WebDav": {},
     "WeiYun": {},
@@ -744,6 +788,7 @@
   },
   "drivers": {
     "115 Cloud": "115 網盤",
+    "115 Share": "115 雲盤分享",
     "123Pan": "123雲盤",
     "123PanLink": "123雲盤直鏈",
     "123PanShare": "123雲盤分享",
@@ -759,6 +804,7 @@
     "BaiduNetdisk": "百度網盤",
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
+    "ChaoXingGroupDrive": "超星星小組盤",
     "Cloudreve": "Cloudreve",
     "Crypt": "Crypt",
     "Dropbox": "Dropbox",
@@ -776,7 +822,7 @@
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "誇克",
-    "S3": "對象存儲",
+    "S3": "S3",
     "SFTP": "SFTP",
     "SMB": "SMB",
     "Seafile": "Seafile",
@@ -788,6 +834,7 @@
     "UC": "UC",
     "USS": "又拍雲存儲",
     "UrlTree": "UrlTree",
+    "VTencent": "騰訊智能創作平台",
     "Virtual": "虛擬存儲",
     "WebDav": "WebDav",
     "WeiYun": "騰訊微雲",
