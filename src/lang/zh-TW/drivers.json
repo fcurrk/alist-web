@@ -72,7 +72,8 @@
     "type": "類型",
     "types": {
       "family": "家庭雲",
-      "personal": "個人雲"
+      "personal": "個人雲",
+      "personal_new": "新版個人雲"
     }
   },
   "189Cloud": {
