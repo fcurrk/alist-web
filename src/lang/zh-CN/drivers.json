@@ -342,6 +342,11 @@
     "root_folder_id": "根文件夹ID",
     "show_archive": "显示归档"
   },
+  "ILanZou": {
+    "password": "密码",
+    "root_folder_id": "根文件夹ID",
+    "username": "用户名"
+  },
   "IPFS API": {
     "endpoint": "Endpoint",
     "gateway": "网关",
@@ -757,6 +762,7 @@
     "FTP": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
+    "ILanZou": {},
     "IPFS API": {},
     "Lanzou": {},
     "Local": {},
@@ -814,6 +820,7 @@
     "FTP": "FTP",
     "GoogleDrive": "谷歌云盘",
     "GooglePhoto": "谷歌相册",
+    "ILanZou": "蓝奏云优享版",
     "IPFS API": "IPFS API",
     "Lanzou": "蓝奏云",
     "Local": "本机存储",
