@@ -402,7 +402,7 @@
   "Local": {
     "mkdir_perm": "创建文件夹权限",
     "recycle_bin_path": "回收站路径",
-    "recycle_bin_path-tips": "回收站的路径，如果为空则永久删除或保持'永久删除'",
+    "recycle_bin_path-tips": "回收站的路径，如果为空或保留设置为'delete permanently'则永久删除",
     "root_folder_path": "根文件夹路径",
     "show_hidden": "显示隐藏",
     "show_hidden-tips": "显示隐藏目录以及文件",
