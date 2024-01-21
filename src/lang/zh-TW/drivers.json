@@ -6,6 +6,17 @@
     "limit_rate-tips": "限制所有 API 次數上限 (1r/[limit_rate])",
     "page_size": "分頁大小",
     "page_size-tips": "115驅動程序列表API的每頁大小",
+    "qrcode_source": "二維碼來源",
+    "qrcode_source-tips": "選擇二維碼設備，默認Linux",
+    "qrcode_sources": {
+      "android": "Android",
+      "ios": "Ios",
+      "linux": "Linux",
+      "mac": "Mac",
+      "tv": "Tv",
+      "web": "Web",
+      "windows": "Windows"
+    },
     "qrcode_token": "二維碼令牌",
     "qrcode_token-tips": "需要 QR code Token 和 cookie 其中一個",
     "root_folder_id": "根資料夾ID"
@@ -17,6 +28,17 @@
     "limit_rate-tips": "限制所有 API 次數上限 (1r/[limit_rate])",
     "page_size": "分頁大小",
     "page_size-tips": "115 驅動程式的清單 API 的每頁大小",
+    "qrcode_source": "二維碼來源",
+    "qrcode_source-tips": "選擇二維碼設備，默認Linux",
+    "qrcode_sources": {
+      "android": "Android",
+      "ios": "Ios",
+      "linux": "Linux",
+      "mac": "Mac",
+      "tv": "Tv",
+      "web": "Web",
+      "windows": "Windows"
+    },
     "qrcode_token": "二維碼令牌",
     "qrcode_token-tips": "需要 QR 代碼令牌和 cookie 中的一個",
     "receive_code": "分享鏈接 ID",
@@ -318,6 +340,11 @@
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
   },
+  "FeijiPan": {
+    "password": "密碼",
+    "root_folder_id": "根資料夾ID",
+    "username": "用戶名"
+  },
   "GoogleDrive": {
     "chunk_size": "分片大小",
     "chunk_size-tips": "上傳分塊大小 (單位： MB)",
@@ -372,6 +399,8 @@
   },
   "Local": {
     "mkdir_perm": "創建資料夾許可",
+    "recycle_bin_path": "回收站路徑",
+    "recycle_bin_path-tips": "回收站的路徑，如果為空則永久删除或保持'永久删除'",
     "root_folder_path": "根資料夾路徑",
     "show_hidden": "顯示隱藏",
     "show_hidden-tips": "顯示隱藏目錄以及檔",
@@ -479,6 +508,13 @@
       "asc": "升序",
       "desc": "降序"
     },
+    "root_folder_id": "根資料夾ID"
+  },
+  "Quqi": {
+    "cookie": "Cookie",
+    "cookie-tips": "Cookie可以同時在多個用戶端上使用",
+    "password": "密碼",
+    "phone": "手機號碼",
     "root_folder_id": "根資料夾ID"
   },
   "S3": {
@@ -758,6 +794,7 @@
     "Crypt": {},
     "Dropbox": {},
     "FTP": {},
+    "FeijiPan": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
     "ILanZou": {},
@@ -774,6 +811,7 @@
     "PikPak": {},
     "PikPakShare": {},
     "Quark": {},
+    "Quqi": {},
     "S3": {},
     "SFTP": {},
     "SMB": {},
@@ -816,6 +854,7 @@
     "Crypt": "Crypt",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
+    "FeijiPan": "小飛機網盤",
     "GoogleDrive": "Google雲盤",
     "GooglePhoto": "Google相册",
     "ILanZou": "藍奏雲優享版",
@@ -830,6 +869,7 @@
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "誇克",
+    "Quqi": "曲奇雲盤",
     "S3": "S3",
     "SFTP": "SFTP",
     "SMB": "SMB",
