@@ -443,6 +443,8 @@
     "password": "Password",
     "phone": "Phone",
     "root_folder_id": "Root folder id",
+    "sms_code": "Sms code",
+    "sms_code-tips": "input 'send' send sms ",
     "upload_thread": "Upload thread",
     "upload_thread-tips": "1\u003c=thread\u003c=32"
   },
@@ -512,6 +514,8 @@
     "root_folder_id": "Root folder id"
   },
   "Quqi": {
+    "cdn": "Cdn",
+    "cdn-tips": "If you enable this option, the download speed can be increased, but there will be some performance loss",
     "cookie": "Cookie",
     "cookie-tips": "Cookie can be used on multiple clients at the same time",
     "password": "Password",
