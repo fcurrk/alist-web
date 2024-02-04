@@ -10,5 +10,8 @@
   "finish_restore": "還原完成",
   "success_restore_item": "[ {{item}} ] 還原成功",
   "failed_restore_item": "[ {{item}} ] 還原失敗",
-  "override": "覆蓋"
+  "override": "覆蓋",
+  "encrypt_password_placeholder": "如無需加密，請留空",
+  "encrypt_password": "加密密碼",
+  "wrong_encrypt_password": "加密密碼錯誤"
 }

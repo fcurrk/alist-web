@@ -443,6 +443,8 @@
     "password": "密码",
     "phone": "手机号码",
     "root_folder_id": "根文件夹ID",
+    "sms_code": "短信验证码",
+    "sms_code-tips": "输入'send'发送短信",
     "upload_thread": "上传线程",
     "upload_thread-tips": "1<=线程<=32"
   },
@@ -513,6 +515,8 @@
     "root_folder_id": "根文件夹ID"
   },
   "Quqi": {
+    "cdn": "Cdn",
+    "cdn-tips": "启用此选项，可提高下载速度，但会影响性能",
     "cookie": "Cookie",
     "cookie-tips": "Cookie可以同时在多个客户端上使用",
     "password": "密码",

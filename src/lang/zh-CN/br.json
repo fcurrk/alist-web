@@ -10,5 +10,8 @@
   "finish_restore": "恢复完成",
   "success_restore_item": "[ {{item}} ] 恢复成功",
   "failed_restore_item": "[ {{item}} ] 恢复失败",
-  "override": "覆盖"
+  "override": "覆盖",
+  "encrypt_password_placeholder": "如无需加密，请留空",
+  "encrypt_password": "加密密码",
+  "wrong_encrypt_password": "加密密码错误"
 }

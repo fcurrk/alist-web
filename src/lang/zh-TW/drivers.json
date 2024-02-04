@@ -441,6 +441,8 @@
     "password": "密碼",
     "phone": "手機號碼",
     "root_folder_id": "根資料夾ID",
+    "sms_code": "短信驗證碼",
+    "sms_code-tips": "輸入'send'發送短信",
     "upload_thread": "上傳線程",
     "upload_thread-tips": "1<=線程<=32"
   },
@@ -511,6 +513,8 @@
     "root_folder_id": "根資料夾ID"
   },
   "Quqi": {
+    "cdn": "Cdn",
+    "cdn-tips": "啟用此選項，可提高下載速度，但會影響性能",
     "cookie": "Cookie",
     "cookie-tips": "Cookie可以同時在多個用戶端上使用",
     "password": "密碼",
