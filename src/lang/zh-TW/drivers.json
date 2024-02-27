@@ -148,7 +148,7 @@
     "meta_password": "元信息密碼",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
-    "token": "令牌",
+    "token": "Token",
     "url": "链接",
     "username": "用戶名"
   },
@@ -318,12 +318,14 @@
     },
     "password": "密碼",
     "password-tips": "主密碼",
-    "remote_path": "加密後文件存儲路徑",
-    "remote_path-tips": "這是加密數據存儲的位置",
+    "remote_path": "遠端路徑",
+    "remote_path-tips": "這是加密資料儲存的位置",
     "salt": "鹽值",
-    "salt-tips": "如果您不知道什么是鹽值，将其作为第二个密码处理。",
-    "thumbnail": "縮略圖",
-    "thumbnail-tips": "在縮略圖資料夾下預先生成縮略圖"
+    "salt-tips": "如果您不知道什麼是鹽值，將其作為第二個密碼處理。",
+    "show_hidden": "顯示隱藏",
+    "show_hidden-tips": "顯示隱藏目錄以及檔案",
+    "thumbnail": "縮圖",
+    "thumbnail-tips": "啟用在縮略圖文件夾下預先生成的縮略圖"
   },
   "Dropbox": {
     "client_id": "客户端ID",
@@ -545,6 +547,7 @@
   },
   "SFTP": {
     "address": "地址",
+    "ignore_symlink_error": "忽略符號鏈接錯誤",
     "password": "密碼",
     "private_key": "私密密鑰",
     "root_folder_path": "根資料夾路徑",

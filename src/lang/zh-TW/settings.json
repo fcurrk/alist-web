@@ -62,6 +62,7 @@
     "bleve": "Bleve",
     "database": "數據庫",
     "database_non_full_text": "數據庫（非全文搜索）",
+    "meilisearch": "Meilisearch",
     "none": "無"
   },
   "settings_layout": "設定佈局",

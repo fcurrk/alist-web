@@ -30,6 +30,7 @@
     "refresh": "刷新",
     "toggle_theme": "切換主題",
     "switch_lang": "切換語言",
+    "toggle_markdown_toc": "切換輪廓",
     "toggle_checkbox": "開關復選框",
     "rename": "重命名",
     "input_new_name": "輸入一個新名稱",
@@ -110,8 +111,21 @@
       "list": "清單視圖",
       "grid": "網格視圖",
       "image": "圖片視圖"
-    }
+    },
+    "position_of_header_navbar": "標題欄和導航欄的位置",
+    "position_of_header_navbar_options": {
+      "static": "正常",
+      "sticky": "吸附到頁面頂部",
+      "only_navbar_sticky": "僅吸附導航欄"
+    },
+    "show_sidebar": "顯示側邊欄",
+    "show_sidebar_options": {
+      "none": "無",
+      "visible": "顯示"
+    },
+    "filename_scrollable": "可滾動的文件名"
   },
+
   "package_download": {
     "current_status": "當前狀態",
     "initializing": "正在初始化",

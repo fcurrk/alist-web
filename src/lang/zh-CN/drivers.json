@@ -547,6 +547,7 @@
   },
   "SFTP": {
     "address": "地址",
+    "ignore_symlink_error": "忽略符号链接错误",
     "password": "密码",
     "private_key": "私钥",
     "root_folder_path": "根文件夹路径",

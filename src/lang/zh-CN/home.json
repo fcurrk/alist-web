@@ -30,6 +30,7 @@
     "refresh": "刷新",
     "toggle_theme": "切换主题",
     "switch_lang": "切换语言",
+    "toggle_markdown_toc": "是否显示大纲",
     "toggle_checkbox": "开关复选框",
     "rename": "重命名",
     "input_new_name": "输入一个新名称",
@@ -110,7 +111,19 @@
       "list": "列表视图",
       "grid": "网格视图",
       "image": "图片视图"
-    }
+    },
+    "position_of_header_navbar": "标题栏和导航栏的位置",
+    "position_of_header_navbar_options": {
+      "static": "普通",
+      "sticky": "吸附到页面顶部",
+      "only_navbar_sticky": "仅吸附导航栏"
+    },
+    "show_sidebar": "显示侧边栏",
+    "show_sidebar_options": {
+      "none": "无",
+      "visible": "显示"
+    },
+    "filename_scrollable": "可滚动的文件名"
   },
   "package_download": {
     "current_status": "当前状态",
