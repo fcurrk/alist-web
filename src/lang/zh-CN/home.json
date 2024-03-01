@@ -123,13 +123,14 @@
       "none": "无",
       "visible": "显示"
     },
+    "grid_item_size": "网格项目大小",
     "list_item_filename_overflow": "列表项目文件名超长显示",
     "list_item_filename_overflow_options": {
       "ellipsis": "省略",
       "scrollable": "滚动",
       "multi_line": "多行"
     },
-    "open_item_on_checkbox": "在选择框中打开项目",
+    "open_item_on_checkbox": "在多选框中打开项目",
     "open_item_on_checkbox_options": {
       "direct": "直接",
       "with_ctrl": "按住Ctrl键/命令",

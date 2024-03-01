@@ -123,13 +123,14 @@
       "none": "無",
       "visible": "顯示"
     },
+    "grid_item_size": "網格項目大小",
     "list_item_filename_overflow": "列表項目文件名超長顯示",
     "list_item_filename_overflow_options": {
       "ellipsis": "省略",
       "scrollable": "滾動",
       "multi_line": "多行"
     },
-    "open_item_on_checkbox": "在選擇框中打開項目",
+    "open_item_on_checkbox": "在多選框中打開項目",
     "open_item_on_checkbox_options": {
       "direct": "直接",
       "with_ctrl": "按住Ctrl鍵/命令",
