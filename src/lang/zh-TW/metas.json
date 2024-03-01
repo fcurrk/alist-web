@@ -5,7 +5,7 @@
   "hide": "隱藏",
   "readme": "說明",
   "readme_help": "顯示在底部，支持Markdown，包括文字與链接",
-  "header": "Header",
+  "header": "頂部說明",
   "header_help": "顯示在頂部，支持Markdown，包括文字與链接",
   "apply_sub": "應用到子文件夾",
   "hide_help": "每行一個正則表達式"

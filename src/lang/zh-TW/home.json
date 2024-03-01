@@ -123,10 +123,19 @@
       "none": "無",
       "visible": "顯示"
     },
-    "grid_item_size": "網格項目大小",
-    "filename_scrollable": "文件名滾動"
+    "list_item_filename_overflow": "列表項目文件名超長顯示",
+    "list_item_filename_overflow_options": {
+      "ellipsis": "省略",
+      "scrollable": "滾動",
+      "multi_line": "多行"
+    },
+    "open_item_on_checkbox": "在選擇框中打開項目",
+    "open_item_on_checkbox_options": {
+      "direct": "直接",
+      "with_ctrl": "按住Ctrl鍵/命令",
+      "with_alt": "按住Alt鍵/命令"
+    }
   },
-
   "package_download": {
     "current_status": "當前狀態",
     "initializing": "正在初始化",

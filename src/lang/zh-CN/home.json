@@ -123,8 +123,18 @@
       "none": "无",
       "visible": "显示"
     },
-    "grid_item_size": "网格项目大小",
-    "filename_scrollable": "文件名滚动"
+    "list_item_filename_overflow": "列表项目文件名超长显示",
+    "list_item_filename_overflow_options": {
+      "ellipsis": "省略",
+      "scrollable": "滚动",
+      "multi_line": "多行"
+    },
+    "open_item_on_checkbox": "在选择框中打开项目",
+    "open_item_on_checkbox_options": {
+      "direct": "直接",
+      "with_ctrl": "按住Ctrl键/命令",
+      "with_alt": "按住Alt键/命令"
+    }
   },
   "package_download": {
     "current_status": "当前状态",

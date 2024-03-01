@@ -132,6 +132,7 @@ export const Right = () => {
             </Show>
             <Show when={isTocVisible()}>
               <RightIcon
+	        color={getMainColor()}
                 as={BiSolidBookContent}
                 tips="toggle_markdown_toc"
                 onClick={() => {

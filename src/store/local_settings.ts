@@ -47,9 +47,16 @@ export const initialLocalSettings = [
     type: "number",
   },
   {
-    key: "filename_scrollable",
-    default: "false",
-    type: "boolean",
+    key: "list_item_filename_overflow",
+    default: "ellipsis",
+    type: "select",
+    options: ["ellipsis", "scrollable", "multi_line"],
+  },
+  {
+    key: "open_item_on_checkbox",
+    default: "direct",
+    type: "select",
+    options: ["direct", "with_alt"], // "with_ctrl",? mac's control key can't be prevented
   },
 ]
 export type LocalSetting = (typeof initialLocalSettings)[number]

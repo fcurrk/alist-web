@@ -15,6 +15,7 @@ import {
 import { ObjType, StoreObj } from "~/types"
 import { bus, formatDate, getFileSize, hoverColor } from "~/utils"
 import { getIconByObj } from "~/utils/icon"
+import { useOpenItemWithCheckbox } from "./helper"
 
 export interface Col {
   name: OrderBy
@@ -36,7 +37,8 @@ export const ListItem = (props: { obj: StoreObj; index: number }) => {
   const { setPathAs } = usePath()
   const { show } = useContextMenu({ id: 1 })
   const { pushHref, to } = useRouter()
-  const filenameScrollable = () => local["filename_scrollable"] === "true"
+  const isShouldOpenItem = useOpenItemWithCheckbox()
+  const filenameStyle = () => local["list_item_filename_overflow"]
   return (
     <Motion.div
       initial={{ opacity: 0, scale: 0.95 }}
@@ -58,11 +60,11 @@ export const ListItem = (props: { obj: StoreObj; index: number }) => {
         }}
         as={LinkWithPush}
         href={props.obj.name}
-        // @ts-expect-error
-        on:click={(e: PointerEvent) => {
+        cursor={!checkboxOpen() || isShouldOpenItem() ? "pointer" : "default"}
+        on:click={(e: MouseEvent) => {
           if (!checkboxOpen()) return
           e.preventDefault()
-          if (e.altKey) {
+          if (isShouldOpenItem()) {
             // click with alt/option key
             to(pushHref(props.obj.name))
             return
@@ -87,8 +89,7 @@ export const ListItem = (props: { obj: StoreObj; index: number }) => {
           <Show when={checkboxOpen()}>
             <Checkbox
               // colorScheme="neutral"
-              // @ts-ignore
-              on:click={(e) => {
+              on:click={(e: MouseEvent) => {
                 e.stopPropagation()
               }}
               checked={props.obj.selected}
@@ -103,8 +104,7 @@ export const ListItem = (props: { obj: StoreObj; index: number }) => {
             color={getMainColor()}
             as={getIconByObj(props.obj)}
             mr="$1"
-            // @ts-expect-error
-            on:click={(e) => {
+            on:click={(e: MouseEvent) => {
               if (props.obj.type === ObjType.IMAGE) {
                 e.stopPropagation()
                 e.preventDefault()
@@ -115,9 +115,12 @@ export const ListItem = (props: { obj: StoreObj; index: number }) => {
           <Text
             class="name"
             css={{
-              whiteSpace: "nowrap",
-              "overflow-x": filenameScrollable() ? "auto" : "hidden",
-              textOverflow: filenameScrollable() ? "unset" : "ellipsis",
+              wordBreak: "break-all",
+              whiteSpace: filenameStyle() === "multi_line" ? "unset" : "nowrap",
+              "overflow-x":
+                filenameStyle() === "scrollable" ? "auto" : "hidden",
+              textOverflow:
+                filenameStyle() === "ellipsis" ? "ellipsis" : "unset",
               "scrollbar-width": "none", // firefox
               "&::-webkit-scrollbar": {
                 // webkit
