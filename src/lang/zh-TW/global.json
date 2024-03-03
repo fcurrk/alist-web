@@ -27,5 +27,6 @@
   "go_login": "轉到登錄",
   "close": "關閉",
   "no_support_now": "暫不支持",
-  "empty_input": "請輸入"
+  "empty_input": "請輸入",
+  "name": "名稱"
 }
