@@ -135,6 +135,11 @@
       "direct": "直接打開",
       "with_ctrl": "使用 Ctrl/Command 按鍵打開",
       "with_alt": "使用 Alt/Option 按鍵打開"
+    },
+    "select_with_mouse": "多選框關閉時用滑鼠選擇項目",
+    "select_with_mouse_options": {
+      "disabled": "停用",
+      "open_item_with_dblclick": "雙擊打開"
     }
   },
   "package_download": {

@@ -135,6 +135,11 @@
       "direct": "直接打开",
       "with_ctrl": "按住 Ctrl/Command 按键打开",
       "with_alt": "按住 Alt/Option 按键打开"
+    },
+    "select_with_mouse": "Select item with mouse while checkbox closed",
+    "select_with_mouse_options": {
+      "disabled": "停用",
+      "open_item_with_dblclick": "Open item with double click"
     }
   },
   "package_download": {

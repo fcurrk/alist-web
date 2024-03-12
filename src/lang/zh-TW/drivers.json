@@ -564,6 +564,7 @@
     "address": "地址",
     "password": "密碼",
     "repoId": "RepoId",
+    "repoPwd": "Repo密碼",
     "root_folder_path": "根資料夾路徑",
     "username": "用戶名"
   },
