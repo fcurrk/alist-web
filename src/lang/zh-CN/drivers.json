@@ -327,6 +327,28 @@
     "thumbnail": "缩略图",
     "thumbnail-tips": "在缩略图文件夹下预先生成缩略图"
   },
+  "Doge": {
+    "access_key_id": "访问密钥 Id",
+    "add_filename_to_disposition": "添加filename到disposition",
+    "add_filename_to_disposition-tips": "添加filename到Content-Disposition头中。",
+    "bucket": "存储桶",
+    "custom_host": "自定义HOST",
+    "endpoint": "Endpoint",
+    "force_path_style": "强制路径样式",
+    "list_object_version": "列出对象版本",
+    "list_object_versions": {
+      "v1": "V1",
+      "v2": "V2"
+    },
+    "placeholder": "占位文件名",
+    "region": "地区",
+    "remove_bucket": "移除存储桶",
+    "remove_bucket-tips": "使用自定义主机时从路径中删除存储桶名称。",
+    "root_folder_path": "根文件夹路径",
+    "secret_access_key": "安全访问密钥",
+    "session_token": "会话令牌",
+    "sign_url_expire": "签名链接有效期"
+  },
   "Dropbox": {
     "client_id": "客户端ID",
     "client_id-tips": "没有请留空",
@@ -402,7 +424,7 @@
   "Local": {
     "mkdir_perm": "创建文件夹权限",
     "recycle_bin_path": "回收站路径",
-    "recycle_bin_path-tips": "回收站的路径，如果为空或保留设置为'delete permanently'则永久删除",
+    "recycle_bin_path-tips": "回收站的路径，如果空或保留“永久删除”则永久删除",
     "root_folder_path": "根文件夹路径",
     "show_hidden": "显示隐藏",
     "show_hidden-tips": "显示隐藏目录以及文件",
@@ -525,8 +547,8 @@
   },
   "S3": {
     "access_key_id": "访问密钥 Id",
-    "add_filename_to_disposition": "添加文件名至Disposition",
-    "add_filename_to_disposition-tips": "添加文件名至Content-Disposition header.",
+    "add_filename_to_disposition": "添加filename到disposition",
+    "add_filename_to_disposition-tips": "添加filename到Content-Disposition头中。",
     "bucket": "存储桶",
     "custom_host": "自定义HOST",
     "endpoint": "Endpoint",
@@ -547,7 +569,7 @@
   },
   "SFTP": {
     "address": "地址",
-    "ignore_symlink_error": "忽略符号链接错误",
+    "ignore_symlink_error": "忽略软链接错误",
     "password": "密码",
     "private_key": "私钥",
     "root_folder_path": "根文件夹路径",
@@ -800,6 +822,7 @@
     "ChaoXingGroupDrive": {},
     "Cloudreve": {},
     "Crypt": {},
+    "Doge": {},
     "Dropbox": {},
     "FTP": {},
     "FeijiPan": {},
@@ -860,6 +883,7 @@
     "ChaoXingGroupDrive": "超星小组盘",
     "Cloudreve": "Cloudreve",
     "Crypt": "Crypt",
+    "Doge": "多吉云",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
     "FeijiPan": "飞机盘",

@@ -139,7 +139,7 @@
     "validate_code": "驗證碼"
   },
   "AList V2": {
-    "access_token": "訪問權杖",
+    "access_token": "訪問令牌",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
     "url": "链接"
@@ -326,6 +326,28 @@
     "show_hidden-tips": "顯示隱藏目錄以及檔案",
     "thumbnail": "縮圖",
     "thumbnail-tips": "啟用在縮略圖文件夾下預先生成的縮略圖"
+  },
+  "Doge": {
+    "access_key_id": "訪問密钥ID",
+    "add_filename_to_disposition": "新增 filename 到 disposition",
+    "add_filename_to_disposition-tips": "新增 filename 到 Content-Disposition header 中。",
+    "bucket": "存儲桶",
+    "custom_host": "自定義HOST",
+    "endpoint": "地區",
+    "force_path_style": "強制路徑樣式",
+    "list_object_version": "列出對象版本",
+    "list_object_versions": {
+      "v1": "V1",
+      "v2": "V2"
+    },
+    "placeholder": "占位文件名",
+    "region": "地區",
+    "remove_bucket": "删除存儲桶",
+    "remove_bucket-tips": "使用自定義主機時從路徑中刪除存儲桶名稱。",
+    "root_folder_path": "根資料夾路徑",
+    "secret_access_key": "安全瀏覽密钥",
+    "session_token": "會話令牌",
+    "sign_url_expire": "簽名連結有效期"
   },
   "Dropbox": {
     "client_id": "客户端ID",
@@ -525,11 +547,11 @@
   },
   "S3": {
     "access_key_id": "訪問密钥 Id",
-    "add_filename_to_disposition": "添加文件名至Disposition",
-    "add_filename_to_disposition-tips": "添加文件名至Content-Disposition header.",
+    "add_filename_to_disposition": "添加 filename 至Disposition",
+    "add_filename_to_disposition-tips": "添加 filename 至Content-Disposition header.",
     "bucket": "存儲桶",
     "custom_host": "自定義HOST",
-    "endpoint": "Endpoint",
+    "endpoint": "地區",
     "force_path_style": "強制路徑樣式",
     "list_object_version": "列出對象版本",
     "list_object_versions": {
@@ -675,7 +697,7 @@
   "USS": {
     "anti_theft_chain_token": "Token 防盜鏈",
     "bucket": "存儲桶",
-    "endpoint": "Endpoint",
+    "endpoint": "地區",
     "operator_name": "操作員名稱",
     "operator_password": "操作員密碼",
     "root_folder_path": "根資料夾路徑",
@@ -800,6 +822,7 @@
     "ChaoXingGroupDrive": {},
     "Cloudreve": {},
     "Crypt": {},
+    "Doge": {},
     "Dropbox": {},
     "FTP": {},
     "FeijiPan": {},
@@ -860,6 +883,7 @@
     "ChaoXingGroupDrive": "超星星小組盤",
     "Cloudreve": "Cloudreve",
     "Crypt": "Crypt",
+    "Doge": "Doge",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
     "FeijiPan": "飛機盤",

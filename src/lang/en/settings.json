@@ -105,5 +105,8 @@
   "version": "Version",
   "video_autoplay": "Video autoplay",
   "video_types": "Video types",
-  "webauthn_login_enabled": "Webauthn login enabled"
+  "webauthn_login_enabled": "Webauthn login enabled",
+  "logo_text": "Logo text",
+  "site_beian": "Beian",
+  "contact_us": "Customize About page content"
 }

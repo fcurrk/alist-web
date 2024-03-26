@@ -133,6 +133,7 @@
     "open_item_on_checkbox": "在多選框中打開選項",
     "open_item_on_checkbox_options": {
       "direct": "直接打開",
+      "disable_while_checked": "選中時禁用",
       "with_ctrl": "使用 Ctrl/Command 按鍵打開",
       "with_alt": "使用 Alt/Option 按鍵打開"
     },
