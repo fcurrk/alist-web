@@ -589,6 +589,7 @@
     "repoId": "RepoId",
     "repoPwd": "Repo密碼",
     "root_folder_path": "根資料夾路徑",
+    "token": "Token",
     "username": "用戶名"
   },
   "Teambition": {
