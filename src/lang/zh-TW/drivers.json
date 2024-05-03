@@ -238,6 +238,8 @@
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
     "custom_crack_ua": "自定義破解ua",
+    "custom_upload_part_size": "自定義上傳大小",
+    "custom_upload_part_size-tips": "0為自動",
     "download_api": "下載 API",
     "download_apis": {
       "crack": "非官方",
