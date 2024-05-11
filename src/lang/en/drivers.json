@@ -474,6 +474,11 @@
     "upload_thread": "Upload thread",
     "upload_thread-tips": "1\u003c=thread\u003c=32"
   },
+  "NeteaseMusic": {
+    "cookie": "Cookie",
+    "song_limit": "Song limit",
+    "song_limit-tips": "only get 200 songs by default"
+  },
   "Onedrive": {
     "chunk_size": "Chunk size",
     "client_id": "Client id",
@@ -841,6 +846,7 @@
     "MoPan": {
       "alert": "This network disk may store your password in clear text. Please set your password carefully"
     },
+    "NeteaseMusic": {},
     "Onedrive": {},
     "OnedriveAPP": {},
     "PikPak": {},
@@ -900,6 +906,7 @@
     "MediaTrack": "MediaTrack",
     "Mega_nz": "Mega nz",
     "MoPan": "MoPan",
+    "NeteaseMusic": "NeteaseMusic",
     "Onedrive": "Onedrive",
     "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",
