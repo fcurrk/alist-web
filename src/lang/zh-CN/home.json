@@ -66,6 +66,7 @@
     "send_aria2_success": "成功发送到 aria2",
     "pre_package_download-tips": "在浏览器中使用streamsaver而不是服务器来进行包下载需要相应的存储支持cors，而不支持的存储将失败。",
     "package_download-tips": "正在下载，请稍候不要关闭页面",
+    "playlist_download": "播放列表下载",
     "upload": "上传",
     "local_settings": "本地设置",
     "recursive_move": "聚合移动",

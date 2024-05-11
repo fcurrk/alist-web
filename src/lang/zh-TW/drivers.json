@@ -72,7 +72,7 @@
     "valid_duration-tips": "分鐘"
   },
   "123PanShare": {
-    "accesstoken": "Accesstoken",
+    "accesstoken": "訪問令牌",
     "order_by": "排序",
     "order_bys": {
       "file_name": "文件名稱",
@@ -238,8 +238,8 @@
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
     "custom_crack_ua": "自定義破解ua",
-    "custom_upload_part_size": "自定義上傳大小",
-    "custom_upload_part_size-tips": "0為自動",
+    "custom_upload_part_size": "自定義上傳分片大小",
+    "custom_upload_part_size-tips": "0表示根據VIP等級對應大小",
     "download_api": "下載 API",
     "download_apis": {
       "crack": "非官方",
@@ -474,6 +474,11 @@
     "upload_thread": "上傳線程",
     "upload_thread-tips": "1<=線程<=32"
   },
+  "NeteaseMusic": {
+    "cookie": "Cookie",
+    "song_limit": "歌曲限制",
+    "song_limit-tips": "默認情况下只能獲得200首歌曲"
+  },
   "Onedrive": {
     "chunk_size": "分片大小",
     "chunk_size-tips": "上傳分塊大小 (單位： MB)",
@@ -589,8 +594,8 @@
   "Seafile": {
     "address": "地址",
     "password": "密碼",
-    "repoId": "RepoId",
-    "repoPwd": "Repo密碼",
+    "repoId": "倉庫Id",
+    "repoPwd": "倉庫密碼",
     "root_folder_path": "根資料夾路徑",
     "token": "Token",
     "username": "用戶名"
@@ -842,6 +847,7 @@
     "MoPan": {
       "alert": "這個網盤可能將您的密碼以明文存儲，請小心設置您的密碼"
     },
+    "NeteaseMusic": {},
     "Onedrive": {},
     "OnedriveAPP": {},
     "PikPak": {},
@@ -901,8 +907,9 @@
     "MediaTrack": "分秒幀",
     "Mega_nz": "Mega 網盤",
     "MoPan": "魔盤",
-    "Onedrive": "Onedrive",
-    "OnedriveAPP": "OnedriveAPP",
+    "NeteaseMusic": "網易雲音樂",
+    "Onedrive": "OneDrive",
+    "OnedriveAPP": "OneDrive APP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "誇克",

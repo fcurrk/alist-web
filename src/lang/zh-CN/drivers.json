@@ -72,7 +72,7 @@
     "valid_duration-tips": "分钟"
   },
   "123PanShare": {
-    "accesstoken": "Accesstoken",
+    "accesstoken": "访问令牌",
     "order_by": "排序",
     "order_bys": {
       "file_name": "文件名称",
@@ -238,8 +238,8 @@
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
     "custom_crack_ua": "自定义破解ua",
-    "custom_upload_part_size": "自定义上传大小",
-    "custom_upload_part_size-tips": "0为自动",
+    "custom_upload_part_size": "自定义上传分片大小",
+    "custom_upload_part_size-tips": "0 表示根据VIP等级对应大小",
     "download_api": "下载接口",
     "download_apis": {
       "crack": "非官方",
@@ -474,6 +474,11 @@
     "upload_thread": "上传线程",
     "upload_thread-tips": "1<=线程<=32"
   },
+  "NeteaseMusic": {
+    "cookie": "Cookie",
+    "song_limit": "歌曲限制",
+    "song_limit-tips": "默认情况下只能获得200首歌曲"
+  },
   "Onedrive": {
     "chunk_size": "分片大小",
     "chunk_size-tips": "上传分片大小 (单位: MB)",
@@ -589,8 +594,8 @@
   "Seafile": {
     "address": "地址",
     "password": "密码",
-    "repoId": "RepoId",
-    "repoPwd": "Repo密码",
+    "repoId": "仓库Id",
+    "repoPwd": "仓库密码",
     "root_folder_path": "根文件夹路径",
     "token": "令牌",
     "username": "用户名"
@@ -842,6 +847,7 @@
     "MoPan": {
       "alert": "这个网盘可能将您的密码以明文存储，请小心设置您的密码"
     },
+    "NeteaseMusic": {},
     "Onedrive": {},
     "OnedriveAPP": {},
     "PikPak": {},
@@ -901,6 +907,7 @@
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
     "MoPan": "魔盘",
+    "NeteaseMusic": "网易云音乐",
     "Onedrive": "Onedrive",
     "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",
