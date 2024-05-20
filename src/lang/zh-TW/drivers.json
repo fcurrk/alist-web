@@ -148,6 +148,7 @@
   },
   "AList V3": {
     "meta_password": "元信息密碼",
+    "pass_ua_to_upsteam": "傳遞ua給上游",
     "password": "密碼",
     "root_folder_path": "根資料夾路徑",
     "token": "Token",
