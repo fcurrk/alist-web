@@ -148,7 +148,7 @@
   },
   "AList V3": {
     "meta_password": "元信息密碼",
-    "pass_ua_to_upsteam": "傳遞ua至上游",
+    "pass_ua_to_upsteam": "傳遞UA至上游",
     "password": "密碼",
     "root_folder_path": "根文件夾路徑",
     "token": "Token",
@@ -464,7 +464,7 @@
   },
   "Mega_nz": {
     "email": "郵箱",
-    "password": "密碼"
+    "password": "密碼",
     "two_fa_code": "2FA驗證碼",
     "two_fa_code-tips": "2FA 6位驗證碼，單獨填寫2FA驗證碼不能重新加載驅動程序",
     "two_fa_secret": "2FA令牌",
@@ -673,25 +673,25 @@
   },
   "ThunderExpert": {
     "algorithms": "算法",
-    "algorithms-tips": "簽名類型是用戶名,此為必填項",
+    "algorithms-tips": "簽名類型演算法，此為必填項目",
     "captcha_sign": "驗證碼簽名",
     "captcha_sign-tips": "簽名類型是驗證碼簽名,此為必填項",
     "captcha_token": "驗證碼",
     "client_id": "客户端ID",
-    "client_secret": "客户端密钥",
+    "client_secret": "客戶端密钥",
     "client_version": "客户端版本",
     "device_id": "設備id",
-    "download_user_agent": "下載用戶代理",
+    "download_user_agent": "下載用户 Proxy 代理",
     "login_type": "登入類型",
     "login_types": {
       "refresh_token": "刷新令牌",
-      "user": "用戶名"
+      "user": "用户"
     },
     "package_name": "包名",
     "password": "密碼",
-    "password-tips": "登入類型是用戶名,此為必填項",
+    "password-tips": "用户的登入類型，此為必填項目",
     "refresh_token": "刷新令牌",
-    "refresh_token-tips": "登入類型是刷新令牌,此為必填項",
+    "refresh_token-tips": "刷新令牌的登入類型，此為必填項目",
     "root_folder_id": "根文件夾ID",
     "sign_type": "簽名類型",
     "sign_types": {
@@ -703,46 +703,46 @@
     "use_video_url": "使用視頻url",
     "user_agent": "用戶代理",
     "username": "用戶名",
-    "username-tips": "登入類型是用戶名,此為必填項"
+    "username-tips": "用户的登入類型，此為必填項目"
   },
-    "ThunderX": {
+  "ThunderX": {
     "captcha_token": "驗證碼",
     "password": "密碼",
-    "root_folder_id": "根文件夾ID",
+    "root_folder_id": "根資料夾ID",
     "use_video_url": "使用視頻url",
     "username": "用戶名"
   },
   "ThunderXExpert": {
     "algorithms": "算法",
-    "algorithms-tips": "簽章類型演算法，此為必填項目",
-    "captcha_sign": "驗證碼簽章",
-    "captcha_sign-tips": "驗證碼簽章的簽章類型，此為必填項目",
+    "algorithms-tips": "簽名類型是算法簽名,此為必填項",
+    "captcha_sign": "驗證碼簽名",
+    "captcha_sign-tips": "簽名類型是驗證碼簽名,此為必填項",
     "captcha_token": "驗證碼",
     "client_id": "客户端ID",
     "client_secret": "客戶端密钥",
     "client_version": "客户端版本",
     "device_id": "設備id",
-    "download_user_agent": "下載用户 Proxy 代理",
+    "download_user_agent": "下載使用者 Proxy 代理",
     "login_type": "登入類型",
     "login_types": {
-      "refresh_token": "更新 Token",
-      "user": "用户"
+      "refresh_token": "刷新令牌",
+      "user": "用戶"
     },
     "package_name": "套件名稱",
     "password": "密碼",
-    "password-tips": "用户的登入類型，此為必填項目",
-    "refresh_token": "更新 Token",
-    "refresh_token-tips": "更新 token 的登入類型，此為必填項目",
-    "root_folder_id": "根文件夾ID",
-    "sign_type": "簽章類型",
+    "password-tips": "使用者的登入類型，此為必填項目",
+    "refresh_token": "刷新令牌",
+    "refresh_token-tips": "刷新令牌的登入類型，此為必填項目",
+    "root_folder_id": "根資料夾ID",
+    "sign_type": "簽名類型",
     "sign_types": {
       "algorithms": "算法",
-      "captcha_sign": "驗證碼簽章"
+      "captcha_sign": "驗證碼簽名"
     },
     "timestamp": "時間戳",
-    "timestamp-tips": "驗證碼簽章的簽章類型，此為必填項目",
+    "timestamp-tips": "時間戳,此為必填項",
     "use_video_url": "使用視頻url",
-    "user_agent": "User agent",
+    "user_agent": "用戶代理",
     "username": "用戶名",
     "username-tips": "用户的登入類型，此為必填項目"
   },
@@ -969,7 +969,7 @@
     "ILanZou": "藍奏雲優享版",
     "IPFS API": "IPFS API",
     "Lanzou": "藍奏雲",
-    "Lark": "Lark",
+    "Lark": "飛書",
     "Local": "本機存儲",
     "MediaTrack": "分秒幀",
     "Mega_nz": "Mega 網盤",
