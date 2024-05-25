@@ -12,6 +12,8 @@
     "down_proxy_url": "下載代理URL",
     "web_proxy": "Web代理",
     "webdav_policy": "WebDAV 策略",
+    "proxy_range": "代理範圍",
+    "proxy_range-tips": "需要啟用代理",
     "webdav_policys": {
       "302_redirect": "302重定向",
       "use_proxy_url": "使用代理地址",
