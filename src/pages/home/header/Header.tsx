@@ -2,19 +2,15 @@ import {
   HStack,
   useColorModeValue,
   Image,
-  Heading,
-  IconButton,
   Center,
   Icon,
   Kbd,
-  Text,
   CenterProps,
 } from "@hope-ui/solid"
+import { changeColor } from "seemly"
 import { Show, createMemo } from "solid-js"
-import { useT } from "~/hooks"
-import { getSetting, layout, setLayout, local, objStore, getMainColor, State } from "~/store"
-import { BsGridFill, BsSearch } from "solid-icons/bs"
-import { FaSolidListUl } from "solid-icons/fa"
+import { getMainColor, getSetting, local, objStore, State } from "~/store"
+import { BsSearch } from "solid-icons/bs"
 import { CenterLoading } from "~/components"
 import { Container } from "../Container"
 import { bus } from "~/utils"
@@ -22,11 +18,8 @@ import { Layout } from "./layout"
 import { isMac } from "~/utils/compatibility"
 
 export const Header = () => {
-  const t = useT()
   const logos = getSetting("logo").split("\n")
   const logo = useColorModeValue(logos[0], logos.pop())
-  const logotexts = getSetting("logo_text").split("\n")
-  const logotext = useColorModeValue(logotexts[0], logotexts.pop())
 
   const stickyProps = createMemo<CenterProps>(() => {
     switch (local["position_of_header_navbar"]) {
@@ -53,16 +46,12 @@ export const Header = () => {
           justifyContent="space-between"
         >
           <HStack class="header-left" h="44px">
-            {getSetting("logo") ? (
-              <Image
-                src={logo()!}
-                h="$full"
-                w="auto"
-                fallback={<CenterLoading />}
-              />
-            ) : (
-              <Heading size="lg">{logotext}</Heading>
-            )}
+            <Image
+              src={logo()!}
+              h="$full"
+              w="auto"
+              fallback={<CenterLoading />}
+            />
           </HStack>
           <HStack class="header-right" spacing="$2">
             <Show when={objStore.state === State.Folder}>
@@ -70,13 +59,15 @@ export const Header = () => {
                 <HStack
                   bg="$neutral4"
                   w="$32"
-                  p="$2"
+                  p="$1"
                   rounded="$md"
                   justifyContent="space-between"
                   border="2px solid transparent"
                   cursor="pointer"
+                  color={getMainColor()}
+                  bgColor={changeColor(getMainColor(), { alpha: 0.15 })}
                   _hover={{
-                    borderColor: "$info6",
+                    bgColor: changeColor(getMainColor(), { alpha: 0.2 }),
                   }}
                   onClick={() => {
                     bus.emit("tool", "search")
