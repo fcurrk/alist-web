@@ -671,6 +671,60 @@
     "root_folder_id": "根文件夾ID",
     "username": "用戶名"
   },
+  "ThunderBrowser": {
+    "captcha_token": "驗證碼",
+    "password": "密碼",
+    "remove_way": "移除方式",
+    "remove_ways": {
+      "delete": "刪除",
+      "trash": "回收桶"
+    },
+    "root_folder_id": "根文件夾ID",
+    "safe_password": "安全密碼",
+    "use_video_url": "使用視頻url",
+    "username": "用戶名"
+  },
+  "ThunderBrowserExpert": {
+    "algorithms": "算法",
+    "algorithms-tips": "簽名類型是算法簽名,此為必填項",
+    "captcha_sign": "驗證碼簽名",
+    "captcha_sign-tips": "驗證碼簽名的簽名類型，此為必填項目",
+    "captcha_token": "驗證碼",
+    "client_id": "客户端ID",
+    "client_secret": "客戶端密钥",
+    "client_version": "客户端版本",
+    "device_id": "設備id",
+    "download_user_agent": "下載用戶 Proxy 代理",
+    "login_type": "登入類型",
+    "login_types": {
+      "refresh_token": "刷新令牌",
+      "user": "用戶"
+    },
+    "package_name": "套件名稱",
+    "password": "密碼",
+    "password-tips": "用戶的登入類型，此為必填項目",
+    "refresh_token": "刷新令牌",
+    "refresh_token-tips": "刷新令牌的登入類型，此為必填項目",
+    "remove_way": "移除方式",
+    "remove_ways": {
+      "delete": "刪除",
+      "trash": "回收桶"
+    },
+    "root_folder_id": "根文件夾ID",
+    "safe_password": "安全密碼",
+    "safe_password-tips": "用戶的登入類型，此為必填項目",
+    "sign_type": "簽名類型",
+    "sign_types": {
+      "algorithms": "算法",
+      "captcha_sign": "驗證碼簽名"
+    },
+    "timestamp": "時間戳",
+    "timestamp-tips": "簽名類型是驗證碼簽名,此為必填項",
+    "use_video_url": "使用視頻url",
+    "user_agent": "用戶代理",
+    "username": "用戶名",
+    "username-tips": "用戶的登入類型，此為必填項目"
+  },
   "ThunderExpert": {
     "algorithms": "算法",
     "algorithms-tips": "簽名類型演算法，此為必填項目",
@@ -708,7 +762,7 @@
   "ThunderX": {
     "captcha_token": "驗證碼",
     "password": "密碼",
-    "root_folder_id": "根資料夾ID",
+    "root_folder_id": "根文件夾ID",
     "use_video_url": "使用視頻url",
     "username": "用戶名"
   },
@@ -722,7 +776,7 @@
     "client_secret": "客戶端密钥",
     "client_version": "客户端版本",
     "device_id": "設備id",
-    "download_user_agent": "下載使用者 Proxy 代理",
+    "download_user_agent": "下載用戶 Proxy 代理",
     "login_type": "登入類型",
     "login_types": {
       "refresh_token": "刷新令牌",
@@ -925,6 +979,8 @@
     "Teambition": {},
     "Terabox": {},
     "Thunder": {},
+    "ThunderBrowser": {},
+    "ThunderBrowserExpert": {},
     "ThunderExpert": {},
     "ThunderX": {},
     "ThunderXExpert": {},
@@ -988,6 +1044,8 @@
     "Teambition": "Teambition網盤",
     "Terabox": "Terabox",
     "Thunder": "迅雷",
+    "ThunderBrowser": "迅雷瀏覽器",
+    "ThunderBrowserExpert": "迅雷瀏覽器專家版",
     "ThunderExpert": "迅雷專家版",
     "ThunderX": "迅雷X",
     "ThunderXExpert": "迅雷X專家版",
