@@ -602,6 +602,7 @@
   "SFTP": {
     "address": "地址",
     "ignore_symlink_error": "忽略符號鏈接錯誤",
+    "passphrase": "密碼短語",
     "password": "密碼",
     "private_key": "私密密鑰",
     "root_folder_path": "根文件夾路徑",
