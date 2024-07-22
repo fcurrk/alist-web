@@ -48,17 +48,6 @@
     "share_code-tips": "115 分享鏈接提取碼"
   },
   "123Pan": {
-    "order_by": "排序",
-    "order_bys": {
-      "file_name": "文件名稱",
-      "size": "大小",
-      "update_at": "修改時間"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
     "password": "密碼",
     "root_folder_id": "根文件夾ID",
     "username": "用戶名"
@@ -73,18 +62,7 @@
   },
   "123PanShare": {
     "accesstoken": "訪問令牌",
-    "order_by": "排序",
-    "order_bys": {
-      "file_name": "文件名稱",
-      "size": "大小",
-      "update_at": "修改時間"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
-    "root_folder_id": "根文件夾ID",
+    "root_folder_id": "根資料夾ID",
     "sharekey": "分享key",
     "sharepassword": "分享密碼"
   },
@@ -399,6 +377,16 @@
     "root_folder_id": "根文件夾ID",
     "show_archive": "顯示歸檔"
   },
+  "HalalCloud": {
+    "app_id": "應用ID",
+    "app_secret": "應用令牌",
+    "app_version": "應用版本",
+    "refresh_token": "刷新令牌",
+    "refresh_token-tips": "登录类型是刷新令牌，此為必填項目",
+    "root_folder_path": "根文件夾路徑",
+    "upload_thread": "上傳線程",
+    "upload_thread-tips": "1 <= thread <= 32"
+  },
   "ILanZou": {
     "password": "密碼",
     "root_folder_id": "根文件夾ID",
@@ -517,6 +505,11 @@
     },
     "root_folder_path": "根文件夾路徑",
     "site_id": "網站ID"
+  },
+  "Onedrive Sharelink": {
+    "password": "密碼",
+    "root_folder_path": "根文件夾路徑",
+    "url": "鏈接"
   },
   "OnedriveAPP": {
     "chunk_size": "分片大小",
@@ -957,6 +950,7 @@
     "FeijiPan": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
+    "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
     "Lanzou": {},
@@ -969,6 +963,7 @@
     },
     "NeteaseMusic": {},
     "Onedrive": {},
+    "Onedrive Sharelink": {},
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
@@ -1024,6 +1019,7 @@
     "FeijiPan": "飛機盤",
     "GoogleDrive": "Google雲盤",
     "GooglePhoto": "Google相册",
+    "HalalCloud": "HalalCloud",
     "ILanZou": "藍奏雲優享版",
     "IPFS API": "IPFS API",
     "Lanzou": "藍奏雲",
@@ -1034,6 +1030,7 @@
     "MoPan": "魔盤",
     "NeteaseMusic": "網易雲音樂",
     "Onedrive": "OneDrive",
+    "Onedrive Sharelink": "Onedrive 分享鏈接",
     "OnedriveAPP": "OneDrive APP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
