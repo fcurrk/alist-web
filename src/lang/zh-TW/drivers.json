@@ -415,7 +415,8 @@
       "account": "帳戶",
       "cookie": "Cookie",
       "url": "链接"
-    }
+    },
+    "user_agent": "使用代理"
   },
   "Lark": {
     "app_id": "應用ID",
