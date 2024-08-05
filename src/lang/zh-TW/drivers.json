@@ -429,6 +429,15 @@
     "tenant_url_prefix": "租戶url首碼",
     "tenant_url_prefix-tips": "租户url前綴"
   },
+  "LenovoNasShare": {
+    "host": "主機",
+    "host-tips": "可以改為自己的局域網",
+    "root_folder_path": "根文件夾路徑",
+    "share_id": "分享ID",
+    "share_id-tips": "分享鏈結中最後一個/後面的部分",
+    "share_pwd": "分享密碼",
+    "share_pwd-tips": "分享鏈結的密碼"
+  },
   "Local": {
     "mkdir_perm": "創建文件夾許可",
     "recycle_bin_path": "回收站路徑",
