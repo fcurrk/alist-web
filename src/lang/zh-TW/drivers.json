@@ -571,6 +571,13 @@
     },
     "root_folder_id": "根文件夾ID"
   },
+  "QuarkTV": {
+    "device_id": "設備id",
+    "query_token": "査詢令牌",
+    "query_token-tips": "不要編輯",
+    "refresh_token": "刷新令牌",
+    "root_folder_id": "根文件夾ID"
+  },
   "Quqi": {
     "cdn": "Cdn",
     "cdn-tips": "啟用此選項，可提高下載速度，但會影響性能",
@@ -826,6 +833,13 @@
     },
     "root_folder_id": "根文件夾ID"
   },
+  "UCTV": {
+    "device_id": "設備id",
+    "query_token": "査詢令牌",
+    "query_token-tips": "不要編輯",
+    "refresh_token": "刷新令牌",
+    "root_folder_id": "根文件ID"
+  },  
   "USS": {
     "anti_theft_chain_token": "Token 防盜鏈",
     "bucket": "存儲桶",
@@ -979,6 +993,7 @@
     "PikPak": {},
     "PikPakShare": {},
     "Quark": {},
+    "QuarkTV": {},
     "Quqi": {},
     "S3": {},
     "SFTP": {},
@@ -994,6 +1009,7 @@
     "ThunderXExpert": {},
     "Trainbit": {},
     "UC": {},
+    "UCTV": {},
     "USS": {},
     "UrlTree": {},
     "VTencent": {},
@@ -1047,6 +1063,7 @@
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "誇克",
+    "QuarkTV": "誇克TV",
     "Quqi": "曲奇雲盤",
     "S3": "S3",
     "SFTP": "SFTP",
@@ -1062,6 +1079,7 @@
     "ThunderXExpert": "迅雷X專家版",
     "Trainbit": "Trainbit",
     "UC": "UC",
+    "UCTV": "UCTV",
     "USS": "又拍雲存儲",
     "UrlTree": "UrlTree",
     "VTencent": "騰訊智能創作平台",

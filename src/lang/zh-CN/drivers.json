@@ -571,6 +571,13 @@
     },
     "root_folder_id": "根文件夹ID"
   },
+  "QuarkTV": {
+    "device_id": "设备id",
+    "query_token": "查询令牌",
+    "query_token-tips": "不要修改",
+    "refresh_token": "刷新令牌",
+    "root_folder_id": "根目录ID"
+  },
   "Quqi": {
     "cdn": "CDN",
     "cdn-tips": "启用此选项，可提高下载速度，但会影响性能",
@@ -826,6 +833,13 @@
     },
     "root_folder_id": "根文件夹ID"
   },
+  "UCTV": {
+    "device_id": "设备id",
+    "query_token": "查询令牌",
+    "query_token-tips": "不要修改'",
+    "refresh_token": "刷新令牌",
+    "root_folder_id": "根目录ID"
+  },
   "USS": {
     "anti_theft_chain_token": "反盗链令牌",
     "bucket": "存储桶",
@@ -979,6 +993,7 @@
     "PikPak": {},
     "PikPakShare": {},
     "Quark": {},
+    "QuarkTV": {},
     "Quqi": {},
     "S3": {},
     "SFTP": {},
@@ -994,6 +1009,7 @@
     "ThunderXExpert": {},
     "Trainbit": {},
     "UC": {},
+    "UCTV": {},
     "USS": {},
     "UrlTree": {},
     "VTencent": {},
@@ -1035,7 +1051,7 @@
     "IPFS API": "IPFS API",
     "Lanzou": "蓝奏云",
     "Lark": "飞书",
-    "LenovoNasShare": "联想NAS分享",
+    "LenovoNasShare": "联想家庭储存链接分享",
     "Local": "本机存储",
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
@@ -1047,6 +1063,7 @@
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
     "Quark": "夸克",
+    "QuarkTV": "QuarkTV",
     "Quqi": "曲奇云盘",
     "S3": "对象存储",
     "SFTP": "SFTP",
@@ -1062,6 +1079,7 @@
     "ThunderXExpert": "迅雷X专家版",
     "Trainbit": "Trainbit",
     "UC": "UC",
+    "UCTV": "UCTV",
     "USS": "又拍云存储",
     "UrlTree": "UrlTree",
     "VTencent": "腾讯智能创作平台",
