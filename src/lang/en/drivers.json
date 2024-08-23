@@ -11,11 +11,12 @@
     "qrcode_sources": {
       "alipaymini": "Alipaymini",
       "android": "Android",
-      "ios": "Ios",
+      "ios": "IOS",
       "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "Web",
       "wechatmini": "Wechatmini"
+
     },
     "qrcode_token": "Qrcode token",
     "qrcode_token-tips": "one of QR code token and cookie required",

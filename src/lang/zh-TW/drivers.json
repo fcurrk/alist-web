@@ -9,13 +9,14 @@
     "qrcode_source": "二維碼來源",
     "qrcode_source-tips": "選擇二維碼設備，默認Linux",
     "qrcode_sources": {
+      "alipaymini": "Alipaymini",
       "android": "Android",
-      "ios": "Ios",
-      "linux": "Linux",
-      "mac": "Mac",
+      "ios": "IOS",
+      "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "Web",
-      "windows": "Windows"
+      "wechatmini": "Wechatmini"
+
     },
     "qrcode_token": "二維碼令牌",
     "qrcode_token-tips": "需要 QR code Token 和 cookie 其中一個",
@@ -31,13 +32,14 @@
     "qrcode_source": "二維碼來源",
     "qrcode_source-tips": "選擇二維碼設備，默認Linux",
     "qrcode_sources": {
+      "alipaymini": "Alipaymini",
       "android": "Android",
-      "ios": "Ios",
-      "linux": "Linux",
-      "mac": "Mac",
+      "ios": "IOS",
+      "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "Web",
-      "windows": "Windows"
+      "wechatmini": "Wechatmini"
+
     },
     "qrcode_token": "二維碼令牌",
     "qrcode_token-tips": "需要 QR 代碼令牌和 cookie 中的一個",
@@ -423,8 +425,8 @@
     "app_id-tips": "應用ID",
     "app_secret": "應用令牌",
     "app_secret-tips": "應用令牌",
-    "external_mode": "擴展模式",
-    "external_mode-tips": "擴展模式",
+    "external_mode": "外部預覽模式",
+    "external_mode-tips": "打開後複製飛書鏈接，可跳轉到飛書網頁預覽",
     "root_folder_path": "根文件夾路徑",
     "tenant_url_prefix": "租戶url首碼",
     "tenant_url_prefix-tips": "租户url前綴"
@@ -434,9 +436,9 @@
     "host-tips": "可以改為自己的局域網",
     "root_folder_path": "根文件夾路徑",
     "share_id": "分享ID",
-    "share_id-tips": "分享鏈結中最後一個/後面的部分",
+    "share_id-tips": "分享鏈接中最後一個/後面的部分",
     "share_pwd": "分享密碼",
-    "share_pwd-tips": "分享鏈結的密碼"
+    "share_pwd-tips": "分享鏈接的密碼"
   },
   "Local": {
     "mkdir_perm": "創建文件夾許可",
@@ -539,22 +541,32 @@
     "tenant_id": "租戶ID"
   },
   "PikPak": {
-    "client_id": "客户端ID",
-    "client_secret": "客戶端密钥",
-    "disable_media_link": "禁用媒體連結",
+    "captcha_token": "驗證碼",
+    "device_id": "設備id",
+    "disable_media_link": "禁用媒體鏈接",
     "password": "密碼",
+    "platform": "平臺",
+    "platforms": {
+      "android": "Android",
+      "web": "Web"
+    },
+    "refresh_token": "刷新令牌",
     "root_folder_id": "根文件夾ID",
     "username": "用戶名"
   },
   "PikPakShare": {
-    "client_id": "客户端ID",
-    "client_secret": "客戶端密钥",
-    "password": "密碼",
+    "device_id": "設備id",
+    "platform": "平臺",
+    "platforms": {
+      "android": "Android",
+      "web": "Web"
+    },
     "root_folder_id": "根文件夾ID",
     "share_id": "分享ID",
     "share_pwd": "分享密碼",
-    "username": "用戶名"
+    "use_transcoding_address": "使用轉碼地址"
   },
+
   "Quark": {
     "cookie": "Cookie",
     "order_by": "排序",
