@@ -9,13 +9,13 @@
     "qrcode_source": "Qrcode source",
     "qrcode_source-tips": "select the QR code device, default linux",
     "qrcode_sources": {
+      "alipaymini": "Alipaymini",
       "android": "Android",
       "ios": "Ios",
-      "linux": "Linux",
-      "mac": "Mac",
+      "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "Web",
-      "windows": "Windows"
+      "wechatmini": "Wechatmini"
     },
     "qrcode_token": "Qrcode token",
     "qrcode_token-tips": "one of QR code token and cookie required",
@@ -31,13 +31,13 @@
     "qrcode_source": "Qrcode source",
     "qrcode_source-tips": "select the QR code device, default linux",
     "qrcode_sources": {
+      "alipaymini": "Alipaymini",
       "android": "Android",
       "ios": "Ios",
-      "linux": "Linux",
-      "mac": "Mac",
+      "qandroid": "Qandroid",
       "tv": "Tv",
       "web": "Web",
-      "windows": "Windows"
+      "wechatmini": "Wechatmini"
     },
     "qrcode_token": "Qrcode token",
     "qrcode_token-tips": "one of QR code token and cookie required",
@@ -538,21 +538,30 @@
     "tenant_id": "Tenant id"
   },
   "PikPak": {
-    "client_id": "Client id",
-    "client_secret": "Client secret",
+    "captcha_token": "Captcha token",
+    "device_id": "Device id",
     "disable_media_link": "Disable media link",
     "password": "Password",
+    "platform": "Platform",
+    "platforms": {
+      "android": "Android",
+      "web": "Web"
+    },
+    "refresh_token": "Refresh token",
     "root_folder_id": "Root folder id",
     "username": "Username"
   },
   "PikPakShare": {
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "password": "Password",
+    "device_id": "Device id",
+    "platform": "Platform",
+    "platforms": {
+      "android": "Android",
+      "web": "Web"
+    },
     "root_folder_id": "Root folder id",
     "share_id": "Share id",
     "share_pwd": "Share pwd",
-    "username": "Username"
+    "use_transcoding_address": "Use transcoding address"
   },
   "Quark": {
     "cookie": "Cookie",
