@@ -398,6 +398,12 @@
     "gateway": "Gateway",
     "root_folder_path": "Root folder path"
   },
+  "KodBox": {
+    "address": "Address",
+    "password": "Password",
+    "root_folder_path": "Root folder path",
+    "username": "Username"
+  },
   "Lanzou": {
     "account": "Account",
     "baseUrl": "BaseUrl",
@@ -447,6 +453,8 @@
     "show_hidden": "Show hidden",
     "show_hidden-tips": "show hidden directories and files",
     "thumb_cache_folder": "Thumb cache folder",
+    "thumb_concurrency": "Thumb concurrency",
+    "thumb_concurrency-tips": "Number of concurrent thumbnail generation goroutines. This controls how many thumbnails can be generated in parallel.",
     "thumbnail": "Thumbnail",
     "thumbnail-tips": "enable thumbnail"
   },
@@ -549,6 +557,11 @@
       "web": "Web"
     },
     "refresh_token": "Refresh token",
+    "refresh_token_method": "Refresh token method",
+    "refresh_token_methods": {
+      "http": "Http",
+      "oauth2": "Oauth2"
+    },
     "root_folder_id": "Root folder id",
     "username": "Username"
   },
@@ -986,6 +999,7 @@
     "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
+    "KodBox": {},
     "Lanzou": {},
     "Lark": {},
     "LenovoNasShare": {},
@@ -1058,6 +1072,7 @@
     "HalalCloud": "HalalCloud",
     "ILanZou": "ILanZou",
     "IPFS API": "IPFS API",
+    "KodBox": "KodBox",
     "Lanzou": "Lanzou",
     "Lark": "Lark",
     "LenovoNasShare": "LenovoNasShare",
