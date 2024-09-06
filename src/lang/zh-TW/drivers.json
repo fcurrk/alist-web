@@ -399,6 +399,12 @@
     "gateway": "網關",
     "root_folder_path": "根文件夾路徑"
   },
+  "KodBox": {
+    "address": "地址",
+    "password": "密碼",
+    "root_folder_path": "根文件夾路徑",
+    "username": "用戶名"
+  },
   "Lanzou": {
     "account": "帳戶",
     "baseUrl": "基本URL",
@@ -448,6 +454,8 @@
     "show_hidden": "顯示隱藏",
     "show_hidden-tips": "顯示隱藏目錄以及檔",
     "thumb_cache_folder": "縮略圖缓存文件夾",
+    "thumb_concurrency": "縮略圖併發",
+    "thumb_concurrency-tips": "併發縮略圖生成隊列的數量，影響並行生成的縮略圖數量。",
     "thumbnail": "縮略圖",
     "thumbnail-tips": "啟用縮略圖"
   },
@@ -551,6 +559,11 @@
       "web": "Web"
     },
     "refresh_token": "刷新令牌",
+    "refresh_token_method": "刷新令牌方法",
+    "refresh_token_methods": {
+      "http": "Http",
+      "oauth2": "Oauth2"
+    },
     "root_folder_id": "根文件夾ID",
     "username": "用戶名"
   },
@@ -989,6 +1002,7 @@
     "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
+    "KodBox": {},
     "Lanzou": {},
     "Lark": {},
     "LenovoNasShare": {},
@@ -1061,6 +1075,7 @@
     "HalalCloud": "HalalCloud",
     "ILanZou": "藍奏雲優享版",
     "IPFS API": "IPFS API",
+    "KodBox": "KodBox",
     "Lanzou": "藍奏雲",
     "Lark": "飛書",
     "LenovoNasShare": "聯想家庭存儲鏈接分享",

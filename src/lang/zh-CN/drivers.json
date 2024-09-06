@@ -397,6 +397,12 @@
     "gateway": "网关",
     "root_folder_path": "根文件夹路径"
   },
+  "KodBox": {
+    "address": "地址",
+    "password": "密码",
+    "root_folder_path": "根文件夹路径",
+    "username": "用户名"
+  },
   "Lanzou": {
     "account": "账户",
     "baseUrl": "基本URL",
@@ -446,6 +452,8 @@
     "show_hidden": "显示隐藏",
     "show_hidden-tips": "显示隐藏目录以及文件",
     "thumb_cache_folder": "缩略图缓存文件夹",
+    "thumb_concurrency": "缩略图并发",
+    "thumb_concurrency-tips": "并发缩略图生成队列的数量，影响并行生成的缩略图数量。",
     "thumbnail": "缩略图",
     "thumbnail-tips": "启用缩略图"
   },
@@ -549,6 +557,11 @@
       "web": "网页"
     },
     "refresh_token": "刷新令牌",
+    "refresh_token_method": "刷新令牌方法",
+    "refresh_token_methods": {
+      "http": "Http",
+      "oauth2": "Oauth2"
+    },
     "root_folder_id": "根文件夹ID",
     "username": "用户名"
   },
@@ -986,6 +999,7 @@
     "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
+    "KodBox": {},
     "Lanzou": {},
     "Lark": {},
     "LenovoNasShare": {},
@@ -1058,6 +1072,7 @@
     "HalalCloud": "HalalCloud",
     "ILanZou": "蓝奏云优享版",
     "IPFS API": "IPFS API",
+    "KodBox": "KodBox",
     "Lanzou": "蓝奏云",
     "Lark": "飞书",
     "LenovoNasShare": "联想家庭存储链接分享",
