@@ -548,12 +548,14 @@
   },
   "PikPak": {
     "captcha_token": "验证码",
+    "custom_low_latency_address": "自定义低延迟地址",
     "device_id": "设备id",
     "disable_media_link": "禁用媒体链接",
     "password": "密码",
     "platform": "平台",
     "platforms": {
       "android": "安卓",
+      "pc": "Pc",
       "web": "网页"
     },
     "refresh_token": "刷新令牌",
@@ -563,18 +565,22 @@
       "oauth2": "Oauth2"
     },
     "root_folder_id": "根文件夹ID",
+    "use_low_latency_address": "使用低延迟地址",
     "username": "用户名"
   },
   "PikPakShare": {
+    "custom_low_latency_address": "自定义低延迟地址",
     "device_id": "设备id",
     "platform": "平台",
     "platforms": {
       "android": "安卓",
+      "pc": "Pc",
       "web": "网页"
     },
     "root_folder_id": "根文件夹ID",
     "share_id": "分享ID",
     "share_pwd": "分享密码",
+    "use_low_latency_address": "使用低延迟地址",
     "use_transcoding_address": "使用转码地址"
   },
   "Quark": {

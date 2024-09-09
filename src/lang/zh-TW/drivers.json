@@ -550,6 +550,7 @@
   },
   "PikPak": {
     "captcha_token": "驗證碼",
+    "custom_low_latency_address": "自定義低延遲地址",
     "device_id": "設備id",
     "disable_media_link": "禁用媒體鏈接",
     "password": "密碼",
@@ -565,18 +566,22 @@
       "oauth2": "Oauth2"
     },
     "root_folder_id": "根文件夾ID",
+    "use_low_latency_address": "使用低延遲地址",
     "username": "用戶名"
   },
   "PikPakShare": {
+    "custom_low_latency_address": "自定義低延遲地址",
     "device_id": "設備id",
     "platform": "平臺",
     "platforms": {
       "android": "Android",
+      "pc": "Pc",
       "web": "Web"
     },
     "root_folder_id": "根文件夾ID",
     "share_id": "分享ID",
     "share_pwd": "分享密碼",
+    "use_low_latency_address": "使用低延遲地址",
     "use_transcoding_address": "使用轉碼地址"
   },
 
