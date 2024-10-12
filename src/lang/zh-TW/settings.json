@@ -102,6 +102,8 @@
   "sso_organization_name": "單點登錄組織名稱",
   "text_types": "文本類型",
   "token": "令牌",
+  "transmission_seedtime": "Transmission種子時間",
+  "transmission_uri": "Transmission URI",
   "version": "版本",
   "video_autoplay": "自動播放視頻",
   "video_types": "視頻類型",
