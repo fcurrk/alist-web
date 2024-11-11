@@ -3,7 +3,7 @@
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
     "limit_rate": "次數限制",
-    "limit_rate-tips": "限制所有 API 次數上限 (1r/[limit_rate])",
+    "limit_rate-tips": "限制所有 API 次數上限 ([limit]r/1s)",
     "page_size": "分頁大小",
     "page_size-tips": "115驅動程序列表API的每頁大小",
     "qrcode_source": "二維碼來源",
@@ -352,6 +352,26 @@
     "root_folder_path": "根文件夾路徑",
     "username": "用戶名"
   },
+  "FebBox": {
+    "client_id": "客户端ID",
+    "client_secret": "客戶端密钥",
+    "page_size": "分頁大小",
+    "page_size-tips": "按分頁大小顯示FebBox driver api",
+    "root_folder_id": "根資料夾ID",
+    "sort_rule": "排序規則",
+    "sort_rules": {
+      "ext_asc": "擴展名正序",
+      "ext_desc": "擴展名倒序",
+      "name_asc": "名稱升序",
+      "name_desc": "名稱降序",
+      "size_asc": "大小升序",
+      "size_desc": "大小降序",
+      "update_asc": "修改時間正序",
+      "update_desc": "修改時間倒序"
+    },
+    "user_ip": "用戶ip",
+    "user_ip-tips": "用戶IP地址用於下載链接，可以加快下載"
+  },
   "FeijiPan": {
     "password": "密碼",
     "root_folder_id": "根文件夾ID",
@@ -557,6 +577,7 @@
     "platform": "平臺",
     "platforms": {
       "android": "Android",
+      "pc": "Pc",
       "web": "Web"
     },
     "refresh_token": "刷新令牌",
@@ -1001,6 +1022,7 @@
     "Doge": {},
     "Dropbox": {},
     "FTP": {},
+    "FebBox": {},
     "FeijiPan": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
@@ -1071,9 +1093,10 @@
     "ChaoXingGroupDrive": "超星星小組盤",
     "Cloudreve": "Cloudreve",
     "Crypt": "Crypt",
-    "Doge": "Doge",
+    "Doge": "多吉雲",
     "Dropbox": "Dropbox",
     "FTP": "FTP",
+    "FebBox": "FebBox",
     "FeijiPan": "飛機盤",
     "GoogleDrive": "Google雲盤",
     "GooglePhoto": "Google相册",
