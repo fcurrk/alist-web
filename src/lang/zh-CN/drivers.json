@@ -69,6 +69,8 @@
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
+    "custom_upload_part_size": "自定义上传分片大小",
+    "custom_upload_part_size-tips": "0 表示根据VIP等级对应大小",
     "root_folder_id": "根文件夹ID",
     "type": "类型",
     "types": {

@@ -7,7 +7,7 @@
   "undone": "執行中",
   "clear_succeeded": "清除成功",
   "retry": "重試",
-  "retry_failed": "Retry Failed",
+  "retry_failed": "重試失敗項",
   "state": {
     "0": "等待中",
     "1": "執行中",
@@ -19,5 +19,36 @@
     "7": "失敗",
     "8": "正在等待重試",
     "9": "重試前置操作中"
-  }
+  },
+  "retry_selected": "重試已選擇",
+  "cancel_selected": "取消選中的",
+  "delete_selected": "删除選中的",
+  "filter": "篩選器",
+  "expand": "擴展",
+  "fold": "折疊",
+  "expand_all": "全部展開",
+  "fold_all": "全部折疊",
+  "attr": {
+    "name": "名稱",
+    "creator": "創建者",
+    "state": "狀態",
+    "progress": "行程",
+    "operation": "操作",
+    "copy": {
+      "src": "源目錄",
+      "dst": "目標目錄"
+    },
+    "upload": {
+      "path": "目錄"
+    },
+    "offline_download": {
+      "url": "URL",
+      "path": "目標目錄",
+      "transfer_src": "源目錄",
+      "transfer_dst": "目標目錄"
+    },
+    "status": "狀態",
+    "err": "錯誤"
+  },
+  "show_only_mine": "只顯示我的任務"
 }

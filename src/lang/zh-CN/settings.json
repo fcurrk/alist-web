@@ -87,6 +87,7 @@
   "sso_default_dir": "Sso默认路径",
   "sso_default_permission": "Sso 默认权限",
   "sso_endpoint_name": "单点登录端点名称",
+  "sso_extra_scopes": "Sso 额外范围",
   "sso_jwt_public_key": "单点登录JWT公钥",
   "sso_login_enabled": "启用单点登录",
   "sso_login_platform": "单点登录平台",

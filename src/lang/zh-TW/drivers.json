@@ -71,6 +71,8 @@
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
+    "custom_upload_part_size": "自定義上傳分片大小",
+    "custom_upload_part_size-tips": "0 表示根據 VIP 等級對應大小",
     "root_folder_id": "根文件夾ID",
     "type": "類型",
     "types": {

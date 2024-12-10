@@ -87,6 +87,7 @@
   "sso_default_dir": "單點登錄默認目錄",
   "sso_default_permission": "單點登錄默認權限",
   "sso_endpoint_name": "單點登錄端點名稱",
+  "sso_extra_scopes": "Sso 額外範圍",
   "sso_jwt_public_key": "單點登錄JWT公鑰",
   "sso_login_enabled": "啟用單點登錄",
   "sso_login_platform": "單點登錄平臺",
