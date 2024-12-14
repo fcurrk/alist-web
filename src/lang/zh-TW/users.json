@@ -9,7 +9,9 @@
     "copy": "複製",
     "delete": "刪除",
     "webdav_read": "Webdav 读取",
-    "webdav_manage": "Webdav 管理文件"
+    "webdav_manage": "Webdav 管理",
+    "ftp_read": "FTP 已讀",
+    "ftp_manage": "FTP 管理"
   },
   "username": "用戶名",
   "password": "密碼",

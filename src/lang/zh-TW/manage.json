@@ -22,7 +22,8 @@
     "docs": "文件",
     "offline_download": "離線下載",
     "ldap": "LDAP",
-    "s3": "S3"
+    "s3": "S3",
+    "ftp": "FTP"
   },
   "title": "後臺管理",
   "not_admin": "你不是管理員，請使用管理員賬戶登錄。",

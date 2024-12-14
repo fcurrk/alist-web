@@ -15,6 +15,13 @@
   "favicon": "網站圖標",
   "filename_char_mapping": "文件名字符映射",
   "forward_direct_link_params": "轉發直鏈參數",
+  "ftp_implicit_tls": "Ftp 默認tls",
+  "ftp_mandatory_tls": "Ftp 強制tls",
+  "ftp_pasv_port_map": "Ftp pasv 端口地圖",
+  "ftp_proxy_user_agent": "Ftp 代理用戶代理",
+  "ftp_public_host": "Ftp 公共主機",
+  "ftp_tls_private_key_path": "Ftp tls 私鑰路徑",
+  "ftp_tls_public_cert_path": "Ftp tls 公開證書路徑",
   "hide_files": "隱藏文件",
   "home_container": "主容器",
   "home_containers": {
