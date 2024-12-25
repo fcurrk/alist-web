@@ -12,7 +12,7 @@ export const Footer = () => {
     <VStack class="footer" w="$full" py="$4">
       <HStack spacing="$1">
         <Text className="line1">
-          {t("©${currentYear} ")} {getSetting("site_title")}
+          {t(`© `)} {currentYear} {t(` `)} {getSetting("site_title")}
         </Text>
       </HStack>
       <HStack spacing="$1">
