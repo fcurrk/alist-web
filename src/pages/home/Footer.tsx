@@ -7,11 +7,12 @@ import { UserMethods } from "~/types"
 
 export const Footer = () => {
   const t = useT()
+  const currentYear = new Date().getFullYear()
   return (
     <VStack class="footer" w="$full" py="$4">
       <HStack spacing="$1">
         <Text className="line1">
-          {t("©2023 ")} {getSetting("site_title")}
+          {t("©${currentYear} ")} {getSetting("site_title")}
         </Text>
       </HStack>
       <HStack spacing="$1">
