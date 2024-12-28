@@ -38,11 +38,20 @@
   "verify": "驗證",
   "guest-tips": "您正在作為訪客訪問。",
   "modify_nothing": "所以您不能在管理頁面中修改任何內容。",
-  "sso_login": "單點登錄",
-  "connect_sso": "綁定單點登錄平臺",
-  "disconnect_sso": "解綁單點登錄平臺",
+  "sso_login": "SSO 登錄",
+  "connect_sso": "綁定SSO 登錄平臺",
+  "disconnect_sso": "解綁SSO 登錄平臺",
   "webauthn": "WebAuthn",
   "add_webauthn": "添加Webauthn 憑據",
   "add_webauthn_success": "Webauthn 憑據添加成功！",
-  "webauthn_not_supported": "您的瀏覽器不支持Webauth，或者您的來源不安全"
+  "webauthn_not_supported": "您的瀏覽器不支持Webauth，或者您的來源不安全",
+  "ssh_keys": {
+    "heading": "SSH 密鑰",
+    "add_heading": "添加新的 SSH 密鑰",
+    "title": "名稱",
+    "key": "關鍵字",
+    "fingerprint": "指紋",
+    "last_used": "上次使用時間",
+    "operation": "操作"
+  }
 }
