@@ -500,7 +500,6 @@
     "video_thumb_pos": "視頻縮略圖",
     "video_thumb_pos-tips": "視頻縮略圖的位置。 如果該值是一個數字（整數點浮點），它代表幾秒鐘的時間。 如果值以“%”結尾，則代表視頻持續時間的百分比。"
   },
-  },
   "MediaTrack": {
     "access_token": "訪問令牌",
     "order_by": "排序",
