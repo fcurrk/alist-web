@@ -9,5 +9,11 @@
   "set_qbit": "設置 qBittorrent",
   "qbittorrent": "qBittorrent",
   "transmission": "Transmission",
-  "set_transmission": "設置Transmission"
+  "set_transmission": "設置Transmission",
+  "115": "115",
+  "set_115": "設置115",
+  "pikpak": "PikPak",
+  "set_pikpak": "設置PikPak",
+  "thunder": "Thunder",
+  "set_thunder": "設置Thunder"
 }
