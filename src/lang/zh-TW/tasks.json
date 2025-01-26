@@ -3,6 +3,8 @@
   "offline_download_transfer": "將下載的文件傳輸到相應的存儲",
   "upload": "上傳文件到對應的存儲",
   "copy": "將文件從存儲複製到另一個存儲",
+  "decompress":  “下載並解壓縮歸檔檔案”，
+  "decompress_upload":  “將選取的文件上傳到目標存儲”，
   "done": "已完成",
   "undone": "執行中",
   "clear_succeeded": "清除成功",
@@ -47,6 +49,12 @@
       "path": "目標目錄",
       "transfer_src": "源目錄",
       "transfer_dst": "目標目錄"
+    },
+    "decompress": {
+      "src": "源目錄",
+      "dst": "目標目錄",
+      "inner": "内部目錄",
+      "password": "解壓密碼"
     },
     "time_elapsed": "耗時",
     "status": "狀態",

@@ -34,12 +34,21 @@
     "toggle_checkbox": "開關復選框",
     "rename": "重命名",
     "input_new_name": "輸入一個新名稱",
-    "only_one-tips": "只能選擇一個對象重命名",
     "move": "移動",
     "copy": "複製",
     "choose_dst_folder": "選擇目標文件夾",
     "delete": "刪除",
     "delete-tips": "確定要刪除所選對象嗎?",
+    "decompress":  “解壓”，
+    "decompress-pass":  “解壓密碼：”，
+    "decompress-cache-full":  “緩存已完全放入一個節奏檔案”，
+    "decompress-put-into-new":  “解壓到新子資料夾”，
+    "extract":  “解壓縮到”，
+    "archive": {
+      "input_password":  “請輸入選取密碼”，
+      "incorrect_password":  “密碼錯誤”，
+      "extract_header":  “解壓縮{{path}}到… "
+    }，
     "copy_link": "復製鏈接",
     "preview_page": "預覽頁面",
     "down_link": "下載鏈接",
@@ -168,5 +177,6 @@
   },
   "fetching_settings_failed": "獲取設定失敗: ",
   "get_current_user_failed": "獲取當前用戶失敗: ",
-  "Loading storage, please wait": "請稍後，正在載入儲存"
+  "Loading storage, please wait": "請稍後，正在載入儲存",
+  "overwrite_existing": "覆蓋已有的"
 }

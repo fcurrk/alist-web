@@ -75,6 +75,7 @@
     "type": "类型",
     "types": {
       "family": "家庭云",
+      "group": "组别",
       "personal": "个人云",
       "personal_new": "新版个人云"
     }
