@@ -1,8 +1,19 @@
-import { Button, HStack, IconButton } from "@hope-ui/solid"
+import {
+  Box,
+  Button,
+  HStack,
+  IconButton,
+  Select,
+  SelectContent,
+  SelectListbox,
+  SelectOption,
+  SelectOptionText,
+  SelectTrigger,
+} from "@hope-ui/solid"
 import { createMemo, For, mergeProps, Show } from "solid-js"
 import { createStore } from "solid-js/store"
 import { FaSolidAngleLeft, FaSolidAngleRight } from "solid-icons/fa"
-import { getMainColor } from "~/store"
+import { TbSelector } from "solid-icons/tb"
 
 export interface PaginatorProps {
   colorScheme?:
@@ -55,6 +66,9 @@ export const Paginator = (props: PaginatorProps) => {
     )
     return Array.from({ length: max - current }, (_, i) => current + 1 + i)
   })
+  const allPages = createMemo(() => {
+    return Array.from({ length: pages() }, (_, i) => 1 + i)
+  })
   const size = {
     "@initial": "sm",
     "@md": "md",
@@ -69,7 +83,7 @@ export const Paginator = (props: PaginatorProps) => {
         <Show when={store.current !== 1}>
           <Button
             size={size}
-            colorScheme={getMainColor()}
+            colorScheme={merged.colorScheme}
             onClick={() => {
               onPageChange(1)
             }}
@@ -81,7 +95,7 @@ export const Paginator = (props: PaginatorProps) => {
             size={size}
             icon={<FaSolidAngleLeft />}
             aria-label="Previous"
-            colorScheme={getMainColor()}
+            colorScheme={merged.colorScheme}
             onClick={() => {
               onPageChange(store.current - 1)
             }}
@@ -92,7 +106,7 @@ export const Paginator = (props: PaginatorProps) => {
           {(page) => (
             <Button
               size={size}
-              colorScheme={getMainColor()}
+              colorScheme={merged.colorScheme}
               onClick={() => {
                 onPageChange(page)
               }}
@@ -102,19 +116,42 @@ export const Paginator = (props: PaginatorProps) => {
             </Button>
           )}
         </For>
-        <Button
+        <Select
           size={size}
-          colorScheme={merged.colorScheme}
-          variant="solid"
-          px={store.current > 10 ? "$2_5" : "$3"}
+          variant="unstyled"
+          defaultValue={store.current}
+          onChange={(page) => {
+            onPageChange(+page)
+          }}
         >
-          {store.current}
-        </Button>
+          <SelectTrigger
+            as={Button}
+            size={size}
+            width="auto"
+            px="$1"
+            variant="solid"
+            colorScheme={merged.colorScheme}
+          >
+            <Box px={store.current > 10 ? "$1_5" : "$2"}>{store.current}</Box>
+            <TbSelector />
+          </SelectTrigger>
+          <SelectContent minW="80px">
+            <SelectListbox>
+              <For each={allPages()}>
+                {(page) => (
+                  <SelectOption value={page}>
+                    <SelectOptionText px="$2">{page}</SelectOptionText>
+                  </SelectOption>
+                )}
+              </For>
+            </SelectListbox>
+          </SelectContent>
+        </Select>
         <For each={rightPages()}>
           {(page) => (
             <Button
               size={size}
-              colorScheme={getMainColor()}
+              colorScheme={merged.colorScheme}
               onClick={() => {
                 onPageChange(page)
               }}
@@ -129,7 +166,7 @@ export const Paginator = (props: PaginatorProps) => {
             size={size}
             icon={<FaSolidAngleRight />}
             aria-label="Next"
-            colorScheme={getMainColor()}
+            colorScheme={merged.colorScheme}
             onClick={() => {
               onPageChange(store.current + 1)
             }}
@@ -137,7 +174,7 @@ export const Paginator = (props: PaginatorProps) => {
           />
           <Button
             size={size}
-            colorScheme={getMainColor()}
+            colorScheme={merged.colorScheme}
             onClick={() => {
               onPageChange(pages())
             }}
