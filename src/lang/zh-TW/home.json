@@ -39,16 +39,16 @@
     "choose_dst_folder": "選擇目標文件夾",
     "delete": "刪除",
     "delete-tips": "確定要刪除所選對象嗎?",
-    "decompress":  “解壓”，
-    "decompress-pass":  “解壓密碼：”，
-    "decompress-cache-full":  “緩存已完全放入一個節奏檔案”，
-    "decompress-put-into-new":  “解壓到新子資料夾”，
-    "extract":  “解壓縮到”，
+    "decompress": "解壓",
+    "decompress-pass": "解壓密碼:",
+    "decompress-cache-full": "緩存已完全放入一個節奏檔案",
+    "decompress-put-into-new": "解壓到新子資料夾",
+    "extract": "解壓縮到",
     "archive": {
-      "input_password":  “請輸入選取密碼”，
-      "incorrect_password":  “密碼錯誤”，
-      "extract_header":  “解壓縮{{path}}到… "
-    }，
+      "input_password": "請輸入選取密碼",
+      "incorrect_password": "密碼錯誤",
+      "extract_header": "解壓縮{{path}}到… "
+    },
     "copy_link": "復製鏈接",
     "preview_page": "預覽頁面",
     "down_link": "下載鏈接",
