@@ -93,6 +93,7 @@
   },
   "upload": {
     "add_as_task": "添加為任務",
+    "try_rapid": "嘗試秒傳",
     "upload-tips": "拖動文件到此處以上傳，或點擊：",
     "release": "松開以上傳",
     "no_files_drag": "沒有檔案被拖入。",

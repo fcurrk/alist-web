@@ -137,6 +137,10 @@
     "username": "用户名"
   },
   "Alias": {
+    "download_concurrency": "下载同义词",
+    "download_concurrency-tips": "需要启用代理",
+    "download_part_size": "下载部件大小",
+    "download_part_size-tips": "需要启用代理。单位：KB",
     "paths": "路径",
     "protect_same_name": "保护同名",
     "protect_same_name-tips": "保护同名的文件不被删除或重命名"
@@ -379,21 +383,32 @@
   },
   "GitHub API": {
     "author_email": "作者电子邮件",
-    "author_name": "作者姓名",
-    "committer_email": "佣金电子邮件",
-    "committer_name": "佣金名称",
-    "copy_commit_message": "复制提交消息",
-    "delete_commit_message": "删除提交消息",
-    "mkdir_commit_message": "Mkdir 提交消息",
-    "move_commit_message": "移动提交消息",
+    "author_name": "作者名称",
+    "committer_email": "提交者电子邮件",
+    "committer_name": "提交者名称",
+    "copy_commit_message": "复制操作提交消息",
+    "delete_commit_message": "删除操作提交消息",
+    "mkdir_commit_message": "创建文件夹操作提交消息",
+    "move_commit_message": "移动操作提交消息",
     "owner": "所有者",
-    "put_commit_message": "放置提交消息",
-    "ref": "参考值",
-    "ref-tips": "默认情况下，一个分支、一个标签或提交 SHA, 主要分支。",
-    "rename_commit_message": "重命名提交消息",
-    "repo": "复数",
+    "put_commit_message": "上传操作提交消息",
+    "ref": "Ref",
+    "ref-tips": "分支名、标签或提交 SHA，不填写使用默认主分支。",
+    "rename_commit_message": "重命名操作提交消息",
+    "repo": "仓库",
     "root_folder_path": "根文件夹路径",
     "token": "令牌"
+  },
+  "GitHub Releases": {
+    "repo_structure": "仓库结构",
+    "repo_structure-tips": "结构：[路径：]org/repo",
+    "root_folder_id": "根文件夹ID",
+    "show_all_version": "显示所有版本",
+    "show_all_version-tips": "显示所有版本",
+    "show_readme": "显示阅读次数",
+    "show_readme-tips": "显示 READMEC 文件，LICENSE 文件",
+    "token": "令牌",
+    "token-tips": "GitHub 令牌，如果您想要访问私有仓库或提高费率限制"
   },
   "GoogleDrive": {
     "chunk_size": "分片大小",
@@ -492,8 +507,8 @@
     "show_hidden": "显示隐藏",
     "show_hidden-tips": "显示隐藏目录以及文件",
     "thumb_cache_folder": "缩略图缓存文件夹",
-    "thumb_concurrency": "缩略图并发",
-    "thumb_concurrency-tips": "并发缩略图生成队列的数量，影响并行生成的缩略图数量。",
+    "thumb_concurrency": "缩略图并发数",
+    "thumb_concurrency-tips": "同时生成缩略图的数量。这控制了可以并行生成多少缩略图。",
     "thumbnail": "缩略图",
     "thumbnail-tips": "启用缩略图",
     "video_thumb_pos": "视频缩略图",
@@ -518,6 +533,11 @@
     "two_fa_code-tips": "2FA 6位代码，单独填写2FA代码不能重新加载驱动程序",
     "two_fa_secret": "2FA令牌",
     "two_fa_secret-tips": "2FA令牌"
+  },
+  "Misskey": {
+    "access_token": "访问令牌",
+    "endpoint": "Endpoint",
+    "root_folder_path": "根文件夹路径"
   },
   "MoPan": {
     "cloud_id": "Cloud id",
@@ -1037,6 +1057,7 @@
     "FebBox": {},
     "FeijiPan": {},
     "GitHub API": {},
+    "GitHub Releases": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
     "HalalCloud": {},
@@ -1049,6 +1070,7 @@
     "Local": {},
     "MediaTrack": {},
     "Mega_nz": {},
+    "Misskey": {},
     "MoPan": {
       "alert": "这个网盘可能将您的密码以明文存储，请小心设置您的密码"
     },
@@ -1112,6 +1134,7 @@
     "FebBox": "FebBox",
     "FeijiPan": "飞机盘",
     "GitHub API": "GitHub API",
+    "GitHub Releases": "GitHub 发布",
     "GoogleDrive": "谷歌云盘",
     "GooglePhoto": "谷歌相册",
     "HalalCloud": "HalalCloud",
@@ -1124,6 +1147,7 @@
     "Local": "本机存储",
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
+    "Misskey": "Misskey",
     "MoPan": "魔盘",
     "NeteaseMusic": "网易云音乐",
     "Onedrive": "Onedrive",

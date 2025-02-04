@@ -139,6 +139,10 @@
     "username": "用戶名"
   },
   "Alias": {
+    "download_concurrency": "下載同義詞",
+    "download_concurrency-tips": "需要啟用代理",
+    "download_part_size": "下載部件大小",
+    "download_part_size-tips": "需要啟用代理。 單位：KB",
     "paths": "路徑",
     "protect_same_name": "保護同名",
     "protect_same_name-tips": "保護同名的文件不被刪除或重命名"
@@ -381,21 +385,32 @@
   },
   "GitHub API": {
     "author_email": "作者電子郵件",
-    "author_name": "作者姓名",
-    "committer_email": "傭金電子郵件",
-    "committer_name": "傭金名稱",
-    "copy_commit_message": "複製提交消息",
-    "delete_commit_message": "删除提交消息",
-    "mkdir_commit_message": "Mkdir 提交消息",
-    "move_commit_message": "移動提交消息",
+    "author_name": "作者名稱",
+    "committer_email": "提交者電子郵件",
+    "committer_name": "提交者名稱",
+    "copy_commit_message": "複製操作提交消息",
+    "delete_commit_message": "“删除操作提交消息,
+    "mkdir_commit_message": 創建文件夾操作提交消息",
+    "move_commit_message": "移動操作提交消息",
     "owner": "所有者",
-    "put_commit_message": "放置提交消息",
-    "ref": "參攷值",
-    "ref-tips": "默認情况下，一個分支、一個標籤或提交SHA，主要分支。",
-    "rename_commit_message": "重命名提交消息",
-    "repo": "複數",
+    "put_commit_message": "上傳操作提交消息",
+    "ref": "Ref",
+    "ref-tips": "分支名、標籤或提交SHA，不填寫使用默認主分支。",
+    "rename_commit_message": "重命名操作提交消息",
+    "repo": "倉庫",
     "root_folder_path": "根文件夾路徑",
     "token": "令牌"
+  },
+  "GitHub Releases": {
+    "repo_structure": "倉庫結構",
+    "repo_structure-tips": "結構：[路徑：] org/repo",
+    "root_folder_id": "根文件夾ID",
+    "show_all_version": "顯示所有版本",
+    "show_all_version-tips": "顯示所有版本",
+    "show_readme": "顯示README",
+    "show_readme-tips": "顯示README、LICENSE文件",
+    "token": "令牌",
+    "token-tips": "GitHub令牌, 如果您想要訪問私有倉庫或提高費率限制"
   },
   "GoogleDrive": {
     "chunk_size": "分片大小",
@@ -520,6 +535,11 @@
     "two_fa_code-tips": "2FA 6位驗證碼，單獨填寫2FA驗證碼不能重新加載驅動程序",
     "two_fa_secret": "2FA令牌",
     "two_fa_secret-tips": "2FA令牌"
+  },
+  "Misskey": {
+    "access_token": "訪問令牌",
+    "endpoint": "Endpoint",
+    "root_folder_path": "根文件夾路徑"
   },
   "MoPan": {
     "cloud_id": "Cloud id",
@@ -1040,6 +1060,7 @@
     "FebBox": {},
     "FeijiPan": {},
     "GitHub API": {},
+    "GitHub Releases": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
     "HalalCloud": {},
@@ -1052,6 +1073,7 @@
     "Local": {},
     "MediaTrack": {},
     "Mega_nz": {},
+    "Misskey": {},
     "MoPan": {
       "alert": "這個網盤可能將您的密碼以明文存儲，請小心設置您的密碼"
     },
@@ -1115,6 +1137,7 @@
     "FebBox": "FebBox",
     "FeijiPan": "飛機盤",
     "GitHub API": "GitHub API",
+    "GitHub Releases": "GitHub Releases",
     "GoogleDrive": "Google雲盤",
     "GooglePhoto": "Google相册",
     "HalalCloud": "HalalCloud",
@@ -1127,6 +1150,7 @@
     "Local": "本機存儲",
     "MediaTrack": "分秒幀",
     "Mega_nz": "Mega 網盤",
+    "Misskey": "Misskey",
     "MoPan": "魔盤",
     "NeteaseMusic": "網易雲音樂",
     "Onedrive": "OneDrive",
