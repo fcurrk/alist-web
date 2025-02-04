@@ -390,7 +390,7 @@
     "committer_name": "提交者名稱",
     "copy_commit_message": "複製操作提交消息",
     "delete_commit_message": "删除操作提交消息",
-    "mkdir_commit_message": 創建文件夾操作提交消息",
+    "mkdir_commit_message": "創建文件夾操作提交消息",
     "move_commit_message": "移動操作提交消息",
     "owner": "所有者",
     "put_commit_message": "上傳操作提交消息",
