@@ -137,10 +137,10 @@
     "username": "用户名"
   },
   "Alias": {
-    "download_concurrency": "下载同义词",
-    "download_concurrency-tips": "需要启用代理",
-    "download_part_size": "下载部件大小",
-    "download_part_size-tips": "需要启用代理。单位：KB",
+    "download_concurrency": "下载并发数",
+    "download_concurrency-tips": "下载并发数",
+    "download_part_size": "下载分块大小",
+    "download_part_size-tips": "下载分块大小。单位：KB",
     "paths": "路径",
     "protect_same_name": "保护同名",
     "protect_same_name-tips": "保护同名的文件不被删除或重命名"
@@ -405,8 +405,8 @@
     "root_folder_id": "根文件夹ID",
     "show_all_version": "显示所有版本",
     "show_all_version-tips": "显示所有版本",
-    "show_readme": "显示阅读次数",
-    "show_readme-tips": "显示 READMEC 文件，LICENSE 文件",
+    "show_readme": "显示README",
+    "show_readme-tips": "显示README、LICENSE文件",
     "token": "令牌",
     "token-tips": "GitHub 令牌，如果您想要访问私有仓库或提高费率限制"
   },

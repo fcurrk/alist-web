@@ -139,10 +139,10 @@
     "username": "用戶名"
   },
   "Alias": {
-    "download_concurrency": "下載同義詞",
-    "download_concurrency-tips": "需要啟用代理",
-    "download_part_size": "下載部件大小",
-    "download_part_size-tips": "需要啟用代理。 單位：KB",
+    "download_concurrency": "下載併發數",
+    "download_concurrency-tips": "下載併發數",
+    "download_part_size": "下載分塊大小",
+    "download_part_size-tips": "下載分塊大小。單位：KB",
     "paths": "路徑",
     "protect_same_name": "保護同名",
     "protect_same_name-tips": "保護同名的文件不被刪除或重命名"
@@ -389,7 +389,7 @@
     "committer_email": "提交者電子郵件",
     "committer_name": "提交者名稱",
     "copy_commit_message": "複製操作提交消息",
-    "delete_commit_message": "“删除操作提交消息,
+    "delete_commit_message": "删除操作提交消息",
     "mkdir_commit_message": 創建文件夾操作提交消息",
     "move_commit_message": "移動操作提交消息",
     "owner": "所有者",
