@@ -179,5 +179,10 @@
   "fetching_settings_failed": "獲取設定失敗: ",
   "get_current_user_failed": "獲取當前用戶失敗: ",
   "Loading storage, please wait": "請稍後，正在載入儲存",
-  "overwrite_existing": "覆蓋已有的"
+  "conflict_policy": {
+    "cancel_if_exists": "取消操作",
+    "overwrite_existing": "覆蓋已有",
+    "skip_existing": "跳過已有"
+  }
 }
+
