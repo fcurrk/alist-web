@@ -1,9 +1,9 @@
 import { HStack, VStack, Text } from "@hope-ui/solid"
-import { useManageTitle } from "~/hooks"
-import { useT } from "~/hooks"
-import { LinkWithBase } from "~/components"
+import { useT, useManageTitle } from "~/hooks"
+import { LinkWithBase, Markdown, MaybeLoading } from "~/components"
 import { getSetting, user } from "~/store"
-
+import { createResource } from "solid-js"
+import { Markdown, MaybeLoading } from "~/components"
 const About = () => {
   useManageTitle("manage.sidemenu.about")
   const t = useT()

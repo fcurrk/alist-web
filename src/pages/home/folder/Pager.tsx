@@ -1,20 +1,20 @@
 import { Button, Text } from "@hope-ui/solid"
 import { Match, onCleanup, onMount, Show, Switch } from "solid-js"
 import { FullLoading, Paginator } from "~/components"
-import { addOrUpdateQuery, getGlobalPage, usePath, useT } from "~/hooks"
-import { getMainColor, getPagination, objStore, State } from "~/store"
+import { addOrUpdateQuery, getGlobalPage, usePath, useRouter, useT } from "~/hooks"
+import { getMainColor, clearHistory, getPagination, objStore, State } from "~/store"
 
 const Pagination = () => {
   const pagination = getPagination()
-  const { pageChange } = usePath()
+  const { pathname, setSearchParams } = useRouter()
   return (
     <Paginator
       total={objStore.total}
       defaultCurrent={getGlobalPage()}
       defaultPageSize={pagination.size}
       onChange={(page) => {
-        addOrUpdateQuery("page", page)
-        pageChange(page)
+        clearHistory(pathname(), page)
+        setSearchParams({ page })
       }}
     />
   )
