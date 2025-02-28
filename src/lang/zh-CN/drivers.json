@@ -138,9 +138,9 @@
   },
   "Alias": {
     "download_concurrency": "下载并发数",
-    "download_concurrency-tips": "下载并发数",
+    "download_concurrency-tips": "下载并发数,需要启用代理",
     "download_part_size": "下载分块大小",
-    "download_part_size-tips": "下载分块大小。单位：KB",
+    "download_part_size-tips": "下载分块大小,需要启用代理。单位：KB",
     "paths": "路径",
     "protect_same_name": "保护同名",
     "protect_same_name-tips": "保护同名的文件不被删除或重命名"
@@ -315,7 +315,7 @@
     "show_hidden": "显示隐藏",
     "show_hidden-tips": "显示隐藏目录以及文件",
     "thumbnail": "缩略图",
-    "thumbnail-tips": "在缩略图文件夹下预先生成缩略图"
+    "thumbnail-tips": "启用在缩略图文件夹下预先生成的缩略图"
   },
   "Doge": {
     "access_key_id": "访问密钥 Id",
@@ -323,7 +323,7 @@
     "add_filename_to_disposition-tips": "添加filename到Content-Disposition头中。",
     "bucket": "存储桶",
     "custom_host": "自定义HOST",
-    "enable_custom_host_presign": "启用自定义主机预览",
+    "enable_custom_host_presign": "启用自定义HOST签名",
     "endpoint": "Endpoint",
     "force_path_style": "强制路径样式",
     "list_object_version": "列出对象版本",
@@ -676,7 +676,7 @@
     "add_filename_to_disposition-tips": "添加filename到Content-Disposition头中。",
     "bucket": "存储桶",
     "custom_host": "自定义HOST",
-    "enable_custom_host_presign": "启用自定义主机预览",
+    "enable_custom_host_presign": "启用自定义HOST签名",
     "endpoint": "Endpoint",
     "force_path_style": "强制路径样式",
     "list_object_version": "列出对象版本",
