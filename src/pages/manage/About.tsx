@@ -3,7 +3,7 @@ import { useT, useManageTitle } from "~/hooks"
 import { LinkWithBase, Markdown, MaybeLoading } from "~/components"
 import { getSetting, user } from "~/store"
 import { createResource } from "solid-js"
-import { Markdown, MaybeLoading } from "~/components"
+
 const About = () => {
   useManageTitle("manage.sidemenu.about")
   const t = useT()
