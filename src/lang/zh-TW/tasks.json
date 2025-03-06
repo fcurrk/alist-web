@@ -48,6 +48,7 @@
       "url": "URL",
       "path": "目標目錄",
       "transfer_src": "源目錄",
+      "transfer_src_local": "源目錄(本地)",
       "transfer_dst": "目標目錄"
     },
     "decompress": {
