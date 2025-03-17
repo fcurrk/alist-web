@@ -22,6 +22,22 @@
     "qrcode_token-tips": "需要 QR code Token 和 cookie 其中一個",
     "root_folder_id": "根文件夾ID"
   },
+  "115 Open": {
+    "order_by": "排序",
+    "order_bys": {
+      "file_name": "檔案名稱",
+      "file_size": "File size",
+      "file_type": "檔案類型",
+      "user_utime": "User utime"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "遞增排序",
+      "desc": "遞減排序"
+    },
+    "refresh_token": "更新 Token",
+    "root_folder_id": "根文件夾ID"
+  },
   "115 Share": {
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
@@ -235,6 +251,7 @@
       "crack": "非官方",
       "official": "官方"
     },
+    "low_bandwith_upload_mode": "低帶寬上傳模式",
     "order_by": "排序",
     "order_bys": {
       "name": "名稱",
@@ -379,6 +396,7 @@
     "user_ip-tips": "用戶IP地址用於下載链接，可以加快下載"
   },
   "FeijiPan": {
+    "ip": "Ip",
     "password": "密碼",
     "root_folder_id": "根文件夾ID",
     "username": "用戶名"
@@ -390,6 +408,10 @@
     "committer_name": "提交者名稱",
     "copy_commit_message": "複製操作提交消息",
     "delete_commit_message": "删除操作提交消息",
+    "gh_proxy": "Gh 代理",
+    "gh_proxy-tips": "GitHub 代理，例如https://ghproxy.net/raw.githubusercontent.com 或 https://gh-proxy.com/raw.githubusercontent.com",
+    "gpg_key_passphrase": "Gpg 密钥密碼",
+    "gpg_private_key": "Gpg 私钥",
     "mkdir_commit_message": "創建文件夾操作提交消息",
     "move_commit_message": "移動操作提交消息",
     "owner": "所有者",
@@ -447,6 +469,7 @@
     "upload_thread-tips": "1 <= thread <= 32"
   },
   "ILanZou": {
+    "ip": "Ip",
     "password": "密碼",
     "root_folder_id": "根文件夾ID",
     "username": "用戶名"
@@ -1033,6 +1056,7 @@
   },
   "config": {
     "115 Cloud": {},
+    "115 Open": {},
     "115 Share": {},
     "123Pan": {},
     "123PanLink": {},
@@ -1114,6 +1138,7 @@
   },
   "drivers": {
     "115 Cloud": "115 網盤",
+    "115 Open": "115 開放平臺",
     "115 Share": "115 雲盤分享",
     "123Pan": "123雲盤",
     "123PanLink": "123雲盤直鏈",
