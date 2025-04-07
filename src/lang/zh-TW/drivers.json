@@ -242,6 +242,16 @@
     "share_id": "分享ID",
     "share_pwd": "分享密碼"
   },
+  "Azure Blob Storage": {
+    "access_key": "訪問密钥",
+    "access_key-tips": "Azure存儲的訪問密钥，用於身份驗證。 https://learn.microsoft.com/azure/storage/common/storage-account-keys-manage",
+    "container_name": "容器名稱",
+    "container_name-tips": "Azure存儲中的容器名稱(在Azure門戶中創建)。https://learn.microsoft.com/azure/storage/blobs/blob-containers-portal",
+    "endpoint": "Endpoint",
+    "endpoint-tips": "e.g. https://accountname.blob.core.windows.net/. Azure存儲的完整Endpoint URL，包括唯一的存儲帳戶名(僅限3~24個數位和小寫字母)。",
+    "sign_url_expire": "簽名链接有效期",
+    "sign_url_expire-tips": "簽名链接的過期時間，以小時為單位。"
+  },
   "BaiduNetdisk": {
     "client_id": "客户端ID",
     "client_secret": "客户端密钥",
@@ -251,9 +261,11 @@
     "download_api": "下載 API",
     "download_apis": {
       "crack": "非官方",
+      "crack_video": "非官方視頻",
       "official": "官方"
     },
     "low_bandwith_upload_mode": "低帶寬上傳模式",
+    "only_list_video_file": "僅列錶視頻文件",
     "order_by": "排序",
     "order_bys": {
       "name": "名稱",
@@ -483,6 +495,12 @@
   "IPFS API": {
     "endpoint": "Endpoint",
     "gateway": "網關",
+    "mode": "模式",
+    "modes": {
+      "ipfs": "Ipfs",
+      "ipns": "Ipns",
+      "mfs": "Mfs"
+    },
     "root_folder_path": "根文件夾路徑"
   },
   "KodBox": {
@@ -1080,6 +1098,7 @@
     },
     "AliyundriveOpen": {},
     "AliyundriveShare": {},
+    "Azure Blob Storage": {},
     "BaiduNetdisk": {},
     "BaiduPhoto": {},
     "BaiduShare": {},
@@ -1159,6 +1178,7 @@
     "Aliyundrive": "阿裡雲盤",
     "AliyundriveOpen": "阿裡雲盤開放平臺",
     "AliyundriveShare": "阿裡雲盤分享",
+    "Azure Blob Storage": "Azure Blob存儲",
     "BaiduNetdisk": "百度網盤",
     "BaiduPhoto": "一刻相册",
     "BaiduShare": "百度分享",
