@@ -178,7 +178,7 @@ export const getPreviews = (
   // download page
   res.push({
     name: "Download",
-    component: lazy(() => import("./download")),
+    component: Download,
   })
   return res.concat(subsequent)
 }
