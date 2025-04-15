@@ -375,7 +375,8 @@
   },
   "Doubao": {
     "cookie": "Cookie",
-    "root_folder_id": "根目錄ID"
+    "root_folder_id": "根目錄ID",
+    "upload_thread": "上傳線程"
   },
   "Dropbox": {
     "client_id": "客户端ID",
@@ -813,6 +814,9 @@
   },
   "Thunder": {
     "captcha_token": "驗證碼",
+    "credit_key": "認證Key",
+    "credit_key-tips": "認證Key,用於登入錄",
+    "device_id": "設備ID",
     "password": "密碼",
     "root_folder_id": "根文件夾ID",
     "username": "用戶名"
@@ -880,6 +884,8 @@
     "client_id": "客户端ID",
     "client_secret": "客戶端密钥",
     "client_version": "客户端版本",
+    "credit_key": "認證Key",
+    "credit_key-tips": "認證Key,用於登入錄",
     "device_id": "設備id",
     "download_user_agent": "下載用户 Proxy 代理",
     "login_type": "登入類型",
