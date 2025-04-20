@@ -3,6 +3,7 @@ import { getIframePreviews, me, getSettingBool } from "~/store"
 import { Obj, ObjType, UserMethods, UserPermissions } from "~/types"
 import { ext } from "~/utils"
 import { generateIframePreview } from "./iframe"
+import { Download } from "../previews/download"
 import { useRouter } from "~/hooks"
 import { isArchive } from "~/store/archive"
 
