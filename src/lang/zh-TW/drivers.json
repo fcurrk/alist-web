@@ -375,8 +375,13 @@
   },
   "Doubao": {
     "cookie": "Cookie",
-    "root_folder_id": "根目錄ID",
+    "root_folder_id": "根文件夾ID",
     "upload_thread": "上傳線程"
+  },
+  "DoubaoShare": {
+    "cookie": "Cookie",
+    "root_folder_path": "根文件夾路徑",
+    "share_ids": "共享IDS"
   },
   "Dropbox": {
     "client_id": "客户端ID",
