@@ -96,7 +96,9 @@
       "group": "組別",
       "personal": "個人雲",
       "personal_new": "新版個人雲"
-    }
+    },
+    "use_large_thumbnail": "使用大縮略圖",
+    "use_large_thumbnail-tips": "啟用圖片大縮略圖"
   },
   "189Cloud": {
     "cookie": "Cookie",
@@ -375,6 +377,11 @@
   },
   "Doubao": {
     "cookie": "Cookie",
+    "download_api": "下載API",
+    "download_apis": {
+      "get_download_info": "獲取下載信息",
+      "get_file_url": "獲取文件Url"
+    },
     "root_folder_id": "根文件夾ID",
     "upload_thread": "上傳線程"
   },
