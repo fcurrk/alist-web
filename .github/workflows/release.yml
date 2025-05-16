@@ -1,6 +1,7 @@
 name: release
 
-on: workflow_dispatch
+on:
+  workflow_call:
     inputs:
       upload-tag:
         type: string
