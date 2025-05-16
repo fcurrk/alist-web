@@ -61,7 +61,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           directory: web-dist
-          repository: alist-org/web-dist
+          repository: fcurrk/web-dist
 
       - name: Release
         uses: softprops/action-gh-release@v2
