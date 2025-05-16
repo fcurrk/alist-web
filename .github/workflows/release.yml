@@ -61,13 +61,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           directory: web-dist
-          repository: fcurrk/web-dist
+          repository: alist-org/web-dist
 
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           files: compress/*
-          tag: ${{ github.ref }}
           body: "Synchronize source updates."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
