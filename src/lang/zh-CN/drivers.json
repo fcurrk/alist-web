@@ -22,6 +22,8 @@
     "root_folder_id": "根文件夹ID"
   },
   "115 Open": {
+    "limit_rate": "限制速率",
+    "limit_rate-tips": "限制所有 api 请求速率(1r/[限制速率]s)",
     "order_by": "排序",
     "order_bys": {
       "file_name": "文件名称",
@@ -41,7 +43,7 @@
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代码令牌和 cookie 中的一个",
     "limit_rate": "限制速率",
-    "limit_rate-tips": "限制所有 api 请求速率(1r/[limit_rate]s)",
+    "limit_rate-tips": "限制所有 api 请求速率(1r/[限制速率]s)",
     "page_size": "分页大小",
     "page_size-tips": "115 驱动程序的列表 API 的每页大小",
     "qrcode_source": "二维码来源",

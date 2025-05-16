@@ -23,6 +23,8 @@
     "root_folder_id": "根文件夾ID"
   },
   "115 Open": {
+    "limit_rate": "次數限制",
+    "limit_rate-tips": "限制所有 API 次數上限 (1r/[次數限制]s)",
     "order_by": "排序",
     "order_bys": {
       "file_name": "檔案名稱",
@@ -42,7 +44,7 @@
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代碼令牌和 cookie 中的一個",
     "limit_rate": "次數限制",
-    "limit_rate-tips": "限制所有 API 次數上限 (1r/[limit_rate])",
+    "limit_rate-tips": "限制所有 API 次數上限 (1r/[次數限制]s)",
     "page_size": "分頁大小",
     "page_size-tips": "115 驅動程式的清單 API 的每頁大小",
     "qrcode_source": "二維碼來源",
