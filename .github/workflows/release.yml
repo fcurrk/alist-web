@@ -1,14 +1,6 @@
 name: release
 
-on:
-  workflow_call:
-    inputs:
-      upload-tag:
-        type: string
-        default: "v3"
-
-env:
-  TAG_NAME: "${{ inputs.upload-tag }}"
+on: workflow_dispatch
 
 jobs:
   release:
@@ -75,7 +67,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: compress/*
-          tag_name: ${{ env.TAG_NAME }}
+          tag: "v3"
           body: "Synchronize source updates."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
