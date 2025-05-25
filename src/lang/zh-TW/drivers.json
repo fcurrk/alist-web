@@ -317,7 +317,7 @@
     "address": "地址",
     "cookie": "Cookie",
     "custom_ua": "自定義UA",
-    "enable_thumb_and_folder_size": "啟用縮略圖和文件夾大小",
+    "enable_thumb_and_folder_size": "顯示縮略圖和文件夾大小",
     "password": "密碼",
     "root_folder_path": "根文件夾路徑",
     "username": "用戶名"
@@ -326,9 +326,9 @@
     "access_token": "訪問令牌",
     "address": "地址",
     "custom_ua": "自定義UA",
-    "enable_folder_size": "啟用文件夾大小",
-    "enable_thumb": "啟用縮略圖",
-    "enable_version_upload": "啟用上傳版本",
+    "enable_folder_size": "顯示文件夾大小",
+    "enable_thumb": "顯示縮略圖",
+    "enable_version_upload": "顯示上傳版本",
     "order_by": "排序",
     "order_bys": {
       "created_at": "創建時間",
