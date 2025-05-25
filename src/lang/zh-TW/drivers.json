@@ -322,6 +322,30 @@
     "root_folder_path": "根文件夾路徑",
     "username": "用戶名"
   },
+  "Cloudreve V4": {
+    "access_token": "訪問令牌",
+    "address": "地址",
+    "custom_ua": "自定義UA",
+    "enable_folder_size": "啟用文件夾大小",
+    "enable_thumb": "啟用縮略圖",
+    "enable_version_upload": "啟用上傳版本",
+    "order_by": "排序",
+    "order_bys": {
+      "created_at": "創建時間",
+      "name": "名稱",
+      "size": "大小",
+      "updated_at": "更新時間"
+    },
+    "order_direction": "排序方式",
+    "order_directions": {
+      "asc": "升序",
+      "desc": "降序"
+    },
+    "password": "密碼",
+    "refresh_token": "刷新令牌",
+    "root_folder_path": "根文件夾路徑",
+    "username": "用戶名"
+  },
   "Crypt": {
     "directory_name_encryption": "文件夹名称加密",
     "directory_name_encryptions": {
@@ -1124,6 +1148,7 @@
     "BaiduShare": {},
     "ChaoXingGroupDrive": {},
     "Cloudreve": {},
+    "Cloudreve V4": {},
     "Crypt": {},
     "Doge": {},
     "Doubao": {},
@@ -1204,6 +1229,7 @@
     "BaiduShare": "百度分享",
     "ChaoXingGroupDrive": "超星星小組盤",
     "Cloudreve": "Cloudreve",
+    "Cloudreve V4": "Cloudreve V4",
     "Crypt": "Crypt",
     "Doge": "多吉雲",
     "Doubao": "豆包",
